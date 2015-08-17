@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFFERSIZE	cp1.c	23;"	d	file:
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-g3 -Wall$/;"	m
+COPYMODE	cp1.c	24;"	d	file:
+NRECS	utmplib.c	7;"	d	file:
+NULLUT	utmplib.c	8;"	d	file:
+OBJ	Makefile	/^OBJ=who1.o $/;"	m
+SHOWHOST	who1.c	7;"	d	file:
+SHOWHOST	who2.c	8;"	d	file:
+SHOWHOST	who4.c	9;"	d	file:
+UTMPLIB_INC	utmplib.h	20;"	d
+UTSIZE	utmplib.c	9;"	d	file:
+cur_rec	utmplib.c	/^static int  cur_rec;$/;"	v	file:
+fd_utmp	utmplib.c	/^static int  fd_utmp = -1;$/;"	v	file:
+main	cp1.c	/^main(int argc, char *argv[])$/;"	f
+main	lseek.c	/^int main(void){$/;"	f
+main	n2n.c	/^int main(void){$/;"	f
+main	who1.c	/^main()$/;"	f
+main	who2.c	/^main(void)$/;"	f
+main	who3.c	/^main(void)$/;"	f
+main	who4.c	/^main(void)$/;"	f
+num_recs	utmplib.c	/^static int  num_recs;$/;"	v	file:
+oops	cp1.c	/^void oops(char * s1,char * s2)$/;"	f
+show_info	who1.c	/^void show_info(struct utmp *utbufp)$/;"	f
+show_info	who2.c	/^void show_info(struct utmp *utbufp)$/;"	f
+show_info	who4.c	/^void show_info(struct utmp *utbufp)$/;"	f
+showtime	who2.c	/^void showtime(long timeval){$/;"	f
+showtime	who4.c	/^void showtime(long timeval){$/;"	f
+utmp_close	utmplib.c	/^void utmp_close(){$/;"	f
+utmp_next	utmplib.c	/^struct utmp * utmp_next(){$/;"	f
+utmp_open	utmplib.c	/^int utmp_open(char * filename){$/;"	f
+utmp_reload	utmplib.c	/^static int utmp_reload(){$/;"	f	file:
+utmpbuf	utmplib.c	/^static char utmpbuf[NRECS * UTSIZE];               $/;"	v	file:

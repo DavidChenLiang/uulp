@@ -1,0 +1,22 @@
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+
+
+	../.2.swp
+	../1/tags
+	../1/term
+	forlseek.txt
+	git.txt
+	od
+	od.o
+	tags
+	who1
+	who2
+	../4/spwd
+	../5/showtty
+	../6/Makefile
+	../6/play_again
+	../6/play_again3
+
+nothing added to commit but untracked files present (use "git add" to track)

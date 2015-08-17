@@ -1,0 +1,2040 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-name	shadow-4.1.5.1/debian/rules	/^	dh_installpam -p login --name=su$/;"	m
+-name	shadow-4.1.5.1/debian/rules	/^	dh_installpam -p passwd --name=chfn$/;"	m
+-name	shadow-4.1.5.1/debian/rules	/^	dh_installpam -p passwd --name=chpasswd$/;"	m
+-name	shadow-4.1.5.1/debian/rules	/^	dh_installpam -p passwd --name=chsh$/;"	m
+-name	shadow-4.1.5.1/debian/rules	/^	dh_installpam -p passwd --name=newusers$/;"	m
+-name	shadow-4.1.5.1/debian/rules	/^	dh_installpam -p passwd --name=passwd$/;"	m
+ALARM	shadow-4.1.5.1/src/login.c	117;"	d	file:
+ALARM	shadow-4.1.5.1/src/sulogin.c	65;"	d	file:
+APPEND_R	shadow-4.1.5.1/libmisc/xgetXXbyYY.c	62;"	d	file:
+APPEND_R1	shadow-4.1.5.1/libmisc/xgetXXbyYY.c	63;"	d	file:
+ARG_NAME	shadow-4.1.5.1/libmisc/xgetgrgid.c	59;"	d	file:
+ARG_NAME	shadow-4.1.5.1/libmisc/xgetgrnam.c	59;"	d	file:
+ARG_NAME	shadow-4.1.5.1/libmisc/xgetpwnam.c	59;"	d	file:
+ARG_NAME	shadow-4.1.5.1/libmisc/xgetpwuid.c	59;"	d	file:
+ARG_NAME	shadow-4.1.5.1/libmisc/xgetspnam.c	59;"	d	file:
+ARG_TYPE	shadow-4.1.5.1/libmisc/xgetgrgid.c	58;"	d	file:
+ARG_TYPE	shadow-4.1.5.1/libmisc/xgetgrnam.c	58;"	d	file:
+ARG_TYPE	shadow-4.1.5.1/libmisc/xgetpwnam.c	58;"	d	file:
+ARG_TYPE	shadow-4.1.5.1/libmisc/xgetpwuid.c	58;"	d	file:
+ARG_TYPE	shadow-4.1.5.1/libmisc/xgetspnam.c	58;"	d	file:
+AUDIT_NO_ID	shadow-4.1.5.1/lib/prototypes.h	197;"	d
+Aflg	shadow-4.1.5.1/src/gpasswd.c	/^static bool Aflg = false;$/;"	v	file:
+BAD_SUBROOT2	shadow-4.1.5.1/libmisc/sub.c	41;"	d	file:
+BUFLEN	shadow-4.1.5.1/lib/commonio.c	583;"	d	file:
+Basename	shadow-4.1.5.1/libmisc/basename.c	/^\/*@observer@*\/const char *Basename (const char *str)$/;"	f
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-g3$/;"	m
+CFLocaleCopyCurrent	shadow-4.1.5.1/configure	/^CFLocaleCopyCurrent();$/;"	f
+CHAGE_PATH	shadow-4.1.5.1/contrib/adduser-old.c	109;"	d	file:
+CHAGE_PATH	shadow-4.1.5.1/contrib/adduser.c	136;"	d	file:
+CLEANFILES	shadow-4.1.5.1/man/generate_translations.mak	/^CLEANFILES = .xml2po.mo $(EXTRA_DIST) $(addsuffix .xml,$(EXTRA_DIST)) config.xml$/;"	m
+CLEANUP_FUNCTIONS	shadow-4.1.5.1/libmisc/cleanup.c	40;"	d	file:
+CreateProcess	shadow-4.1.5.1/ltmain.sh	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+DAY	shadow-4.1.5.1/lib/defines.h	282;"	d
+DCREATE_MAIL_SPOOL	shadow-4.1.5.1/src/useradd.c	178;"	d	file:
+DEB_AUTO_UPDATE_ACLOCAL	shadow-4.1.5.1/debian/rules	/^DEB_AUTO_UPDATE_ACLOCAL  = 1.9$/;"	m
+DEB_AUTO_UPDATE_AUTOCONF	shadow-4.1.5.1/debian/rules	/^DEB_AUTO_UPDATE_AUTOCONF = 1.9$/;"	m
+DEB_AUTO_UPDATE_AUTOMAKE	shadow-4.1.5.1/debian/rules	/^DEB_AUTO_UPDATE_AUTOMAKE = 1.9$/;"	m
+DEB_AUTO_UPDATE_LIBTOOL	shadow-4.1.5.1/debian/rules	/^DEB_AUTO_UPDATE_LIBTOOL = pre$/;"	m
+DEB_BUILD_MAINT_OPTIONS	shadow-4.1.5.1/debian/rules	/^export DEB_BUILD_MAINT_OPTIONS = hardening=+all$/;"	m
+DEB_CONFIGURE_EXTRA_FLAGS	shadow-4.1.5.1/debian/rules	/^DEB_CONFIGURE_EXTRA_FLAGS := --disable-shared --without-libcrack --without-audit --mandir=\/usr\/share\/man --with-libpam --enable-shadowgrp --enable-man --disable-account-tools-setuid --with-group-name-max-length=32 --without-acl --without-attr --without-tcb$/;"	m
+DEB_DESTDIR	shadow-4.1.5.1/debian/rules	/^DEB_DESTDIR=$(CURDIR)\/debian\/tmp$/;"	m
+DEB_DH_INSTALL_SOURCEDIR	shadow-4.1.5.1/debian/rules	/^DEB_DH_INSTALL_SOURCEDIR=debian\/tmp$/;"	m
+DEB_HOST_ARCH_OS	shadow-4.1.5.1/debian/rules	/^DEB_HOST_ARCH_OS := $(shell dpkg-architecture -qDEB_HOST_ARCH_OS)$/;"	m
+DEFAULT_EDITOR	shadow-4.1.5.1/src/vipw.c	192;"	d	file:
+DEFAULT_GROUP	shadow-4.1.5.1/contrib/adduser-old.c	111;"	d	file:
+DEFAULT_GROUP	shadow-4.1.5.1/contrib/adduser.c	140;"	d	file:
+DEFAULT_HOME	shadow-4.1.5.1/contrib/adduser-old.c	107;"	d	file:
+DEFAULT_HOME	shadow-4.1.5.1/contrib/adduser.c	134;"	d	file:
+DEFAULT_HUP_MESG	shadow-4.1.5.1/src/logoutd.c	49;"	d	file:
+DEFAULT_MAX_PASS	shadow-4.1.5.1/contrib/adduser-old.c	113;"	d	file:
+DEFAULT_MAX_PASS	shadow-4.1.5.1/contrib/adduser.c	143;"	d	file:
+DEFAULT_MIN_PASS	shadow-4.1.5.1/contrib/adduser.c	142;"	d	file:
+DEFAULT_SERANGE	shadow-4.1.5.1/lib/semanage.c	48;"	d	file:
+DEFAULT_SHELL	shadow-4.1.5.1/contrib/adduser-old.c	106;"	d	file:
+DEFAULT_SHELL	shadow-4.1.5.1/contrib/adduser.c	133;"	d	file:
+DEFAULT_USER_DIE	shadow-4.1.5.1/contrib/adduser-old.c	118;"	d	file:
+DEFAULT_USER_DIE	shadow-4.1.5.1/contrib/adduser.c	145;"	d	file:
+DEFAULT_WARN_PASS	shadow-4.1.5.1/contrib/adduser-old.c	114;"	d	file:
+DEFAULT_WARN_PASS	shadow-4.1.5.1/contrib/adduser.c	144;"	d	file:
+DENY	shadow-4.1.5.1/src/suauth.c	48;"	d	file:
+DEXPIRE	shadow-4.1.5.1/src/useradd.c	176;"	d	file:
+DGROUP	shadow-4.1.5.1/src/useradd.c	172;"	d	file:
+DHOME	shadow-4.1.5.1/src/useradd.c	173;"	d	file:
+DINACT	shadow-4.1.5.1/src/useradd.c	175;"	d	file:
+DIRECT	shadow-4.1.5.1/lib/defines.h	117;"	d
+DIRECT	shadow-4.1.5.1/lib/defines.h	128;"	d
+DSHELL	shadow-4.1.5.1/src/useradd.c	174;"	d	file:
+DSKEL	shadow-4.1.5.1/src/useradd.c	177;"	d	file:
+DUP_FUNCTION	shadow-4.1.5.1/libmisc/xgetgrgid.c	60;"	d	file:
+DUP_FUNCTION	shadow-4.1.5.1/libmisc/xgetgrnam.c	60;"	d	file:
+DUP_FUNCTION	shadow-4.1.5.1/libmisc/xgetpwnam.c	60;"	d	file:
+DUP_FUNCTION	shadow-4.1.5.1/libmisc/xgetpwuid.c	60;"	d	file:
+DUP_FUNCTION	shadow-4.1.5.1/libmisc/xgetspnam.c	60;"	d	file:
+Dflg	shadow-4.1.5.1/src/useradd.c	/^    Dflg = false,		\/* set\/show new user default values *\/$/;"	v	file:
+EB_ARCH_PACKAGES	shadow-4.1.5.1/debian/rules	/^override DEB_ARCH_PACKAGES=passwd$/;"	m
+EDQUOTA_PATH	shadow-4.1.5.1/contrib/adduser.c	138;"	d	file:
+EPOCH	shadow-4.1.5.1/libmisc/getdate.c	227;"	d	file:
+EXIT_GROUP_FILE	shadow-4.1.5.1/src/groupmems.c	55;"	d	file:
+EXIT_INVALID_GROUP	shadow-4.1.5.1/src/groupmems.c	62;"	d	file:
+EXIT_INVALID_USER	shadow-4.1.5.1/src/groupmems.c	61;"	d	file:
+EXIT_MEMBER_EXISTS	shadow-4.1.5.1/src/groupmems.c	60;"	d	file:
+EXIT_NOT_EROOT	shadow-4.1.5.1/src/groupmems.c	57;"	d	file:
+EXIT_NOT_MEMBER	shadow-4.1.5.1/src/groupmems.c	59;"	d	file:
+EXIT_NOT_PRIMARY	shadow-4.1.5.1/src/groupmems.c	58;"	d	file:
+EXIT_NOT_ROOT	shadow-4.1.5.1/src/groupmems.c	56;"	d	file:
+EXIT_SUCCESS	shadow-4.1.5.1/src/groupmems.c	53;"	d	file:
+EXIT_USAGE	shadow-4.1.5.1/src/groupmems.c	54;"	d	file:
+EXPIRE_VALS_SET	shadow-4.1.5.1/contrib/adduser.c	124;"	d	file:
+E_BADENTRY	shadow-4.1.5.1/src/pwck.c	62;"	d	file:
+E_BADENTRY	shadow-4.1.5.1/src/pwconv.c	86;"	d	file:
+E_BAD_ARG	shadow-4.1.5.1/lib/exitcodes.h	43;"	d
+E_BAD_ARG	shadow-4.1.5.1/src/groupadd.c	65;"	d	file:
+E_BAD_ARG	shadow-4.1.5.1/src/groupmod.c	64;"	d	file:
+E_BAD_ARG	shadow-4.1.5.1/src/passwd.c	69;"	d	file:
+E_BAD_ARG	shadow-4.1.5.1/src/useradd.c	164;"	d	file:
+E_BAD_ARG	shadow-4.1.5.1/src/usermod.c	79;"	d	file:
+E_BAD_ENTRY	shadow-4.1.5.1/src/grpck.c	61;"	d	file:
+E_CANTLOCK	shadow-4.1.5.1/src/pwck.c	64;"	d	file:
+E_CANTOPEN	shadow-4.1.5.1/src/pwck.c	63;"	d	file:
+E_CANTSORT	shadow-4.1.5.1/src/pwck.c	66;"	d	file:
+E_CANTUPDATE	shadow-4.1.5.1/src/pwck.c	65;"	d	file:
+E_CANT_LOCK	shadow-4.1.5.1/src/grpck.c	63;"	d	file:
+E_CANT_OPEN	shadow-4.1.5.1/src/grpck.c	62;"	d	file:
+E_CANT_UPDATE	shadow-4.1.5.1/src/grpck.c	64;"	d	file:
+E_CMD_NOEXEC	shadow-4.1.5.1/lib/exitcodes.h	48;"	d
+E_CMD_NOTFOUND	shadow-4.1.5.1/lib/exitcodes.h	49;"	d
+E_FAILURE	shadow-4.1.5.1/src/passwd.c	66;"	d	file:
+E_FAILURE	shadow-4.1.5.1/src/pwconv.c	83;"	d	file:
+E_GID_IN_USE	shadow-4.1.5.1/src/groupadd.c	66;"	d	file:
+E_GID_IN_USE	shadow-4.1.5.1/src/groupmod.c	65;"	d	file:
+E_GROUP_BUSY	shadow-4.1.5.1/src/groupdel.c	75;"	d	file:
+E_GROUP_NOTFOUND	shadow-4.1.5.1/lib/exitcodes.h	46;"	d
+E_GRP_UPDATE	shadow-4.1.5.1/src/groupadd.c	68;"	d	file:
+E_GRP_UPDATE	shadow-4.1.5.1/src/groupdel.c	76;"	d	file:
+E_GRP_UPDATE	shadow-4.1.5.1/src/groupmod.c	68;"	d	file:
+E_GRP_UPDATE	shadow-4.1.5.1/src/useradd.c	168;"	d	file:
+E_GRP_UPDATE	shadow-4.1.5.1/src/userdel.c	75;"	d	file:
+E_GRP_UPDATE	shadow-4.1.5.1/src/usermod.c	85;"	d	file:
+E_GSHADOW_NOTFOUND	shadow-4.1.5.1/lib/exitcodes.h	47;"	d
+E_HOMEDIR	shadow-4.1.5.1/src/useradd.c	169;"	d	file:
+E_HOMEDIR	shadow-4.1.5.1/src/userdel.c	76;"	d	file:
+E_HOMEDIR	shadow-4.1.5.1/src/usermod.c	87;"	d	file:
+E_MISSING	shadow-4.1.5.1/src/passwd.c	67;"	d	file:
+E_MISSING	shadow-4.1.5.1/src/pwconv.c	84;"	d	file:
+E_NAME_IN_USE	shadow-4.1.5.1/src/groupadd.c	67;"	d	file:
+E_NAME_IN_USE	shadow-4.1.5.1/src/groupmod.c	67;"	d	file:
+E_NAME_IN_USE	shadow-4.1.5.1/src/useradd.c	167;"	d	file:
+E_NAME_IN_USE	shadow-4.1.5.1/src/usermod.c	84;"	d	file:
+E_NOPERM	shadow-4.1.5.1/lib/exitcodes.h	41;"	d
+E_NOPERM	shadow-4.1.5.1/src/passwd.c	64;"	d	file:
+E_NOPERM	shadow-4.1.5.1/src/pwconv.c	81;"	d	file:
+E_NOTFOUND	shadow-4.1.5.1/src/groupdel.c	74;"	d	file:
+E_NOTFOUND	shadow-4.1.5.1/src/groupmod.c	66;"	d	file:
+E_NOTFOUND	shadow-4.1.5.1/src/useradd.c	166;"	d	file:
+E_NOTFOUND	shadow-4.1.5.1/src/userdel.c	73;"	d	file:
+E_NOTFOUND	shadow-4.1.5.1/src/usermod.c	82;"	d	file:
+E_OKAY	shadow-4.1.5.1/src/grpck.c	58;"	d	file:
+E_OKAY	shadow-4.1.5.1/src/pwck.c	59;"	d	file:
+E_PASSWD_NOTFOUND	shadow-4.1.5.1/lib/exitcodes.h	44;"	d
+E_PWDBUSY	shadow-4.1.5.1/src/passwd.c	68;"	d	file:
+E_PWDBUSY	shadow-4.1.5.1/src/pwconv.c	85;"	d	file:
+E_PW_UPDATE	shadow-4.1.5.1/src/useradd.c	162;"	d	file:
+E_PW_UPDATE	shadow-4.1.5.1/src/userdel.c	72;"	d	file:
+E_PW_UPDATE	shadow-4.1.5.1/src/usermod.c	77;"	d	file:
+E_SE_UPDATE	shadow-4.1.5.1/src/useradd.c	170;"	d	file:
+E_SE_UPDATE	shadow-4.1.5.1/src/userdel.c	77;"	d	file:
+E_SE_UPDATE	shadow-4.1.5.1/src/usermod.c	88;"	d	file:
+E_SHADOW_NOTFOUND	shadow-4.1.5.1/lib/exitcodes.h	45;"	d
+E_SUCCESS	shadow-4.1.5.1/lib/exitcodes.h	35;"	d
+E_SUCCESS	shadow-4.1.5.1/src/groupadd.c	63;"	d	file:
+E_SUCCESS	shadow-4.1.5.1/src/groupdel.c	72;"	d	file:
+E_SUCCESS	shadow-4.1.5.1/src/groupmod.c	62;"	d	file:
+E_SUCCESS	shadow-4.1.5.1/src/grpck.c	59;"	d	file:
+E_SUCCESS	shadow-4.1.5.1/src/passwd.c	63;"	d	file:
+E_SUCCESS	shadow-4.1.5.1/src/pwck.c	60;"	d	file:
+E_SUCCESS	shadow-4.1.5.1/src/pwconv.c	80;"	d	file:
+E_SUCCESS	shadow-4.1.5.1/src/useradd.c	161;"	d	file:
+E_SUCCESS	shadow-4.1.5.1/src/usermod.c	76;"	d	file:
+E_UID_IN_USE	shadow-4.1.5.1/src/useradd.c	165;"	d	file:
+E_UID_IN_USE	shadow-4.1.5.1/src/usermod.c	80;"	d	file:
+E_USAGE	shadow-4.1.5.1/lib/exitcodes.h	42;"	d
+E_USAGE	shadow-4.1.5.1/src/groupadd.c	64;"	d	file:
+E_USAGE	shadow-4.1.5.1/src/groupdel.c	73;"	d	file:
+E_USAGE	shadow-4.1.5.1/src/groupmod.c	63;"	d	file:
+E_USAGE	shadow-4.1.5.1/src/grpck.c	60;"	d	file:
+E_USAGE	shadow-4.1.5.1/src/passwd.c	65;"	d	file:
+E_USAGE	shadow-4.1.5.1/src/pwck.c	61;"	d	file:
+E_USAGE	shadow-4.1.5.1/src/pwconv.c	82;"	d	file:
+E_USAGE	shadow-4.1.5.1/src/useradd.c	163;"	d	file:
+E_USAGE	shadow-4.1.5.1/src/usermod.c	78;"	d	file:
+E_USER_BUSY	shadow-4.1.5.1/src/userdel.c	74;"	d	file:
+E_USER_BUSY	shadow-4.1.5.1/src/usermod.c	83;"	d	file:
+Eflg	shadow-4.1.5.1/src/chage.c	/^    Eflg = false,		\/* set account expiration date *\/$/;"	v	file:
+FAIL_DELAY	shadow-4.1.5.1/contrib/pwdauth.c	77;"	d	file:
+FIELDS	shadow-4.1.5.1/lib/gshadow.c	50;"	d	file:
+FIELDS	shadow-4.1.5.1/lib/sgetspent.c	44;"	d	file:
+FIELDS	shadow-4.1.5.1/lib/shadow.c	60;"	d	file:
+FUNCTION_NAME	shadow-4.1.5.1/libmisc/xgetgrgid.c	57;"	d	file:
+FUNCTION_NAME	shadow-4.1.5.1/libmisc/xgetgrnam.c	57;"	d	file:
+FUNCTION_NAME	shadow-4.1.5.1/libmisc/xgetpwnam.c	57;"	d	file:
+FUNCTION_NAME	shadow-4.1.5.1/libmisc/xgetpwuid.c	57;"	d	file:
+FUNCTION_NAME	shadow-4.1.5.1/libmisc/xgetspnam.c	57;"	d	file:
+F_OK	shadow-4.1.5.1/lib/defines.h	221;"	d
+GETDEF_DEFAULT_UMASK	shadow-4.1.5.1/lib/getdef.h	45;"	d
+GROUP_FILE	shadow-4.1.5.1/lib/defines.h	306;"	d
+GSHADOW	shadow-4.1.5.1/lib/gshadow_.h	74;"	d
+GTTY	shadow-4.1.5.1/lib/defines.h	260;"	d
+GTTY	shadow-4.1.5.1/lib/defines.h	267;"	d
+Gflg	shadow-4.1.5.1/src/useradd.c	/^    Gflg = false,		\/* secondary group set for new account *\/$/;"	v	file:
+Gflg	shadow-4.1.5.1/src/usermod.c	/^    Gflg = false,		\/* new secondary group set *\/$/;"	v	file:
+HAVE_AUTH_METHODS	shadow-4.1.5.1/contrib/pwdauth.c	71;"	d	file:
+HAVE_FUNCTION_R	shadow-4.1.5.1/libmisc/xgetgrgid.c	61;"	d	file:
+HAVE_FUNCTION_R	shadow-4.1.5.1/libmisc/xgetgrnam.c	61;"	d	file:
+HAVE_FUNCTION_R	shadow-4.1.5.1/libmisc/xgetpwnam.c	61;"	d	file:
+HAVE_FUNCTION_R	shadow-4.1.5.1/libmisc/xgetpwuid.c	61;"	d	file:
+HAVE_FUNCTION_R	shadow-4.1.5.1/libmisc/xgetspnam.c	61;"	d	file:
+HAVE_GETSPNAM	shadow-4.1.5.1/contrib/pwdauth.c	52;"	d	file:
+HAVE_GETUSERSHELL	shadow-4.1.5.1/contrib/adduser.c	127;"	d	file:
+HAVE_PW_ENCRYPT	shadow-4.1.5.1/contrib/pwdauth.c	62;"	d	file:
+HAVE_QUOTAS	shadow-4.1.5.1/contrib/adduser.c	123;"	d	file:
+HOUR	shadow-4.1.5.1/libmisc/getdate.c	228;"	d	file:
+HUP_MESG_FILE	shadow-4.1.5.1/src/logoutd.c	53;"	d	file:
+IMMEDIATE_CHANGE	shadow-4.1.5.1/contrib/adduser.c	121;"	d	file:
+IN_CTYPE_DOMAIN	shadow-4.1.5.1/libmisc/getdate.c	144;"	d	file:
+IN_CTYPE_DOMAIN	shadow-4.1.5.1/libmisc/getdate.c	146;"	d	file:
+ISALPHA	shadow-4.1.5.1/libmisc/getdate.c	150;"	d	file:
+ISDIGIT	shadow-4.1.5.1/libmisc/getdate.c	162;"	d	file:
+ISDIGIT_LOCALE	shadow-4.1.5.1/lib/defines.h	23;"	d
+ISDIGIT_LOCALE	shadow-4.1.5.1/libmisc/getdate.c	152;"	d	file:
+ISSPACE	shadow-4.1.5.1/libmisc/getdate.c	149;"	d	file:
+ISUPPER	shadow-4.1.5.1/libmisc/getdate.c	151;"	d	file:
+IS_NISCHAR	shadow-4.1.5.1/lib/gshadow.c	63;"	d	file:
+IS_NISCHAR	shadow-4.1.5.1/lib/shadow.c	55;"	d	file:
+Iflg	shadow-4.1.5.1/src/chage.c	/^    Iflg = false,		\/* set password inactive after expiration *\/$/;"	v	file:
+KEEP_NIS_AT_END	shadow-4.1.5.1/lib/commonio.c	543;"	d	file:
+LANG	shadow-4.1.5.1/man/generate_translations.mak	/^LANG=$(notdir $(CURDIR))$/;"	m
+LASTLOG_FILE	shadow-4.1.5.1/src/lastlog.c	54;"	d	file:
+LASTLOG_FILE	shadow-4.1.5.1/src/login.c	78;"	d	file:
+LASTLOG_FILE	shadow-4.1.5.1/src/useradd.c	83;"	d	file:
+LCHOWN	shadow-4.1.5.1/lib/defines.h	246;"	d
+LCHOWN	shadow-4.1.5.1/lib/defines.h	248;"	d
+LC_ALL	shadow-4.1.5.1/lib/defines.h	28;"	d
+LC_ALL	shadow-4.1.5.1/lib/defines.h	41;"	d
+LIMITS	shadow-4.1.5.1/libmisc/limits.c	55;"	d	file:
+LIMITS_FILE	shadow-4.1.5.1/libmisc/limits.c	59;"	d	file:
+LOGGING	shadow-4.1.5.1/contrib/adduser.c	128;"	d	file:
+LOGINDEFS	shadow-4.1.5.1/lib/getdef.c	136;"	d	file:
+LOGIN_ERROR_LOGIN	shadow-4.1.5.1/libmisc/limits.c	62;"	d	file:
+LOGIN_ERROR_RLIMIT	shadow-4.1.5.1/libmisc/limits.c	61;"	d	file:
+LOG_AUTHPRIV	shadow-4.1.5.1/contrib/pwdauth.c	92;"	d	file:
+LOG_AUTHPRIV	shadow-4.1.5.1/lib/defines.h	165;"	d
+LOG_NOWAIT	shadow-4.1.5.1/lib/defines.h	160;"	d
+LOG_WARN	shadow-4.1.5.1/lib/defines.h	155;"	d
+LOOKUP_TYPE	shadow-4.1.5.1/libmisc/xgetgrgid.c	56;"	d	file:
+LOOKUP_TYPE	shadow-4.1.5.1/libmisc/xgetgrnam.c	56;"	d	file:
+LOOKUP_TYPE	shadow-4.1.5.1/libmisc/xgetpwnam.c	56;"	d	file:
+LOOKUP_TYPE	shadow-4.1.5.1/libmisc/xgetpwuid.c	56;"	d	file:
+LOOKUP_TYPE	shadow-4.1.5.1/libmisc/xgetspnam.c	56;"	d	file:
+LSTAT	shadow-4.1.5.1/lib/defines.h	252;"	d
+LSTAT	shadow-4.1.5.1/lib/defines.h	254;"	d
+Lflg	shadow-4.1.5.1/src/usermod.c	/^    Lflg = false,		\/* lock the password *\/$/;"	v	file:
+LookupWord	shadow-4.1.5.1/libmisc/getdate.c	/^static int LookupWord (char *buff)$/;"	f	file:
+MAGNUM	shadow-4.1.5.1/libmisc/salt.c	81;"	d	file:
+MATCH	shadow-4.1.5.1/src/useradd.c	282;"	d	file:
+MAX	shadow-4.1.5.1/lib/defines.h	365;"	d
+MAXHOSTNAMELEN	shadow-4.1.5.1/src/login_nopam.c	56;"	d	file:
+MAXHOSTNAMELEN	shadow-4.1.5.1/src/login_nopam.c	57;"	d	file:
+MAX_BUFF_LEN	shadow-4.1.5.1/libmisc/getdate.c	230;"	d	file:
+MAX_ENV	shadow-4.1.5.1/libmisc/loginprompt.c	61;"	d	file:
+MAX_SALT_SIZE	shadow-4.1.5.1/libmisc/salt.c	163;"	d	file:
+MAX_USRNAME	shadow-4.1.5.1/contrib/adduser.c	129;"	d	file:
+MER24	shadow-4.1.5.1/libmisc/getdate.c	/^    MERam, MERpm, MER24$/;"	e	enum:_MERIDIAN	file:
+MERIDIAN	shadow-4.1.5.1/libmisc/getdate.c	/^} MERIDIAN;$/;"	t	typeref:enum:_MERIDIAN	file:
+MERam	shadow-4.1.5.1/libmisc/getdate.c	/^    MERam, MERpm, MER24$/;"	e	enum:_MERIDIAN	file:
+MERpm	shadow-4.1.5.1/libmisc/getdate.c	/^    MERam, MERpm, MER24$/;"	e	enum:_MERIDIAN	file:
+MIN	shadow-4.1.5.1/lib/defines.h	362;"	d
+MIN_SALT_SIZE	shadow-4.1.5.1/libmisc/salt.c	164;"	d	file:
+MSG_NSCD_FLUSH_CACHE_FAILED	shadow-4.1.5.1/lib/nscd.c	14;"	d	file:
+MSG_WARN_EDIT_OTHER_FILE	shadow-4.1.5.1/src/vipw.c	56;"	d	file:
+Meridian	shadow-4.1.5.1/libmisc/getdate.c	/^    enum _MERIDIAN	Meridian;$/;"	m	union:YYSTYPE	typeref:enum:YYSTYPE::_MERIDIAN	file:
+Mflg	shadow-4.1.5.1/src/chage.c	/^    Mflg = false,		\/* set maximum number of days before password change *\/$/;"	v	file:
+Mflg	shadow-4.1.5.1/src/gpasswd.c	/^static bool Mflg = false;$/;"	v	file:
+Mflg	shadow-4.1.5.1/src/useradd.c	/^    Mflg = false,		\/* do not create user's home directory even if CREATE_HOME is set *\/$/;"	v	file:
+MilitaryTable	shadow-4.1.5.1/libmisc/getdate.c	/^static TABLE const MilitaryTable[] = {$/;"	v	file:
+MonthDayTable	shadow-4.1.5.1/libmisc/getdate.c	/^static TABLE const MonthDayTable[] = {$/;"	v	file:
+NEWENVP_STEP	shadow-4.1.5.1/libmisc/env.c	48;"	d	file:
+NEW_USER_FILE	shadow-4.1.5.1/src/useradd.c	77;"	d	file:
+NFIELDS	shadow-4.1.5.1/lib/sgetgrent.c	43;"	d	file:
+NFIELDS	shadow-4.1.5.1/lib/sgetpwent.c	43;"	d	file:
+NGROUPS_MAX	shadow-4.1.5.1/lib/defines.h	145;"	d
+NGROUPS_MAX	shadow-4.1.5.1/lib/defines.h	147;"	d
+NOACTION	shadow-4.1.5.1/src/suauth.c	46;"	d	file:
+NOPWORD	shadow-4.1.5.1/src/suauth.c	47;"	d	file:
+NOW	shadow-4.1.5.1/src/faillog.c	82;"	d	file:
+NOW	shadow-4.1.5.1/src/lastlog.c	75;"	d	file:
+NO_SUBROOT2	shadow-4.1.5.1/libmisc/sub.c	42;"	d	file:
+NULL	shadow-4.1.5.1/lib/defines.h	320;"	d
+NUMDEFS	shadow-4.1.5.1/lib/getdef.c	52;"	d	file:
+Nflg	shadow-4.1.5.1/src/useradd.c	/^    Nflg = false,		\/* do not create a group having the same name as the user, but add the user to def_group (or the group specified with -g) *\/$/;"	v	file:
+Number	shadow-4.1.5.1/libmisc/getdate.c	/^    int			Number;$/;"	m	union:YYSTYPE	file:
+OBJ	Makefile	/^OBJ=ls1.o ls2.o ls3.c filesize.o fileinfo.o myfile.o$/;"	m
+OFIELDS	shadow-4.1.5.1/lib/sgetspent.c	45;"	d	file:
+OFIELDS	shadow-4.1.5.1/lib/shadow.c	61;"	d	file:
+OPENLOG	shadow-4.1.5.1/lib/defines.h	218;"	d
+OUT_OF_MEMORY	shadow-4.1.5.1/lib/tcbfuncs.c	74;"	d	file:
+OWNPWORD	shadow-4.1.5.1/src/suauth.c	49;"	d	file:
+O_NOCTTY	shadow-4.1.5.1/src/logoutd.c	253;"	d	file:
+OtherTable	shadow-4.1.5.1/libmisc/getdate.c	/^static TABLE const OtherTable[] = {$/;"	v	file:
+PAM_COND	shadow-4.1.5.1/man/generate_mans.mak	/^PAM_COND=no_pam$/;"	m
+PAM_COND	shadow-4.1.5.1/man/generate_mans.mak	/^PAM_COND=pam$/;"	m
+PAM_DATA_SILENT	shadow-4.1.5.1/lib/pam_defs.h	57;"	d
+PAM_DELETE_CRED	shadow-4.1.5.1/lib/pam_defs.h	51;"	d
+PAM_END	shadow-4.1.5.1/src/login.c	68;"	d	file:
+PAM_ESTABLISH_CRED	shadow-4.1.5.1/lib/pam_defs.h	48;"	d
+PAM_FAIL_CHECK	shadow-4.1.5.1/src/login.c	62;"	d	file:
+PAM_NEW_AUTHTOK_REQD	shadow-4.1.5.1/lib/pam_defs.h	54;"	d
+PASSWD_FILE	shadow-4.1.5.1/lib/defines.h	302;"	d
+PASSWD_PATH	shadow-4.1.5.1/contrib/adduser-old.c	110;"	d	file:
+PASSWD_PATH	shadow-4.1.5.1/contrib/adduser.c	137;"	d	file:
+PASSWD_PROGRAM	shadow-4.1.5.1/libmisc/age.c	48;"	d	file:
+PORTS	shadow-4.1.5.1/lib/port.h	55;"	d
+PORT_DAY	shadow-4.1.5.1/lib/port.h	59;"	d
+PORT_IDS	shadow-4.1.5.1/lib/port.h	56;"	d
+PORT_TIMES	shadow-4.1.5.1/lib/port.h	58;"	d
+PORT_TTY	shadow-4.1.5.1/lib/port.h	57;"	d
+PROMPT	shadow-4.1.5.1/lib/pwauth.c	/^static const char *PROMPT = gettext_noop ("%s's Password: ");$/;"	v	file:
+PROMPT	shadow-4.1.5.1/lib/pwauth.c	/^static const char *PROMPT = gettext_noop ("Password: ");$/;"	v	file:
+PW_ADD	shadow-4.1.5.1/lib/pwauth.h	55;"	d
+PW_CHANGE	shadow-4.1.5.1/lib/pwauth.h	56;"	d
+PW_DELETE	shadow-4.1.5.1/lib/pwauth.h	57;"	d
+PW_FTP	shadow-4.1.5.1/lib/pwauth.h	65;"	d
+PW_LOGIN	shadow-4.1.5.1/lib/pwauth.h	49;"	d
+PW_REXEC	shadow-4.1.5.1/lib/pwauth.h	66;"	d
+PW_RLOGIN	shadow-4.1.5.1/lib/pwauth.h	64;"	d
+PW_SU	shadow-4.1.5.1/lib/pwauth.h	48;"	d
+PW_TELNET	shadow-4.1.5.1/lib/pwauth.h	63;"	d
+Prog	shadow-4.1.5.1/src/chage.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/chfn.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/chgpasswd.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/chpasswd.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/chsh.c	/^const char *Prog;		\/* Program name *\/$/;"	v
+Prog	shadow-4.1.5.1/src/expiry.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/faillog.c	/^const char *Prog;		\/* Program name *\/$/;"	v
+Prog	shadow-4.1.5.1/src/gpasswd.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/groupadd.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/groupdel.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/groupmems.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/groupmod.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/groups.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/grpck.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/grpconv.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/grpunconv.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/lastlog.c	/^const char *Prog;		\/* Program name *\/$/;"	v
+Prog	shadow-4.1.5.1/src/login.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/logoutd.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/newgrp.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/newusers.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/passwd.c	/^const char *Prog;		\/* Program name *\/$/;"	v
+Prog	shadow-4.1.5.1/src/pwck.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/pwconv.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/pwunconv.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/su.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/sulogin.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/useradd.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/userdel.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/usermod.c	/^const char *Prog;$/;"	v
+Prog	shadow-4.1.5.1/src/vipw.c	/^const char *Prog;$/;"	v
+QUOTA_DEFAULT	shadow-4.1.5.1/contrib/adduser.c	139;"	d	file:
+REENTRANT_NAME	shadow-4.1.5.1/libmisc/xgetXXbyYY.c	61;"	d	file:
+RETRIES	shadow-4.1.5.1/src/gpasswd.c	93;"	d	file:
+RETRIES	shadow-4.1.5.1/src/login.c	121;"	d	file:
+ROUNDS_DEFAULT	shadow-4.1.5.1/libmisc/salt.c	98;"	d	file:
+ROUNDS_MAX	shadow-4.1.5.1/libmisc/salt.c	102;"	d	file:
+ROUNDS_MIN	shadow-4.1.5.1/libmisc/salt.c	100;"	d	file:
+R_OK	shadow-4.1.5.1/lib/defines.h	224;"	d
+Rflg	shadow-4.1.5.1/src/gpasswd.c	/^static bool Rflg = false;$/;"	v	file:
+SCALE	shadow-4.1.5.1/lib/defines.h	288;"	d
+SCALE	shadow-4.1.5.1/lib/defines.h	290;"	d
+SEEK_CUR	shadow-4.1.5.1/lib/defines.h	229;"	d
+SEEK_END	shadow-4.1.5.1/lib/defines.h	230;"	d
+SEEK_SET	shadow-4.1.5.1/lib/defines.h	228;"	d
+SEP	shadow-4.1.5.1/libmisc/addgrps.c	46;"	d	file:
+SGROUP_FILE	shadow-4.1.5.1/lib/defines.h	315;"	d
+SHADOWGRP_COND	shadow-4.1.5.1/man/generate_mans.mak	/^SHADOWGRP_COND=gshadow$/;"	m
+SHADOWGRP_COND	shadow-4.1.5.1/man/generate_mans.mak	/^SHADOWGRP_COND=no_gshadow$/;"	m
+SHADOWTCB_FAILURE	shadow-4.1.5.1/lib/tcbfuncs.h	/^	SHADOWTCB_FAILURE = 0,$/;"	e	enum:__anon4
+SHADOWTCB_HASH_BY	shadow-4.1.5.1/lib/tcbfuncs.c	41;"	d	file:
+SHADOWTCB_LOCK_SUFFIX	shadow-4.1.5.1/lib/tcbfuncs.c	42;"	d	file:
+SHADOWTCB_SCRATCHDIR	shadow-4.1.5.1/src/vipw.c	74;"	d	file:
+SHADOWTCB_SUCCESS	shadow-4.1.5.1/lib/tcbfuncs.h	/^	SHADOWTCB_SUCCESS = 1$/;"	e	enum:__anon4
+SHADOW_AUDIT_FAILURE	shadow-4.1.5.1/lib/prototypes.h	/^	SHADOW_AUDIT_FAILURE = 0,$/;"	e	enum:__anon2
+SHADOW_AUDIT_SUCCESS	shadow-4.1.5.1/lib/prototypes.h	/^	SHADOW_AUDIT_SUCCESS = 1} shadow_audit_result;$/;"	e	enum:__anon2
+SHADOW_FILE	shadow-4.1.5.1/lib/defines.h	310;"	d
+SHADOW_PASSWD_STRING	shadow-4.1.5.1/lib/defines.h	337;"	d
+SHADOW_SP_FLAG_UNSET	shadow-4.1.5.1/lib/defines.h	340;"	d
+SHA_CRYPT_COND	shadow-4.1.5.1/man/generate_mans.mak	/^SHA_CRYPT_COND=no_sha_crypt$/;"	m
+SHA_CRYPT_COND	shadow-4.1.5.1/man/generate_mans.mak	/^SHA_CRYPT_COND=sha_crypt$/;"	m
+SHA_salt_rounds	shadow-4.1.5.1/libmisc/salt.c	/^static \/*@observer@*\/const char *SHA_salt_rounds (\/*@null@*\/int *prefered_rounds)$/;"	f	file:
+SHA_salt_size	shadow-4.1.5.1/libmisc/salt.c	/^static size_t SHA_salt_size (void)$/;"	f	file:
+SHELLS_FILE	shadow-4.1.5.1/src/chsh.c	59;"	d	file:
+SKEL_DIR	shadow-4.1.5.1/src/useradd.c	73;"	d	file:
+STRFCPY	shadow-4.1.5.1/lib/defines.h	298;"	d
+STRINGIZE	shadow-4.1.5.1/libmisc/xgetXXbyYY.c	64;"	d	file:
+STRINGIZE1	shadow-4.1.5.1/libmisc/xgetXXbyYY.c	65;"	d	file:
+STTY	shadow-4.1.5.1/lib/defines.h	259;"	d
+STTY	shadow-4.1.5.1/lib/defines.h	266;"	d
+SUAUTHFILE	shadow-4.1.5.1/src/suauth.c	43;"	d	file:
+SYSLOG	shadow-4.1.5.1/lib/defines.h	178;"	d
+SYSLOG	shadow-4.1.5.1/lib/defines.h	195;"	d
+SYSLOG	shadow-4.1.5.1/lib/defines.h	200;"	d
+SYSLOG_FACILITY	shadow-4.1.5.1/lib/defines.h	215;"	d
+SYSLOG_OPTIONS	shadow-4.1.5.1/lib/defines.h	211;"	d
+S_ISDIR	shadow-4.1.5.1/lib/defines.h	234;"	d
+S_ISLNK	shadow-4.1.5.1/lib/defines.h	237;"	d
+S_ISLNK	shadow-4.1.5.1/lib/defines.h	242;"	d
+S_ISREG	shadow-4.1.5.1/lib/defines.h	235;"	d
+Sflg	shadow-4.1.5.1/src/passwd.c	/^    Sflg = false,			\/* -S - show password status *\/$/;"	v	file:
+TABLE	shadow-4.1.5.1/libmisc/getdate.c	/^} TABLE;$/;"	t	typeref:struct:_TABLE	file:
+TABLE	shadow-4.1.5.1/src/login_nopam.c	62;"	d	file:
+TCB_COND	shadow-4.1.5.1/man/generate_mans.mak	/^TCB_COND=no_tcb$/;"	m
+TCB_COND	shadow-4.1.5.1/man/generate_mans.mak	/^TCB_COND=tcb$/;"	m
+TEMRIO	shadow-4.1.5.1/lib/defines.h	268;"	d
+TERMIO	shadow-4.1.5.1/lib/defines.h	261;"	d
+TM_YEAR_ORIGIN	shadow-4.1.5.1/libmisc/getdate.c	2575;"	d	file:
+TimezoneTable	shadow-4.1.5.1/libmisc/getdate.c	/^static TABLE const TimezoneTable[] = {$/;"	v	file:
+ToHour	shadow-4.1.5.1/libmisc/getdate.c	/^static int ToHour (int Hours, MERIDIAN Meridian)$/;"	f	file:
+ToYear	shadow-4.1.5.1/libmisc/getdate.c	/^static int ToYear (int Year)$/;"	f	file:
+UL_SETFSIZE	shadow-4.1.5.1/libmisc/ulimit.c	41;"	d	file:
+UL_SETFSIZE	shadow-4.1.5.1/libmisc/ulimit.c	43;"	d	file:
+USERADD_PATH	shadow-4.1.5.1/contrib/adduser-old.c	108;"	d	file:
+USERADD_PATH	shadow-4.1.5.1/contrib/adduser.c	135;"	d	file:
+USER_DEFAULTS_FILE	shadow-4.1.5.1/src/useradd.c	76;"	d	file:
+USER_NAME_MAX_LENGTH	shadow-4.1.5.1/lib/defines.h	371;"	d
+USER_NAME_MAX_LENGTH	shadow-4.1.5.1/lib/defines.h	375;"	d
+USER_NAME_MAX_LENGTH	shadow-4.1.5.1/lib/defines.h	378;"	d
+USER_NAME_MAX_LENGTH	shadow-4.1.5.1/lib/defines.h	380;"	d
+USE_GETDATE	shadow-4.1.5.1/libmisc/strtoday.c	47;"	d	file:
+USE_SYSLOG	shadow-4.1.5.1/contrib/pwdauth.c	40;"	d	file:
+USE_SYSLOG	shadow-4.1.5.1/src/sulogin.c	81;"	d	file:
+USE_TERMIO	shadow-4.1.5.1/lib/defines.h	269;"	d
+USE_TERMIOS	shadow-4.1.5.1/lib/defines.h	262;"	d
+Uflg	shadow-4.1.5.1/src/useradd.c	/^    Uflg = false;		\/* create a group having the same name as the user *\/$/;"	v	file:
+Uflg	shadow-4.1.5.1/src/usermod.c	/^    Uflg = false;		\/* unlock the password *\/$/;"	v	file:
+UnitsTable	shadow-4.1.5.1/libmisc/getdate.c	/^static TABLE const UnitsTable[] = {$/;"	v	file:
+VALID	shadow-4.1.5.1/src/useradd.c	103;"	d	file:
+VALID	shadow-4.1.5.1/src/usermod.c	89;"	d	file:
+WEEK	shadow-4.1.5.1/lib/defines.h	285;"	d
+WEXITSTATUS	shadow-4.1.5.1/lib/defines.h	87;"	d
+WIFEXITED	shadow-4.1.5.1/lib/defines.h	90;"	d
+W_OK	shadow-4.1.5.1/lib/defines.h	223;"	d
+Wflg	shadow-4.1.5.1/src/chage.c	/^    Wflg = false;		\/* set expiration warning days *\/$/;"	v	file:
+XFUNCTION_NAME	shadow-4.1.5.1/libmisc/xgetXXbyYY.c	/^\/*@null@*\/ \/*@only@*\/LOOKUP_TYPE *XFUNCTION_NAME (ARG_TYPE ARG_NAME)$/;"	f
+XFUNCTION_NAME	shadow-4.1.5.1/libmisc/xgetXXbyYY.c	58;"	d	file:
+XPREFIX	shadow-4.1.5.1/libmisc/xgetXXbyYY.c	59;"	d	file:
+XPREFIX1	shadow-4.1.5.1/libmisc/xgetXXbyYY.c	60;"	d	file:
+X_OK	shadow-4.1.5.1/lib/defines.h	222;"	d
+YEAR	shadow-4.1.5.1/libmisc/failure.c	44;"	d	file:
+YYABORT	shadow-4.1.5.1/libmisc/getdate.c	764;"	d	file:
+YYACCEPT	shadow-4.1.5.1/libmisc/getdate.c	763;"	d	file:
+YYBACKUP	shadow-4.1.5.1/libmisc/getdate.c	776;"	d	file:
+YYBISON	shadow-4.1.5.1/libmisc/getdate.c	47;"	d	file:
+YYBISON_VERSION	shadow-4.1.5.1/libmisc/getdate.c	50;"	d	file:
+YYCOPY	shadow-4.1.5.1/libmisc/getdate.c	500;"	d	file:
+YYCOPY	shadow-4.1.5.1/libmisc/getdate.c	503;"	d	file:
+YYDEBUG	shadow-4.1.5.1/libmisc/getdate.c	283;"	d	file:
+YYDPRINTF	shadow-4.1.5.1/libmisc/getdate.c	1002;"	d	file:
+YYDPRINTF	shadow-4.1.5.1/libmisc/getdate.c	856;"	d	file:
+YYEMPTY	shadow-4.1.5.1/libmisc/getdate.c	760;"	d	file:
+YYEOF	shadow-4.1.5.1/libmisc/getdate.c	761;"	d	file:
+YYERRCODE	shadow-4.1.5.1/libmisc/getdate.c	795;"	d	file:
+YYERROR	shadow-4.1.5.1/libmisc/getdate.c	765;"	d	file:
+YYERROR_VERBOSE	shadow-4.1.5.1/libmisc/getdate.c	288;"	d	file:
+YYERROR_VERBOSE	shadow-4.1.5.1/libmisc/getdate.c	289;"	d	file:
+YYERROR_VERBOSE	shadow-4.1.5.1/libmisc/getdate.c	291;"	d	file:
+YYFAIL	shadow-4.1.5.1/libmisc/getdate.c	772;"	d	file:
+YYFINAL	shadow-4.1.5.1/libmisc/getdate.c	533;"	d	file:
+YYFPRINTF	shadow-4.1.5.1/libmisc/getdate.c	853;"	d	file:
+YYFREE	shadow-4.1.5.1/libmisc/getdate.c	466;"	d	file:
+YYID	shadow-4.1.5.1/libmisc/getdate.c	/^YYID (int i)$/;"	f	file:
+YYID	shadow-4.1.5.1/libmisc/getdate.c	390;"	d	file:
+YYINITDEPTH	shadow-4.1.5.1/libmisc/getdate.c	1011;"	d	file:
+YYLAST	shadow-4.1.5.1/libmisc/getdate.c	535;"	d	file:
+YYLEX	shadow-4.1.5.1/libmisc/getdate.c	843;"	d	file:
+YYLEX	shadow-4.1.5.1/libmisc/getdate.c	845;"	d	file:
+YYLLOC_DEFAULT	shadow-4.1.5.1/libmisc/getdate.c	804;"	d	file:
+YYLSP_NEEDED	shadow-4.1.5.1/libmisc/getdate.c	59;"	d	file:
+YYMALLOC	shadow-4.1.5.1/libmisc/getdate.c	459;"	d	file:
+YYMAXDEPTH	shadow-4.1.5.1/libmisc/getdate.c	1022;"	d	file:
+YYMAXUTOK	shadow-4.1.5.1/libmisc/getdate.c	548;"	d	file:
+YYNNTS	shadow-4.1.5.1/libmisc/getdate.c	540;"	d	file:
+YYNRULES	shadow-4.1.5.1/libmisc/getdate.c	542;"	d	file:
+YYNSTATES	shadow-4.1.5.1/libmisc/getdate.c	544;"	d	file:
+YYNTOKENS	shadow-4.1.5.1/libmisc/getdate.c	538;"	d	file:
+YYPACT_NINF	shadow-4.1.5.1/libmisc/getdate.c	701;"	d	file:
+YYPOPSTACK	shadow-4.1.5.1/libmisc/getdate.c	1360;"	d	file:
+YYPURE	shadow-4.1.5.1/libmisc/getdate.c	56;"	d	file:
+YYRECOVERING	shadow-4.1.5.1/libmisc/getdate.c	774;"	d	file:
+YYRHSLOC	shadow-4.1.5.1/libmisc/getdate.c	802;"	d	file:
+YYSIZE_MAXIMUM	shadow-4.1.5.1/libmisc/getdate.c	367;"	d	file:
+YYSIZE_T	shadow-4.1.5.1/libmisc/getdate.c	355;"	d	file:
+YYSIZE_T	shadow-4.1.5.1/libmisc/getdate.c	357;"	d	file:
+YYSIZE_T	shadow-4.1.5.1/libmisc/getdate.c	361;"	d	file:
+YYSIZE_T	shadow-4.1.5.1/libmisc/getdate.c	363;"	d	file:
+YYSKELETON_NAME	shadow-4.1.5.1/libmisc/getdate.c	53;"	d	file:
+YYSTACK_ALLOC	shadow-4.1.5.1/libmisc/getdate.c	413;"	d	file:
+YYSTACK_ALLOC	shadow-4.1.5.1/libmisc/getdate.c	417;"	d	file:
+YYSTACK_ALLOC	shadow-4.1.5.1/libmisc/getdate.c	422;"	d	file:
+YYSTACK_ALLOC	shadow-4.1.5.1/libmisc/getdate.c	445;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	shadow-4.1.5.1/libmisc/getdate.c	442;"	d	file:
+YYSTACK_ALLOC_MAXIMUM	shadow-4.1.5.1/libmisc/getdate.c	448;"	d	file:
+YYSTACK_BYTES	shadow-4.1.5.1/libmisc/getdate.c	492;"	d	file:
+YYSTACK_FREE	shadow-4.1.5.1/libmisc/getdate.c	436;"	d	file:
+YYSTACK_FREE	shadow-4.1.5.1/libmisc/getdate.c	446;"	d	file:
+YYSTACK_GAP_MAXIMUM	shadow-4.1.5.1/libmisc/getdate.c	488;"	d	file:
+YYSTACK_RELOCATE	shadow-4.1.5.1/libmisc/getdate.c	519;"	d	file:
+YYSTYPE	shadow-4.1.5.1/libmisc/getdate.c	/^	YYSTYPE;$/;"	t	typeref:union:YYSTYPE	file:
+YYSTYPE	shadow-4.1.5.1/libmisc/getdate.c	/^typedef union YYSTYPE$/;"	u	file:
+YYSTYPE_IS_DECLARED	shadow-4.1.5.1/libmisc/getdate.c	310;"	d	file:
+YYSTYPE_IS_TRIVIAL	shadow-4.1.5.1/libmisc/getdate.c	311;"	d	file:
+YYTABLE_NINF	shadow-4.1.5.1/libmisc/getdate.c	724;"	d	file:
+YYTERROR	shadow-4.1.5.1/libmisc/getdate.c	794;"	d	file:
+YYTOKENTYPE	shadow-4.1.5.1/libmisc/getdate.c	65;"	d	file:
+YYTOKEN_TABLE	shadow-4.1.5.1/libmisc/getdate.c	296;"	d	file:
+YYTRANSLATE	shadow-4.1.5.1/libmisc/getdate.c	550;"	d	file:
+YYUNDEFTOK	shadow-4.1.5.1/libmisc/getdate.c	547;"	d	file:
+YYUSE	shadow-4.1.5.1/libmisc/getdate.c	383;"	d	file:
+YYUSE	shadow-4.1.5.1/libmisc/getdate.c	385;"	d	file:
+YY_	shadow-4.1.5.1/libmisc/getdate.c	373;"	d	file:
+YY_	shadow-4.1.5.1/libmisc/getdate.c	377;"	d	file:
+YY_LOCATION_PRINT	shadow-4.1.5.1/libmisc/getdate.c	830;"	d	file:
+YY_LOCATION_PRINT	shadow-4.1.5.1/libmisc/getdate.c	835;"	d	file:
+YY_REDUCE_PRINT	shadow-4.1.5.1/libmisc/getdate.c	1005;"	d	file:
+YY_REDUCE_PRINT	shadow-4.1.5.1/libmisc/getdate.c	992;"	d	file:
+YY_STACK_PRINT	shadow-4.1.5.1/libmisc/getdate.c	1004;"	d	file:
+YY_STACK_PRINT	shadow-4.1.5.1/libmisc/getdate.c	954;"	d	file:
+YY_SYMBOL_PRINT	shadow-4.1.5.1/libmisc/getdate.c	1003;"	d	file:
+YY_SYMBOL_PRINT	shadow-4.1.5.1/libmisc/getdate.c	862;"	d	file:
+Zflg	shadow-4.1.5.1/src/useradd.c	152;"	d	file:
+Zflg	shadow-4.1.5.1/src/userdel.c	/^static bool Zflg = false;$/;"	v	file:
+Zflg	shadow-4.1.5.1/src/usermod.c	/^    Zflg = false,		\/* new selinux user *\/$/;"	v	file:
+_	shadow-4.1.5.1/lib/defines.h	31;"	d
+_	shadow-4.1.5.1/lib/defines.h	50;"	d
+_	shadow-4.1.5.1/lib/defines.h	56;"	d
+_Bool	shadow-4.1.5.1/lib/defines.h	/^typedef bool _Bool;$/;"	t
+_Bool	shadow-4.1.5.1/lib/defines.h	/^typedef unsigned char _Bool;$/;"	t
+_CHKNAME_H_	shadow-4.1.5.1/libmisc/chkname.h	35;"	d
+_COMMONIO_H	shadow-4.1.5.1/lib/commonio.h	35;"	d
+_DEFINES_H_	shadow-4.1.5.1/lib/defines.h	5;"	d
+_FAILLOG_H	shadow-4.1.5.1/lib/faillog.h	43;"	d
+_FAILURE_H_	shadow-4.1.5.1/libmisc/failure.h	35;"	d
+_GETDATE_H_	shadow-4.1.5.1/libmisc/getdate.h	33;"	d
+_GETDEF_H	shadow-4.1.5.1/lib/getdef.h	33;"	d
+_GNU_SOURCE	shadow-4.1.5.1/lib/semanage.c	38;"	d	file:
+_GNU_SOURCE	shadow-4.1.5.1/lib/tcbfuncs.c	21;"	d	file:
+_GROUPIO_H	shadow-4.1.5.1/lib/groupio.h	36;"	d
+_H_GSHADOW	shadow-4.1.5.1/lib/gshadow_.h	37;"	d
+_MERIDIAN	shadow-4.1.5.1/libmisc/getdate.c	/^typedef enum _MERIDIAN {$/;"	g	file:
+_NSCD_H_	shadow-4.1.5.1/lib/nscd.h	2;"	d
+_PROTOTYPES_H	shadow-4.1.5.1/lib/prototypes.h	43;"	d
+_PWIO_H	shadow-4.1.5.1/lib/pwio.h	36;"	d
+_SGROUPIO_H	shadow-4.1.5.1/lib/sgroupio.h	36;"	d
+_SHADOWIO_H	shadow-4.1.5.1/lib/shadowio.h	35;"	d
+_STDLIB_H	shadow-4.1.5.1/libmisc/getdate.c	427;"	d	file:
+_STDLIB_H	shadow-4.1.5.1/libmisc/getdate.c	455;"	d	file:
+_TABLE	shadow-4.1.5.1/libmisc/getdate.c	/^typedef struct _TABLE {$/;"	s	file:
+_TCBFUNCS_H	shadow-4.1.5.1/lib/tcbfuncs.h	2;"	d
+_XOPEN_SOURCE	shadow-4.1.5.1/libmisc/strtoday.c	34;"	d	file:
+__bool_true_false_are_defined	shadow-4.1.5.1/lib/defines.h	20;"	d
+__gr_del_entry	shadow-4.1.5.1/lib/groupio.c	/^void __gr_del_entry (const struct commonio_entry *ent)$/;"	f
+__gr_dup	shadow-4.1.5.1/lib/groupmem.c	/^\/*@null@*\/ \/*@only@*\/struct group *__gr_dup (const struct group *grent)$/;"	f
+__gr_get_db	shadow-4.1.5.1/lib/groupio.c	/^\/*@observer@*\/const struct commonio_db *__gr_get_db (void)$/;"	f
+__gr_get_head	shadow-4.1.5.1/lib/groupio.c	/^\/*@dependent@*\/ \/*@null@*\/struct commonio_entry *__gr_get_head (void)$/;"	f
+__gr_set_changed	shadow-4.1.5.1/lib/groupio.c	/^void __gr_set_changed (void)$/;"	f
+__pw_del_entry	shadow-4.1.5.1/lib/pwio.c	/^void __pw_del_entry (const struct commonio_entry *ent)$/;"	f
+__pw_dup	shadow-4.1.5.1/lib/pwmem.c	/^\/*@null@*\/ \/*@only@*\/struct passwd *__pw_dup (const struct passwd *pwent)$/;"	f
+__pw_get_db	shadow-4.1.5.1/lib/pwio.c	/^struct commonio_db *__pw_get_db (void)$/;"	f
+__pw_get_head	shadow-4.1.5.1/lib/pwio.c	/^\/*@null@*\/struct commonio_entry *__pw_get_head (void)$/;"	f
+__setspNIS	shadow-4.1.5.1/lib/shadow.c	/^void __setspNIS (bool flag)$/;"	f
+__sgr_del_entry	shadow-4.1.5.1/lib/sgroupio.c	/^void __sgr_del_entry (const struct commonio_entry *ent)$/;"	f
+__sgr_dup	shadow-4.1.5.1/lib/sgroupio.c	/^\/*@null@*\/ \/*@only@*\/struct sgrp *__sgr_dup (const struct sgrp *sgent)$/;"	f
+__sgr_get_head	shadow-4.1.5.1/lib/sgroupio.c	/^\/*@dependent@*\/ \/*@null@*\/struct commonio_entry *__sgr_get_head (void)$/;"	f
+__sgr_set_changed	shadow-4.1.5.1/lib/sgroupio.c	/^void __sgr_set_changed (void)$/;"	f
+__spw_del_entry	shadow-4.1.5.1/lib/shadowio.c	/^void __spw_del_entry (const struct commonio_entry *ent)$/;"	f
+__spw_dup	shadow-4.1.5.1/lib/shadowmem.c	/^\/*@null@*\/ \/*@only@*\/struct spwd *__spw_dup (const struct spwd *spent)$/;"	f
+__spw_get_head	shadow-4.1.5.1/lib/shadowio.c	/^struct commonio_entry *__spw_get_head (void)$/;"	f
+__u32	shadow-4.1.5.1/lib/defines.h	347;"	d
+__u8	shadow-4.1.5.1/lib/defines.h	344;"	d
+ac_fn_c_check_decl	shadow-4.1.5.1/configure	/^ac_fn_c_check_decl ()$/;"	f
+ac_fn_c_check_func	shadow-4.1.5.1/configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	shadow-4.1.5.1/configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	shadow-4.1.5.1/configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_check_member	shadow-4.1.5.1/configure	/^ac_fn_c_check_member ()$/;"	f
+ac_fn_c_check_type	shadow-4.1.5.1/configure	/^ac_fn_c_check_type ()$/;"	f
+ac_fn_c_try_compile	shadow-4.1.5.1/configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	shadow-4.1.5.1/configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	shadow-4.1.5.1/configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	shadow-4.1.5.1/configure	/^ac_fn_c_try_run ()$/;"	f
+action	shadow-4.1.5.1/lib/prototypes.h	/^	char *action;$/;"	m	struct:cleanup_info_mod
+add_cleanup	shadow-4.1.5.1/libmisc/cleanup.c	/^void add_cleanup (\/*@notnull@*\/cleanup_function pcf, \/*@null@*\/void *arg)$/;"	f
+add_group	shadow-4.1.5.1/src/newusers.c	/^static int add_group (const char *name, const char *gid, gid_t *ngid, uid_t uid)$/;"	f	file:
+add_groups	shadow-4.1.5.1/libmisc/addgrps.c	/^int add_groups (const char *list)$/;"	f
+add_info	shadow-4.1.5.1/debian/source_shadow.py	/^def add_info(report):$/;"	f
+add_list	shadow-4.1.5.1/libmisc/list.c	/^\/*@only@*\/ \/*@out@*\/char **add_list (\/*@returned@*\/ \/*@only@*\/char **list, const char *member)$/;"	f
+add_one_entry	shadow-4.1.5.1/lib/commonio.c	/^static void add_one_entry (struct commonio_db *db,$/;"	f	file:
+add_one_entry_nis	shadow-4.1.5.1/lib/commonio.c	/^static void add_one_entry_nis (struct commonio_db *db,$/;"	f	file:
+add_passwd	shadow-4.1.5.1/src/newusers.c	/^static int add_passwd (struct passwd *pwd, const char *password)$/;"	f	file:
+add_user	shadow-4.1.5.1/src/groupmems.c	/^static void add_user (const char *user,$/;"	f	file:
+add_user	shadow-4.1.5.1/src/newusers.c	/^static int add_user (const char *name, uid_t uid, gid_t gid)$/;"	f	file:
+addenv	shadow-4.1.5.1/libmisc/env.c	/^void addenv (const char *string, \/*@null@*\/const char *value)$/;"	f
+addenv_path	shadow-4.1.5.1/libmisc/setupenv.c	/^addenv_path (const char *varname, const char *dirname, const char *filename)$/;"	f	file:
+adduser	shadow-4.1.5.1/src/groupmems.c	/^static char *adduser = NULL;$/;"	v	file:
+admins	shadow-4.1.5.1/lib/gshadow.c	/^static \/*@null@*\/\/*@only@*\/char **admins = NULL;$/;"	v	file:
+admins	shadow-4.1.5.1/src/gpasswd.c	/^static char *admins = NULL;$/;"	v	file:
+aflg	shadow-4.1.5.1/src/faillog.c	/^static bool aflg = false;	\/* set if all users are to be printed always *\/$/;"	v	file:
+aflg	shadow-4.1.5.1/src/gpasswd.c	/^static bool aflg = false;$/;"	v	file:
+aflg	shadow-4.1.5.1/src/passwd.c	/^    aflg = false,			\/* -a - show status for all users *\/$/;"	v	file:
+aflg	shadow-4.1.5.1/src/usermod.c	/^    aflg = false,		\/* append to existing secondary group set *\/$/;"	v	file:
+age_max	shadow-4.1.5.1/src/passwd.c	/^static long age_max = 0;	\/* Maximum days until change     *\/$/;"	v	file:
+age_min	shadow-4.1.5.1/src/passwd.c	/^static long age_min = 0;	\/* Minimum days before change   *\/$/;"	v	file:
+agecheck	shadow-4.1.5.1/libmisc/age.c	/^void agecheck (\/*@null@*\/const struct spwd *sp)$/;"	f
+alarm_handler	shadow-4.1.5.1/src/login.c	/^static RETSIGTYPE alarm_handler (unused int sig)$/;"	f	file:
+alloca	shadow-4.1.5.1/libmisc/getdate.c	420;"	d	file:
+amroot	shadow-4.1.5.1/src/chage.c	/^static bool amroot = false;$/;"	v	file:
+amroot	shadow-4.1.5.1/src/chfn.c	/^static bool amroot;$/;"	v	file:
+amroot	shadow-4.1.5.1/src/chsh.c	/^static bool amroot;		\/* Real UID is root *\/$/;"	v	file:
+amroot	shadow-4.1.5.1/src/gpasswd.c	89;"	d	file:
+amroot	shadow-4.1.5.1/src/login.c	/^static bool amroot;$/;"	v	file:
+amroot	shadow-4.1.5.1/src/passwd.c	/^static bool amroot;		\/* The caller's real UID was 0 *\/$/;"	v	file:
+ang	shadow-4.1.5.1/man/generate_translations.mak	/^	sed -i 's:\\(^<refentry .*\\)>:\\1 lang="$(LANG)">:' $@$/;"	m
+anyflag	shadow-4.1.5.1/src/passwd.c	/^static bool anyflag = false;$/;"	v	file:
+applies	shadow-4.1.5.1/src/suauth.c	/^static int applies (const char *single, char *list)$/;"	f	file:
+as_fn_append	shadow-4.1.5.1/configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	shadow-4.1.5.1/configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	shadow-4.1.5.1/configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	shadow-4.1.5.1/configure	/^as_fn_executable_p ()$/;"	f
+as_fn_exit	shadow-4.1.5.1/configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	shadow-4.1.5.1/configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	shadow-4.1.5.1/configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	shadow-4.1.5.1/configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	shadow-4.1.5.1/configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	shadow-4.1.5.1/configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	shadow-4.1.5.1/configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	shadow-4.1.5.1/configure	/^as_fn_unset ()$/;"	f
+audit_buf	shadow-4.1.5.1/src/newgrp.c	/^static char audit_buf[80];$/;"	v	file:
+audit_fd	shadow-4.1.5.1/libmisc/audit_help.c	/^int audit_fd;$/;"	v
+audit_help_open	shadow-4.1.5.1/libmisc/audit_help.c	/^void audit_help_open (void)$/;"	f
+audit_logger	shadow-4.1.5.1/libmisc/audit_help.c	/^void audit_logger (int type, unused const char *pgname, const char *op,$/;"	f
+audit_logger_message	shadow-4.1.5.1/libmisc/audit_help.c	/^void audit_logger_message (const char *message, shadow_audit_result result)$/;"	f
+audit_msg	shadow-4.1.5.1/lib/prototypes.h	/^	char *audit_msg;$/;"	m	struct:cleanup_info_mod
+bad_time_notify	shadow-4.1.5.1/src/login.c	/^static void bad_time_notify (void)$/;"	f	file:
+bcopy	shadow-4.1.5.1/libmisc/getdate.c	174;"	d	file:
+bflg	shadow-4.1.5.1/src/lastlog.c	/^static bool bflg = false;	\/* print excludes most recent days *\/$/;"	v	file:
+bflg	shadow-4.1.5.1/src/useradd.c	/^    bflg = false,		\/* new default root of home directory *\/$/;"	v	file:
+bind_nis	shadow-4.1.5.1/lib/gshadow.c	/^static int bind_nis (void)$/;"	f	file:
+bind_nis	shadow-4.1.5.1/lib/shadow.c	/^static int bind_nis (void)$/;"	f	file:
+bindtextdomain	shadow-4.1.5.1/lib/defines.h	52;"	d
+bindtextdomain	shadow-4.1.5.1/lib/defines.h	53;"	d
+bool	shadow-4.1.5.1/lib/defines.h	17;"	d
+build_list	shadow-4.1.5.1/lib/gshadow.c	/^static \/*@null@*\/char **build_list (char *s, char **list[], size_t * nlist)$/;"	f	file:
+bywho	shadow-4.1.5.1/src/gpasswd.c	/^static uid_t bywho;$/;"	v	file:
+caller_is_root	shadow-4.1.5.1/src/su.c	/^static bool caller_is_root = false;$/;"	v	file:
+caller_name	shadow-4.1.5.1/src/su.c	/^static char caller_name[BUFSIZ];$/;"	v	file:
+caller_on_console	shadow-4.1.5.1/src/su.c	/^static bool caller_on_console = false;$/;"	v	file:
+caller_pass	shadow-4.1.5.1/src/su.c	/^static \/*@only@*\/char *caller_pass;$/;"	v	file:
+caller_tty	shadow-4.1.5.1/src/su.c	/^static \/*@observer@*\/const char *caller_tty = NULL;	\/* Name of tty SU is run from *\/$/;"	v	file:
+caller_uid	shadow-4.1.5.1/src/su.c	/^static uid_t caller_uid;$/;"	v	file:
+catch_signals	shadow-4.1.5.1/src/expiry.c	/^static RETSIGTYPE catch_signals (unused int sig)$/;"	f	file:
+catch_signals	shadow-4.1.5.1/src/gpasswd.c	/^static RETSIGTYPE catch_signals (int killed)$/;"	f	file:
+catch_signals	shadow-4.1.5.1/src/su.c	/^static void catch_signals (int sig)$/;"	f	file:
+catch_signals	shadow-4.1.5.1/src/sulogin.c	/^static RETSIGTYPE catch_signals (unused int sig)$/;"	f	file:
+caught	shadow-4.1.5.1/src/su.c	/^static int caught = 0;$/;"	v	file:
+cflg	shadow-4.1.5.1/src/chgpasswd.c	68;"	d	file:
+cflg	shadow-4.1.5.1/src/chpasswd.c	65;"	d	file:
+cflg	shadow-4.1.5.1/src/expiry.c	/^static bool cflg = false;$/;"	v	file:
+cflg	shadow-4.1.5.1/src/newusers.c	78;"	d	file:
+cflg	shadow-4.1.5.1/src/useradd.c	/^    cflg = false,		\/* comment (GECOS) field for new account *\/$/;"	v	file:
+cflg	shadow-4.1.5.1/src/usermod.c	/^    cflg = false,		\/* new comment (GECOS) field *\/$/;"	v	file:
+change_environment	shadow-4.1.5.1/src/su.c	/^static bool change_environment = true;$/;"	v	file:
+change_field	shadow-4.1.5.1/lib/fields.c	/^void change_field (char *buf, size_t maxsize, const char *prompt)$/;"	f
+change_passwd	shadow-4.1.5.1/src/gpasswd.c	/^static void change_passwd (struct group *gr, struct sgrp *sg)$/;"	f	file:
+change_root	shadow-4.1.5.1/libmisc/root_flag.c	/^static void change_root (const char* newroot)$/;"	f	file:
+change_uid	shadow-4.1.5.1/libmisc/setugid.c	/^int change_uid (const struct passwd *info)$/;"	f
+changed	shadow-4.1.5.1/lib/commonio.h	/^	bool changed:1;$/;"	m	struct:commonio_db
+changed	shadow-4.1.5.1/lib/commonio.h	/^	bool changed:1;$/;"	m	struct:commonio_entry
+check_fields	shadow-4.1.5.1/src/chfn.c	/^static void check_fields (void)$/;"	f	file:
+check_flags	shadow-4.1.5.1/src/chage.c	/^static void check_flags (int argc, int opt_index)$/;"	f	file:
+check_flags	shadow-4.1.5.1/src/chgpasswd.c	/^static void check_flags (void)$/;"	f	file:
+check_flags	shadow-4.1.5.1/src/chpasswd.c	/^static void check_flags (void)$/;"	f	file:
+check_flags	shadow-4.1.5.1/src/gpasswd.c	/^static void check_flags (int argc, int opt_index)$/;"	f	file:
+check_flags	shadow-4.1.5.1/src/groupadd.c	/^static void check_flags (void)$/;"	f	file:
+check_flags	shadow-4.1.5.1/src/newusers.c	/^static void check_flags (void)$/;"	f	file:
+check_group	shadow-4.1.5.1/contrib/adduser2.sh	/^check_group() {$/;"	f
+check_grp_file	shadow-4.1.5.1/src/grpck.c	/^static void check_grp_file (int *errors, bool *changed)$/;"	f	file:
+check_link	shadow-4.1.5.1/libmisc/copydir.c	/^static \/*@exposed@*\/ \/*@null@*\/struct link_name *check_link (const char *name, const struct stat *sb)$/;"	f	file:
+check_link_count	shadow-4.1.5.1/lib/commonio.c	/^static int check_link_count (const char *file)$/;"	f	file:
+check_login	shadow-4.1.5.1/src/logoutd.c	/^static int check_login (const struct utmpx *ut)$/;"	f	file:
+check_logins	shadow-4.1.5.1/libmisc/limits.c	/^static int check_logins (const char *name, const char *maxlogins)$/;"	f	file:
+check_members	shadow-4.1.5.1/src/grpck.c	/^static int check_members (const char *groupname,$/;"	f	file:
+check_new_gid	shadow-4.1.5.1/src/groupmod.c	/^static void check_new_gid (void)$/;"	f	file:
+check_new_name	shadow-4.1.5.1/src/groupadd.c	/^static void check_new_name (void)$/;"	f	file:
+check_new_name	shadow-4.1.5.1/src/groupmod.c	/^static void check_new_name (void)$/;"	f	file:
+check_nologin	shadow-4.1.5.1/src/login.c	/^static void check_nologin (bool login_to_root)$/;"	f	file:
+check_other_groups	shadow-4.1.5.1/contrib/adduser2.sh	/^check_other_groups() {$/;"	f
+check_password	shadow-4.1.5.1/src/passwd.c	/^static void check_password (const struct passwd *pw, const struct spwd *sp)$/;"	f	file:
+check_perms	shadow-4.1.5.1/src/chage.c	/^static void check_perms (void)$/;"	f	file:
+check_perms	shadow-4.1.5.1/src/chfn.c	/^static void check_perms (const struct passwd *pw)$/;"	f	file:
+check_perms	shadow-4.1.5.1/src/chgpasswd.c	/^static void check_perms (void)$/;"	f	file:
+check_perms	shadow-4.1.5.1/src/chpasswd.c	/^static void check_perms (void)$/;"	f	file:
+check_perms	shadow-4.1.5.1/src/chsh.c	/^static void check_perms (const struct passwd *pw)$/;"	f	file:
+check_perms	shadow-4.1.5.1/src/gpasswd.c	/^static void check_perms (const struct group *gr, const struct sgrp *sg)$/;"	f	file:
+check_perms	shadow-4.1.5.1/src/groupadd.c	/^static void check_perms (void)$/;"	f	file:
+check_perms	shadow-4.1.5.1/src/groupmems.c	/^static void check_perms (void)$/;"	f	file:
+check_perms	shadow-4.1.5.1/src/newgrp.c	/^static void check_perms (const struct group *grp,$/;"	f	file:
+check_perms	shadow-4.1.5.1/src/newusers.c	/^static void check_perms (void)$/;"	f	file:
+check_perms	shadow-4.1.5.1/src/su.c	/^static \/*@only@*\/struct passwd * check_perms (void)$/;"	f	file:
+check_perms_nopam	shadow-4.1.5.1/src/su.c	/^static void check_perms_nopam (const struct passwd *pw)$/;"	f	file:
+check_perms_pam	shadow-4.1.5.1/src/su.c	/^static void check_perms_pam (const struct passwd *pw)$/;"	f	file:
+check_pw_file	shadow-4.1.5.1/src/pwck.c	/^static void check_pw_file (int *errors, bool *changed)$/;"	f	file:
+check_root	shadow-4.1.5.1/contrib/adduser2.sh	/^check_root() {$/;"	f
+check_selinux_access	shadow-4.1.5.1/src/passwd.c	/^static int check_selinux_access (const char *changed_user,$/;"	f	file:
+check_sgr_file	shadow-4.1.5.1/src/grpck.c	/^static void check_sgr_file (int *errors, bool *changed)$/;"	f	file:
+check_spw_file	shadow-4.1.5.1/src/pwck.c	/^static void check_spw_file (int *errors, bool *changed)$/;"	f	file:
+check_status	shadow-4.1.5.1/libmisc/user_busy.c	/^static int check_status (const char *sname, uid_t uid)$/;"	f	file:
+check_su_auth	shadow-4.1.5.1/src/suauth.c	/^int check_su_auth (const char *actual_id,$/;"	f
+check_uid	shadow-4.1.5.1/contrib/adduser2.sh	/^check_uid() {$/;"	f
+check_user	shadow-4.1.5.1/contrib/adduser2.sh	/^check_user() {$/;"	f
+chown_tree	shadow-4.1.5.1/libmisc/chowndir.c	/^int chown_tree (const char *root,$/;"	f
+chown_tty	shadow-4.1.5.1/libmisc/chowntty.c	/^void chown_tty (const struct passwd *info)$/;"	f
+cleanup_function	shadow-4.1.5.1/lib/prototypes.h	/^typedef \/*@null@*\/void (*cleanup_function) (\/*@null@*\/void *arg);$/;"	t
+cleanup_function_args	shadow-4.1.5.1/libmisc/cleanup.c	/^static parg_t cleanup_function_args[CLEANUP_FUNCTIONS];$/;"	v	file:
+cleanup_functions	shadow-4.1.5.1/libmisc/cleanup.c	/^static cleanup_function cleanup_functions[CLEANUP_FUNCTIONS];$/;"	v	file:
+cleanup_info_mod	shadow-4.1.5.1/lib/prototypes.h	/^struct cleanup_info_mod {$/;"	s
+cleanup_pid	shadow-4.1.5.1/libmisc/cleanup.c	/^static pid_t cleanup_pid = 0;$/;"	v	file:
+cleanup_report_add_group	shadow-4.1.5.1/libmisc/cleanup_group.c	/^void cleanup_report_add_group (void *group_name)$/;"	f
+cleanup_report_add_group_group	shadow-4.1.5.1/libmisc/cleanup_group.c	/^void cleanup_report_add_group_group (void *group_name)$/;"	f
+cleanup_report_add_group_gshadow	shadow-4.1.5.1/libmisc/cleanup_group.c	/^void cleanup_report_add_group_gshadow (void *group_name)$/;"	f
+cleanup_report_add_user	shadow-4.1.5.1/libmisc/cleanup_user.c	/^void cleanup_report_add_user (void *user_name)$/;"	f
+cleanup_report_add_user_passwd	shadow-4.1.5.1/libmisc/cleanup_user.c	/^void cleanup_report_add_user_passwd (void *user_name)$/;"	f
+cleanup_report_add_user_shadow	shadow-4.1.5.1/libmisc/cleanup_user.c	/^void cleanup_report_add_user_shadow (void *user_name)$/;"	f
+cleanup_report_del_group	shadow-4.1.5.1/libmisc/cleanup_group.c	/^void cleanup_report_del_group (void *group_name)$/;"	f
+cleanup_report_del_group_group	shadow-4.1.5.1/libmisc/cleanup_group.c	/^void cleanup_report_del_group_group (void *group_name)$/;"	f
+cleanup_report_del_group_gshadow	shadow-4.1.5.1/libmisc/cleanup_group.c	/^void cleanup_report_del_group_gshadow (void *group_name)$/;"	f
+cleanup_report_mod_group	shadow-4.1.5.1/libmisc/cleanup_group.c	/^void cleanup_report_mod_group (void *cleanup_info)$/;"	f
+cleanup_report_mod_gshadow	shadow-4.1.5.1/libmisc/cleanup_group.c	/^void cleanup_report_mod_gshadow (void *cleanup_info)$/;"	f
+cleanup_report_mod_passwd	shadow-4.1.5.1/libmisc/cleanup_user.c	/^void cleanup_report_mod_passwd (void *cleanup_info)$/;"	f
+cleanup_unlock_group	shadow-4.1.5.1/libmisc/cleanup_group.c	/^void cleanup_unlock_group (unused void *arg)$/;"	f
+cleanup_unlock_gshadow	shadow-4.1.5.1/libmisc/cleanup_group.c	/^void cleanup_unlock_gshadow (unused void *arg)$/;"	f
+cleanup_unlock_passwd	shadow-4.1.5.1/libmisc/cleanup_user.c	/^void cleanup_unlock_passwd (unused void *arg)$/;"	f
+cleanup_unlock_shadow	shadow-4.1.5.1/libmisc/cleanup_user.c	/^void cleanup_unlock_shadow (unused void *arg)$/;"	f
+clear_pass	shadow-4.1.5.1/lib/pwauth.c	/^\/*@null@*\/char *clear_pass = NULL;$/;"	v
+close_files	shadow-4.1.5.1/src/chage.c	/^static void close_files (void)$/;"	f	file:
+close_files	shadow-4.1.5.1/src/chgpasswd.c	/^static void close_files (void)$/;"	f	file:
+close_files	shadow-4.1.5.1/src/chpasswd.c	/^static void close_files (void)$/;"	f	file:
+close_files	shadow-4.1.5.1/src/gpasswd.c	/^static void close_files (void)$/;"	f	file:
+close_files	shadow-4.1.5.1/src/groupadd.c	/^static void close_files (void)$/;"	f	file:
+close_files	shadow-4.1.5.1/src/groupdel.c	/^static void close_files (void)$/;"	f	file:
+close_files	shadow-4.1.5.1/src/groupmems.c	/^static void close_files (void)$/;"	f	file:
+close_files	shadow-4.1.5.1/src/groupmod.c	/^static void close_files (void)$/;"	f	file:
+close_files	shadow-4.1.5.1/src/grpck.c	/^static void close_files (bool changed)$/;"	f	file:
+close_files	shadow-4.1.5.1/src/newusers.c	/^static void close_files (void)$/;"	f	file:
+close_files	shadow-4.1.5.1/src/pwck.c	/^static void close_files (bool changed)$/;"	f	file:
+close_files	shadow-4.1.5.1/src/useradd.c	/^static void close_files (void)$/;"	f	file:
+close_files	shadow-4.1.5.1/src/userdel.c	/^static void close_files (void)$/;"	f	file:
+close_files	shadow-4.1.5.1/src/usermod.c	/^static void close_files (void)$/;"	f	file:
+close_hook	shadow-4.1.5.1/lib/commonio.h	/^	\/*@null@*\/int (*close_hook) (void);$/;"	m	struct:commonio_ops
+closelog	shadow-4.1.5.1/lib/defines.h	202;"	d
+comma_to_list	shadow-4.1.5.1/libmisc/list.c	/^\/*@only@*\/char **comma_to_list (const char *comma)$/;"	f
+command	shadow-4.1.5.1/src/su.c	/^static \/*@null@*\/char *command = NULL;$/;"	v	file:
+commonio_close	shadow-4.1.5.1/lib/commonio.c	/^int commonio_close (struct commonio_db *db)$/;"	f
+commonio_db	shadow-4.1.5.1/lib/commonio.h	/^struct commonio_db {$/;"	s
+commonio_del_entry	shadow-4.1.5.1/lib/commonio.c	/^void commonio_del_entry (struct commonio_db *db, const struct commonio_entry *p)$/;"	f
+commonio_entry	shadow-4.1.5.1/lib/commonio.h	/^struct commonio_entry {$/;"	s
+commonio_locate	shadow-4.1.5.1/lib/commonio.c	/^\/*@observer@*\/ \/*@null@*\/const void *commonio_locate (struct commonio_db *db, const char *name)$/;"	f
+commonio_lock	shadow-4.1.5.1/lib/commonio.c	/^int commonio_lock (struct commonio_db *db)$/;"	f
+commonio_lock_nowait	shadow-4.1.5.1/lib/commonio.c	/^int commonio_lock_nowait (struct commonio_db *db, bool log)$/;"	f
+commonio_next	shadow-4.1.5.1/lib/commonio.c	/^\/*@observer@*\/ \/*@null@*\/const void *commonio_next (struct commonio_db *db)$/;"	f
+commonio_open	shadow-4.1.5.1/lib/commonio.c	/^int commonio_open (struct commonio_db *db, int mode)$/;"	f
+commonio_ops	shadow-4.1.5.1/lib/commonio.h	/^struct commonio_ops {$/;"	s
+commonio_present	shadow-4.1.5.1/lib/commonio.c	/^bool commonio_present (const struct commonio_db *db)$/;"	f
+commonio_remove	shadow-4.1.5.1/lib/commonio.c	/^int commonio_remove (struct commonio_db *db, const char *name)$/;"	f
+commonio_rewind	shadow-4.1.5.1/lib/commonio.c	/^int commonio_rewind (struct commonio_db *db)$/;"	f
+commonio_setname	shadow-4.1.5.1/lib/commonio.c	/^int commonio_setname (struct commonio_db *db, const char *name)$/;"	f
+commonio_sort	shadow-4.1.5.1/lib/commonio.c	/^commonio_sort (struct commonio_db *db, int (*cmp) (const void *, const void *))$/;"	f
+commonio_sort_wrt	shadow-4.1.5.1/lib/commonio.c	/^int commonio_sort_wrt (struct commonio_db *shadow,$/;"	f
+commonio_unlock	shadow-4.1.5.1/lib/commonio.c	/^int commonio_unlock (struct commonio_db *db)$/;"	f
+commonio_update	shadow-4.1.5.1/lib/commonio.c	/^int commonio_update (struct commonio_db *db, const void *eptr)$/;"	f
+compare_members_lists	shadow-4.1.5.1/src/grpck.c	/^static void compare_members_lists (const char *groupname,$/;"	f	file:
+console	shadow-4.1.5.1/libmisc/console.c	/^bool console (const char *tty)$/;"	f
+conv	shadow-4.1.5.1/lib/pam_defs.h	/^static struct pam_conv conv = {$/;"	v	typeref:struct:pam_conv
+copy_dir	shadow-4.1.5.1/libmisc/copydir.c	/^static int copy_dir (const char *src, const char *dst,$/;"	f	file:
+copy_entry	shadow-4.1.5.1/libmisc/copydir.c	/^static int copy_entry (const char *src, const char *dst,$/;"	f	file:
+copy_field	shadow-4.1.5.1/src/chfn.c	/^static char *copy_field (char *in, char *out, char *extra)$/;"	f	file:
+copy_file	shadow-4.1.5.1/libmisc/copydir.c	/^static int copy_file (const char *src, const char *dst,$/;"	f	file:
+copy_hardlink	shadow-4.1.5.1/libmisc/copydir.c	/^static int copy_hardlink (const char *dst,$/;"	f	file:
+copy_special	shadow-4.1.5.1/libmisc/copydir.c	/^static int copy_special (const char *src, const char *dst,$/;"	f	file:
+copy_symlink	shadow-4.1.5.1/libmisc/copydir.c	/^static int copy_symlink (const char *src, const char *dst,$/;"	f	file:
+copy_tree	shadow-4.1.5.1/libmisc/copydir.c	/^int copy_tree (const char *src_root, const char *dst_root,$/;"	f
+create_backup	shadow-4.1.5.1/lib/commonio.c	/^static int create_backup (const char *backup, FILE * fp)$/;"	f	file:
+create_backup_file	shadow-4.1.5.1/src/vipw.c	/^static int create_backup_file (FILE * fp, const char *backup, struct stat *sb)$/;"	f	file:
+create_home	shadow-4.1.5.1/src/useradd.c	/^static void create_home (void)$/;"	f	file:
+create_mail	shadow-4.1.5.1/src/useradd.c	/^static void create_mail (void)$/;"	f	file:
+create_mail_spool	shadow-4.1.5.1/src/useradd.c	/^static const char *create_mail_spool = "";$/;"	v	file:
+createedit	shadow-4.1.5.1/src/vipw.c	/^static bool createedit = false;$/;"	v	file:
+crypt	shadow-4.1.5.1/contrib/pwdauth.c	102;"	d	file:
+crypt_make_salt	shadow-4.1.5.1/libmisc/salt.c	/^\/*@observer@*\/const char *crypt_make_salt (\/*@null@*\/\/*@observer@*\/const char *meth, \/*@null@*\/void *arg)$/;"	f
+crypt_method	shadow-4.1.5.1/src/chgpasswd.c	/^static \/*@null@*\/\/*@observer@*\/const char *crypt_method = NULL;$/;"	v	file:
+crypt_method	shadow-4.1.5.1/src/chpasswd.c	/^static \/*@null@*\/\/*@observer@*\/const char *crypt_method = NULL;$/;"	v	file:
+crypt_method	shadow-4.1.5.1/src/newusers.c	/^static \/*@null@*\/\/*@observer@*\/char *crypt_method = NULL;$/;"	v	file:
+crypt_passwd	shadow-4.1.5.1/src/passwd.c	/^static char crypt_passwd[256];$/;"	v	file:
+ctx	shadow-4.1.5.1/libmisc/copydir.c	/^static struct error_context ctx = {$/;"	v	typeref:struct:error_context	file:
+cursor	shadow-4.1.5.1/lib/commonio.h	/^	\/*@dependent@*\/ \/*@null@*\/struct commonio_entry *cursor;$/;"	m	struct:commonio_db	typeref:struct:commonio_db::commonio_entry
+date	shadow-4.1.5.1/libmisc/getdate.y	/^date	: tUNUMBER '\/' tUNUMBER {$/;"	l
+date_formats	shadow-4.1.5.1/libmisc/strtoday.c	/^static char *date_formats[] = {$/;"	v	file:
+date_to_str	shadow-4.1.5.1/src/chage.c	/^static void date_to_str (char *buf, size_t maxsize, time_t date)$/;"	f	file:
+date_to_str	shadow-4.1.5.1/src/passwd.c	/^static \/*@observer@*\/const char *date_to_str (time_t t)$/;"	f	file:
+date_to_str	shadow-4.1.5.1/src/usermod.c	/^static void date_to_str (\/*@unique@*\/\/*@out@*\/char *buf, size_t maxsize,$/;"	f	file:
+day	shadow-4.1.5.1/libmisc/getdate.y	/^day	: tDAY {$/;"	l
+days	shadow-4.1.5.1/libmisc/strtoday.c	/^static short days[13] = { 0,$/;"	v	file:
+dec_lock_count	shadow-4.1.5.1/lib/commonio.c	/^static void dec_lock_count (void)$/;"	f	file:
+def_chown_if_needed	shadow-4.1.5.1/libmisc/copydir.c	806;"	d	file:
+def_create_mail_spool	shadow-4.1.5.1/src/useradd.c	/^static const char *def_create_mail_spool = "no";$/;"	v	file:
+def_expire	shadow-4.1.5.1/src/useradd.c	/^static const char *def_expire = "";$/;"	v	file:
+def_find	shadow-4.1.5.1/lib/getdef.c	/^static \/*@observer@*\/ \/*@null@*\/struct itemdef *def_find (const char *name)$/;"	f	file:
+def_fname	shadow-4.1.5.1/lib/getdef.c	/^static char def_fname[] = LOGINDEFS;	\/* login config defs file       *\/$/;"	v	file:
+def_gname	shadow-4.1.5.1/src/useradd.c	/^static const char *def_gname = "other";$/;"	v	file:
+def_group	shadow-4.1.5.1/src/useradd.c	/^static gid_t def_group = 100;$/;"	v	file:
+def_home	shadow-4.1.5.1/src/useradd.c	/^static const char *def_home = "\/home";$/;"	v	file:
+def_inactive	shadow-4.1.5.1/src/useradd.c	/^static long def_inactive = -1;$/;"	v	file:
+def_load	shadow-4.1.5.1/lib/getdef.c	/^static void def_load (void)$/;"	f	file:
+def_loaded	shadow-4.1.5.1/lib/getdef.c	/^static bool def_loaded = false;		\/* are defs already loaded?     *\/$/;"	v	file:
+def_shell	shadow-4.1.5.1/src/useradd.c	/^static const char *def_shell = "";$/;"	v	file:
+def_table	shadow-4.1.5.1/lib/getdef.c	/^static struct itemdef def_table[] = {$/;"	v	typeref:struct:itemdef	file:
+def_template	shadow-4.1.5.1/src/useradd.c	/^static const char *def_template = SKEL_DIR;$/;"	v	file:
+del_cleanup	shadow-4.1.5.1/libmisc/cleanup.c	/^void del_cleanup (\/*@notnull@*\/cleanup_function pcf)$/;"	f
+del_list	shadow-4.1.5.1/libmisc/list.c	/^\/*@only@*\/ \/*@out@*\/char **del_list (\/*@returned@*\/ \/*@only@*\/char **list, const char *member)$/;"	f
+del_seuser	shadow-4.1.5.1/lib/semanage.c	/^int del_seuser (const char *login_name)$/;"	f
+delete_member	shadow-4.1.5.1/src/grpck.c	/^static void delete_member (char **list, const char *member)$/;"	f	file:
+deluser	shadow-4.1.5.1/src/groupmems.c	/^static char *deluser = NULL;$/;"	v	file:
+dflg	shadow-4.1.5.1/src/chage.c	/^    dflg = false,		\/* set last password change date *\/$/;"	v	file:
+dflg	shadow-4.1.5.1/src/gpasswd.c	/^static bool dflg = false;$/;"	v	file:
+dflg	shadow-4.1.5.1/src/passwd.c	/^    dflg = false,			\/* -d - delete password *\/$/;"	v	file:
+dflg	shadow-4.1.5.1/src/useradd.c	/^    dflg = false,		\/* home directory for new account *\/$/;"	v	file:
+dflg	shadow-4.1.5.1/src/usermod.c	/^    dflg = false,		\/* new home directory *\/$/;"	v	file:
+die	shadow-4.1.5.1/src/su.c	/^static RETSIGTYPE die (int killed)$/;"	f	file:
+difftm	shadow-4.1.5.1/libmisc/getdate.c	/^static long difftm (struct tm *a, struct tm *b)$/;"	f	file:
+display_members	shadow-4.1.5.1/src/groupmems.c	/^static void display_members (const char *const *members)$/;"	f	file:
+do_cleanups	shadow-4.1.5.1/libmisc/cleanup.c	/^void do_cleanups (void)$/;"	f
+do_grp_update	shadow-4.1.5.1/src/useradd.c	/^static bool do_grp_update = false;	\/* group files need to be updated *\/$/;"	v	file:
+do_language	myfile.c	/^do_language ( )$/;"	f
+do_lock_file	shadow-4.1.5.1/lib/commonio.c	/^static int do_lock_file (const char *file, const char *lock, bool log)$/;"	f	file:
+do_ls	ls1.c	/^void do_ls(char dirname[]){$/;"	f
+do_ls	ls2.c	/^void do_ls(char  * dirname){$/;"	f
+do_ls	ls3.c	/^void do_ls(char  * dirname){$/;"	f
+do_magic	myfile.c	/^do_magic ( )$/;"	f
+do_pam_passwd	shadow-4.1.5.1/libmisc/pam_pass.c	/^void do_pam_passwd (const char *user, bool silent, bool change_expired)$/;"	f
+do_pam_passwd_non_interractive	shadow-4.1.5.1/libmisc/pam_pass_non_interractive.c	/^int do_pam_passwd_non_interractive (const char *pam_service,$/;"	f
+do_rlogin	shadow-4.1.5.1/libmisc/rlogin.c	/^do_rlogin (const char *remote_host, char *name, size_t namelen, char *term,$/;"	f
+do_stat	myfile.c	/^do_stat ( char * filename )$/;"	f
+do_update_age	shadow-4.1.5.1/src/passwd.c	/^static bool do_update_age = false;$/;"	v	file:
+do_update_pwd	shadow-4.1.5.1/src/passwd.c	/^static bool do_update_pwd = false;$/;"	v	file:
+do_user_limits	shadow-4.1.5.1/libmisc/limits.c	/^static int do_user_limits (const char *buf, const char *name)$/;"	f	file:
+dolastlog	shadow-4.1.5.1/libmisc/log.c	/^void dolastlog ($/;"	f
+doshell	shadow-4.1.5.1/src/su.c	/^static bool doshell = false;$/;"	v	file:
+dst_orig	shadow-4.1.5.1/libmisc/copydir.c	/^static \/*@null@*\/const char *dst_orig;$/;"	v	file:
+dup	shadow-4.1.5.1/lib/commonio.h	/^	\/*@null@*\/ \/*@only@*\/void *(*dup) (const void *);$/;"	m	struct:commonio_ops
+dup_list	shadow-4.1.5.1/libmisc/list.c	/^\/*@only@*\/ \/*@out@*\/char **dup_list (char *const *list)$/;"	f
+eflg	shadow-4.1.5.1/src/chgpasswd.c	/^static bool eflg   = false;$/;"	v	file:
+eflg	shadow-4.1.5.1/src/chpasswd.c	/^static bool eflg   = false;$/;"	v	file:
+eflg	shadow-4.1.5.1/src/passwd.c	/^    eflg = false,			\/* -e - force password change *\/$/;"	v	file:
+eflg	shadow-4.1.5.1/src/useradd.c	/^    eflg = false,		\/* days since 1970-01-01 when account is locked *\/$/;"	v	file:
+eflg	shadow-4.1.5.1/src/usermod.c	/^    eflg = false,		\/* days since 1970-01-01 when account becomes expired *\/$/;"	v	file:
+empty_list	shadow-4.1.5.1/src/groupadd.c	/^static \/*@null@*\/char *empty_list = NULL;$/;"	v	file:
+empty_list	shadow-4.1.5.1/src/useradd.c	/^static char *empty_list = NULL;$/;"	v	file:
+endportent	shadow-4.1.5.1/lib/port.c	/^static void endportent (void)$/;"	f	file:
+endsgent	shadow-4.1.5.1/lib/gshadow.c	/^void endsgent (void)$/;"	f
+endspent	shadow-4.1.5.1/lib/shadow.c	/^void endspent (void)$/;"	f
+endutent	shadow-4.1.5.1/lib/utent.c	/^void endutent (void)$/;"	f
+eptr	shadow-4.1.5.1/lib/commonio.h	/^	\/*@null@*\/void *eptr;		\/* struct passwd, struct spwd, ... *\/$/;"	m	struct:commonio_entry
+error_acl	shadow-4.1.5.1/libmisc/copydir.c	/^static void error_acl (struct error_context *ctx, const char *fmt, ...)$/;"	f	file:
+errors	shadow-4.1.5.1/src/faillog.c	/^static bool errors = false;$/;"	v	file:
+exclusive	shadow-4.1.5.1/src/groupmems.c	/^static int exclusive = 0;$/;"	v	file:
+execve_shell	shadow-4.1.5.1/src/su.c	/^static void execve_shell (const char *shellname,$/;"	f	file:
+expdate	shadow-4.1.5.1/src/chage.c	/^static long expdate;$/;"	v	file:
+expire	shadow-4.1.5.1/libmisc/age.c	/^int expire (const struct passwd *pw, \/*@null@*\/const struct spwd *sp)$/;"	f
+fail	shadow-4.1.5.1/src/faillog.c	/^static FILE *fail;		\/* failure file stream *\/$/;"	v	file:
+fail_cnt	shadow-4.1.5.1/lib/faillog.h	/^	short fail_cnt;		\/* failures since last success *\/$/;"	m	struct:faillog
+fail_exit	shadow-4.1.5.1/src/chage.c	/^static \/*@noreturn@*\/void fail_exit (int code)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/chfn.c	/^static void fail_exit (int code)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/chgpasswd.c	/^static void fail_exit (int code)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/chpasswd.c	/^static void fail_exit (int code)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/chsh.c	/^static \/*@noreturn@*\/void fail_exit (int code)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/groupmems.c	/^static void fail_exit (int code)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/grpck.c	/^static void fail_exit (int status)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/grpconv.c	/^static void fail_exit (int status)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/grpunconv.c	/^static void fail_exit (int status)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/newusers.c	/^static void fail_exit (int code)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/passwd.c	/^static \/*@noreturn@*\/void fail_exit (int status)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/pwck.c	/^static void fail_exit (int code)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/pwconv.c	/^static void fail_exit (int status)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/pwunconv.c	/^static void fail_exit (int status)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/useradd.c	/^static void fail_exit (int code)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/userdel.c	/^static void fail_exit (int code)$/;"	f	file:
+fail_exit	shadow-4.1.5.1/src/usermod.c	/^static \/*@noreturn@*\/void fail_exit (int code)$/;"	f	file:
+fail_line	shadow-4.1.5.1/lib/faillog.h	/^	char fail_line[12];	\/* last failure occured here *\/$/;"	m	struct:faillog
+fail_locktime	shadow-4.1.5.1/lib/faillog.h	/^	long fail_locktime;$/;"	m	struct:faillog
+fail_max	shadow-4.1.5.1/lib/faillog.h	/^	short fail_max;		\/* failures before turning account off *\/$/;"	m	struct:faillog
+fail_time	shadow-4.1.5.1/lib/faillog.h	/^	time_t fail_time;	\/* last failure occured then *\/$/;"	m	struct:faillog
+failcheck	shadow-4.1.5.1/libmisc/failure.c	/^int failcheck (uid_t uid, struct faillog *fl, bool failed)$/;"	f
+faillog	shadow-4.1.5.1/lib/faillog.h	/^struct faillog {$/;"	s
+faillog	shadow-4.1.5.1/src/login.c	/^static struct faillog faillog;$/;"	v	typeref:struct:faillog	file:
+faillog_reset	shadow-4.1.5.1/src/useradd.c	/^static void faillog_reset (uid_t uid)$/;"	f	file:
+failprint	shadow-4.1.5.1/libmisc/failure.c	/^void failprint (const struct faillog *fail)$/;"	f
+failtmp	shadow-4.1.5.1/libmisc/failure.c	/^void failtmp (const char *username,$/;"	f
+failure	shadow-4.1.5.1/libmisc/failure.c	/^void failure (uid_t uid, const char *tty, struct faillog *fl)$/;"	f
+failure	shadow-4.1.5.1/src/gpasswd.c	/^static void failure (void)$/;"	f	file:
+fakelogin	shadow-4.1.5.1/src/su.c	/^static bool fakelogin = false;$/;"	v	file:
+false	shadow-4.1.5.1/lib/defines.h	18;"	d
+fflg	shadow-4.1.5.1/src/chfn.c	/^static bool fflg = false;		\/* -f - set full name                *\/$/;"	v	file:
+fflg	shadow-4.1.5.1/src/groupadd.c	/^static bool fflg = false;	\/* if group already exists, do nothing and exit(0) *\/$/;"	v	file:
+fflg	shadow-4.1.5.1/src/login.c	/^static bool fflg = false;$/;"	v	file:
+fflg	shadow-4.1.5.1/src/useradd.c	/^    fflg = false,		\/* days until account with expired password is locked *\/$/;"	v	file:
+fflg	shadow-4.1.5.1/src/userdel.c	/^static bool fflg = false;$/;"	v	file:
+fflg	shadow-4.1.5.1/src/usermod.c	/^    fflg = false,		\/* days until account with expired password is locked *\/$/;"	v	file:
+fgets	shadow-4.1.5.1/lib/commonio.h	/^	\/*@null@*\/char *(*fgets) (\/*@returned@*\/ \/*@out@*\/char *s, int n, FILE *stream);$/;"	m	struct:commonio_ops
+fgetsgent	shadow-4.1.5.1/lib/gshadow.c	/^\/*@observer@*\/\/*@null@*\/struct sgrp *fgetsgent (\/*@null@*\/FILE * fp)$/;"	f
+fgetspent	shadow-4.1.5.1/lib/shadow.c	/^struct spwd *fgetspent (FILE * fp)$/;"	f
+fgetsx	shadow-4.1.5.1/lib/fputsx.c	/^\/*@null@*\/char *fgetsx (\/*@returned@*\/ \/*@out@*\/char *buf, int cnt, FILE * f)$/;"	f
+fileeditname	shadow-4.1.5.1/src/vipw.c	/^static const char *filename, *fileeditname;$/;"	v	file:
+filelocked	shadow-4.1.5.1/src/vipw.c	/^static bool filelocked = false;$/;"	v	file:
+filename	shadow-4.1.5.1/lib/commonio.h	/^	char filename[1024];$/;"	m	struct:commonio_db
+filename	shadow-4.1.5.1/src/vipw.c	/^static const char *filename, *fileeditname;$/;"	v	file:
+find_entry_by_name	shadow-4.1.5.1/lib/commonio.c	/^static \/*@dependent@*\/ \/*@null@*\/struct commonio_entry *find_entry_by_name ($/;"	f	file:
+find_matching_group	shadow-4.1.5.1/src/newgrp.c	/^static \/*@null@*\/struct group *find_matching_group (const char *name, gid_t gid)$/;"	f	file:
+find_new_gid	shadow-4.1.5.1/libmisc/find_new_gid.c	/^int find_new_gid (bool sys_group,$/;"	f
+find_new_uid	shadow-4.1.5.1/libmisc/find_new_uid.c	/^int find_new_uid (bool sys_user,$/;"	f
+fopen_set_perms	shadow-4.1.5.1/lib/commonio.c	/^static \/*@null@*\/ \/*@dependent@*\/FILE *fopen_set_perms ($/;"	f	file:
+forbid	shadow-4.1.5.1/libmisc/env.c	/^static const char *forbid[] = {$/;"	v	file:
+fp	shadow-4.1.5.1/lib/commonio.h	/^	\/*@dependent@*\/ \/*@null@*\/FILE *fp;$/;"	m	struct:commonio_db
+fputs	shadow-4.1.5.1/lib/commonio.h	/^	int (*fputs) (const char *, FILE *);$/;"	m	struct:commonio_ops
+fputsx	shadow-4.1.5.1/lib/fputsx.c	/^int fputsx (const char *s, FILE * stream)$/;"	f
+free	shadow-4.1.5.1/lib/commonio.h	/^	void (*free) (\/*@out@*\/ \/*@only@*\/void *);$/;"	m	struct:commonio_ops
+free_linked_list	shadow-4.1.5.1/lib/commonio.c	/^static void free_linked_list (struct commonio_db *db)$/;"	f	file:
+from_match	shadow-4.1.5.1/src/login_nopam.c	/^static bool from_match (const char *tok, const char *string)$/;"	f	file:
+fs	shadow-4.1.5.1/src/login_nopam.c	/^static char fs[] = ":";		\/* field separator *\/$/;"	v	file:
+fullnm	shadow-4.1.5.1/src/chfn.c	/^static char fullnm[BUFSIZ];$/;"	v	file:
+func_append	shadow-4.1.5.1/configure	/^func_append ()\\$/;"	f
+func_append	shadow-4.1.5.1/ltmain.sh	/^func_append ()$/;"	f
+func_append_quoted	shadow-4.1.5.1/configure	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	shadow-4.1.5.1/ltmain.sh	/^func_append_quoted ()$/;"	f
+func_arith	shadow-4.1.5.1/configure	/^func_arith ()\\$/;"	f
+func_arith	shadow-4.1.5.1/ltmain.sh	/^func_arith ()$/;"	f
+func_basename	shadow-4.1.5.1/configure	/^func_basename ()\\$/;"	f
+func_basename	shadow-4.1.5.1/ltmain.sh	/^func_basename ()$/;"	f
+func_check_version_match	shadow-4.1.5.1/ltmain.sh	/^func_check_version_match ()$/;"	f
+func_config	shadow-4.1.5.1/ltmain.sh	/^func_config ()$/;"	f
+func_convert_core_file_wine_to_w32	shadow-4.1.5.1/ltmain.sh	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	shadow-4.1.5.1/ltmain.sh	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	shadow-4.1.5.1/ltmain.sh	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_file_check	shadow-4.1.5.1/ltmain.sh	/^func_convert_file_check ()$/;"	f
+func_convert_file_cygwin_to_w32	shadow-4.1.5.1/ltmain.sh	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_msys_to_cygwin	shadow-4.1.5.1/ltmain.sh	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_w32	shadow-4.1.5.1/ltmain.sh	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_nix_to_cygwin	shadow-4.1.5.1/ltmain.sh	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_w32	shadow-4.1.5.1/ltmain.sh	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_noop	shadow-4.1.5.1/ltmain.sh	/^func_convert_file_noop ()$/;"	f
+func_convert_path_check	shadow-4.1.5.1/ltmain.sh	/^func_convert_path_check ()$/;"	f
+func_convert_path_cygwin_to_w32	shadow-4.1.5.1/ltmain.sh	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_front_back_pathsep	shadow-4.1.5.1/ltmain.sh	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_msys_to_cygwin	shadow-4.1.5.1/ltmain.sh	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_w32	shadow-4.1.5.1/ltmain.sh	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_nix_to_cygwin	shadow-4.1.5.1/ltmain.sh	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_w32	shadow-4.1.5.1/ltmain.sh	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_noop	shadow-4.1.5.1/ltmain.sh	/^func_convert_path_noop ()$/;"	f
+func_cygming_dll_for_implib	shadow-4.1.5.1/ltmain.sh	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib_fallback	shadow-4.1.5.1/ltmain.sh	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	shadow-4.1.5.1/ltmain.sh	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_gnu_implib_p	shadow-4.1.5.1/ltmain.sh	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_ms_implib_p	shadow-4.1.5.1/ltmain.sh	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygpath	shadow-4.1.5.1/ltmain.sh	/^func_cygpath ()$/;"	f
+func_dirname	shadow-4.1.5.1/configure	/^func_dirname ()\\$/;"	f
+func_dirname	shadow-4.1.5.1/ltmain.sh	/^func_dirname ()$/;"	f
+func_dirname_and_basename	shadow-4.1.5.1/configure	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	shadow-4.1.5.1/ltmain.sh	/^func_dirname_and_basename ()$/;"	f
+func_echo	shadow-4.1.5.1/ltmain.sh	/^func_echo ()$/;"	f
+func_echo_all	shadow-4.1.5.1/configure	/^func_echo_all ()$/;"	f
+func_echo_all	shadow-4.1.5.1/ltmain.sh	/^func_echo_all ()$/;"	f
+func_emit_cwrapperexe_src	shadow-4.1.5.1/ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	shadow-4.1.5.1/ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_enable_tag	shadow-4.1.5.1/ltmain.sh	/^func_enable_tag ()$/;"	f
+func_error	shadow-4.1.5.1/ltmain.sh	/^func_error ()$/;"	f
+func_exec_program	shadow-4.1.5.1/ltmain.sh	/^func_exec_program ()$/;"	f
+func_exec_program_core	shadow-4.1.5.1/ltmain.sh	/^func_exec_program_core ()$/;"	f
+func_execute_cmds	shadow-4.1.5.1/ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	shadow-4.1.5.1/ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	shadow-4.1.5.1/ltmain.sh	/^func_extract_archives ()$/;"	f
+func_fallback_echo	shadow-4.1.5.1/configure	/^  func_fallback_echo ()$/;"	f
+func_fallback_echo	shadow-4.1.5.1/configure	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	shadow-4.1.5.1/ltmain.sh	/^func_fallback_echo ()$/;"	f
+func_fatal_configuration	shadow-4.1.5.1/ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	shadow-4.1.5.1/ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_help	shadow-4.1.5.1/ltmain.sh	/^func_fatal_help ()$/;"	f
+func_features	shadow-4.1.5.1/ltmain.sh	/^func_features ()$/;"	f
+func_generate_dlsyms	shadow-4.1.5.1/ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_grep	shadow-4.1.5.1/ltmain.sh	/^func_grep ()$/;"	f
+func_help	shadow-4.1.5.1/ltmain.sh	/^func_help ()$/;"	f
+func_infer_tag	shadow-4.1.5.1/ltmain.sh	/^func_infer_tag ()$/;"	f
+func_init_to_host_path_cmd	shadow-4.1.5.1/ltmain.sh	/^func_init_to_host_path_cmd ()$/;"	f
+func_lalib_p	shadow-4.1.5.1/ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	shadow-4.1.5.1/ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_len	shadow-4.1.5.1/configure	/^func_len ()\\$/;"	f
+func_len	shadow-4.1.5.1/ltmain.sh	/^func_len ()$/;"	f
+func_lo2o	shadow-4.1.5.1/configure	/^func_lo2o ()\\$/;"	f
+func_lo2o	shadow-4.1.5.1/ltmain.sh	/^func_lo2o ()$/;"	f
+func_lt_dump_args	shadow-4.1.5.1/ltmain.sh	/^func_lt_dump_args ()$/;"	f
+func_ltwrapper_executable_p	shadow-4.1.5.1/ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	shadow-4.1.5.1/ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	shadow-4.1.5.1/ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	shadow-4.1.5.1/ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	shadow-4.1.5.1/ltmain.sh	/^func_missing_arg ()$/;"	f
+func_mkdir_p	shadow-4.1.5.1/ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mktempdir	shadow-4.1.5.1/ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mode_compile	shadow-4.1.5.1/ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_execute	shadow-4.1.5.1/ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_finish	shadow-4.1.5.1/ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_help	shadow-4.1.5.1/ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_install	shadow-4.1.5.1/ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_link	shadow-4.1.5.1/ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_uninstall	shadow-4.1.5.1/ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_normal_abspath	shadow-4.1.5.1/ltmain.sh	/^func_normal_abspath ()$/;"	f
+func_parse_lt_options	shadow-4.1.5.1/ltmain.sh	/^func_parse_lt_options ()$/;"	f
+func_quote_for_eval	shadow-4.1.5.1/ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	shadow-4.1.5.1/ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_relative_path	shadow-4.1.5.1/ltmain.sh	/^func_relative_path ()$/;"	f
+func_replace_sysroot	shadow-4.1.5.1/ltmain.sh	/^func_replace_sysroot ()$/;"	f
+func_resolve_sysroot	shadow-4.1.5.1/ltmain.sh	/^func_resolve_sysroot ()$/;"	f
+func_show_eval	shadow-4.1.5.1/ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval_locale	shadow-4.1.5.1/ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_source	shadow-4.1.5.1/ltmain.sh	/^func_source ()$/;"	f
+func_split_long_opt	shadow-4.1.5.1/configure	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	shadow-4.1.5.1/ltmain.sh	/^func_split_long_opt ()$/;"	f
+func_split_short_opt	shadow-4.1.5.1/configure	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	shadow-4.1.5.1/ltmain.sh	/^func_split_short_opt ()$/;"	f
+func_stripname	shadow-4.1.5.1/configure	/^func_stripname ()\\$/;"	f
+func_stripname	shadow-4.1.5.1/ltmain.sh	/^func_stripname ()$/;"	f
+func_to_host_file	shadow-4.1.5.1/ltmain.sh	/^func_to_host_file ()$/;"	f
+func_to_host_path	shadow-4.1.5.1/ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_tool_file	shadow-4.1.5.1/ltmain.sh	/^func_to_tool_file ()$/;"	f
+func_tr_sh	shadow-4.1.5.1/ltmain.sh	/^func_tr_sh ()$/;"	f
+func_usage	shadow-4.1.5.1/ltmain.sh	/^func_usage ()$/;"	f
+func_verbose	shadow-4.1.5.1/ltmain.sh	/^func_verbose ()$/;"	f
+func_version	shadow-4.1.5.1/ltmain.sh	/^func_version ()$/;"	f
+func_warning	shadow-4.1.5.1/ltmain.sh	/^func_warning ()$/;"	f
+func_win32_import_lib_p	shadow-4.1.5.1/ltmain.sh	/^func_win32_import_lib_p ()$/;"	f
+func_win32_libid	shadow-4.1.5.1/ltmain.sh	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	shadow-4.1.5.1/ltmain.sh	/^func_write_libtool_object ()$/;"	f
+func_xform	shadow-4.1.5.1/configure	/^func_xform ()\\$/;"	f
+func_xform	shadow-4.1.5.1/ltmain.sh	/^func_xform ()$/;"	f
+gensalt	shadow-4.1.5.1/libmisc/salt.c	/^static \/*@observer@*\/const char *gensalt (size_t salt_size)$/;"	f	file:
+get_current_utmp	shadow-4.1.5.1/libmisc/utmp.c	/^\/*@null@*\/ \/*@only@*\/struct utmp *get_current_utmp (void)$/;"	f
+get_date	shadow-4.1.5.1/libmisc/getdate.c	/^time_t get_date (const char *p, const time_t *now)$/;"	f
+get_defaults	shadow-4.1.5.1/src/chage.c	/^static void get_defaults (\/*@null@*\/const struct spwd *sp)$/;"	f	file:
+get_defaults	shadow-4.1.5.1/src/useradd.c	/^static void get_defaults (void)$/;"	f	file:
+get_failent_user	shadow-4.1.5.1/src/login.c	/^static \/*@observer@*\/const char *get_failent_user (\/*@returned@*\/const char *user)$/;"	f	file:
+get_gid	shadow-4.1.5.1/lib/get_gid.c	/^int get_gid (const char *gidstr, gid_t *gid)$/;"	f
+get_group	shadow-4.1.5.1/src/gpasswd.c	/^static void get_group (struct group *gr, struct sgrp *sg)$/;"	f	file:
+get_groups	shadow-4.1.5.1/src/useradd.c	/^static int get_groups (char *list)$/;"	f	file:
+get_groups	shadow-4.1.5.1/src/usermod.c	/^static int get_groups (char *list)$/;"	f	file:
+get_line	shadow-4.1.5.1/contrib/pwdauth.c	/^get_line(fp)$/;"	f	file:
+get_my_pwent	shadow-4.1.5.1/contrib/pwdauth.c	/^get_my_pwent()$/;"	f	file:
+get_my_pwent	shadow-4.1.5.1/libmisc/myname.c	/^\/*@null@*\/ \/*@only@*\/struct passwd *get_my_pwent (void)$/;"	f
+get_old_fields	shadow-4.1.5.1/src/chfn.c	/^static void get_old_fields (const char *gecos)$/;"	f	file:
+get_pam_user	shadow-4.1.5.1/src/login.c	/^static void get_pam_user (char **ptr_pam_user)$/;"	f	file:
+get_pid	shadow-4.1.5.1/lib/get_pid.c	/^int get_pid (const char *pidstr, pid_t *pid)$/;"	f
+get_remote_string	shadow-4.1.5.1/libmisc/rlogin.c	/^static void get_remote_string (char *buf, size_t size)$/;"	f	file:
+get_uid	shadow-4.1.5.1/lib/get_uid.c	/^int get_uid (const char *uidstr, uid_t *uid)$/;"	f
+get_user_id	shadow-4.1.5.1/src/newusers.c	/^static int get_user_id (const char *uid, uid_t *nuid) {$/;"	f	file:
+getdef_bool	shadow-4.1.5.1/lib/getdef.c	/^bool getdef_bool (const char *item)$/;"	f
+getdef_long	shadow-4.1.5.1/lib/getdef.c	/^long getdef_long (const char *item, long dflt)$/;"	f
+getdef_num	shadow-4.1.5.1/lib/getdef.c	/^int getdef_num (const char *item, int dflt)$/;"	f
+getdef_str	shadow-4.1.5.1/lib/getdef.c	/^\/*@observer@*\/ \/*@null@*\/const char *getdef_str (const char *item)$/;"	f
+getdef_ulong	shadow-4.1.5.1/lib/getdef.c	/^unsigned long getdef_ulong (const char *item, unsigned long dflt)$/;"	f
+getdef_unum	shadow-4.1.5.1/lib/getdef.c	/^unsigned int getdef_unum (const char *item, unsigned int dflt)$/;"	f
+getgr_nam_gid	shadow-4.1.5.1/libmisc/getgr_nam_gid.c	/^extern \/*@only@*\/\/*@null@*\/struct group *getgr_nam_gid (\/*@null@*\/const char *grname)$/;"	f
+getlong	shadow-4.1.5.1/lib/getlong.c	/^int getlong (const char *numstr, \/*@out@*\/long int *result)$/;"	f
+getname	shadow-4.1.5.1/lib/commonio.h	/^	const char *(*getname) (const void *);$/;"	m	struct:commonio_ops
+getportent	shadow-4.1.5.1/lib/port.c	/^static struct port *getportent (void)$/;"	f	file:
+getrange	shadow-4.1.5.1/libmisc/getrange.c	/^int getrange (char *range,$/;"	f
+getsgent	shadow-4.1.5.1/lib/gshadow.c	/^\/*@observer@*\/\/*@null@*\/struct sgrp *getsgent (void)$/;"	f
+getsgnam	shadow-4.1.5.1/lib/gshadow.c	/^\/*@observer@*\/\/*@null@*\/struct sgrp *getsgnam (const char *name)$/;"	f
+getspent	shadow-4.1.5.1/lib/shadow.c	/^struct spwd *getspent (void)$/;"	f
+getspnam	shadow-4.1.5.1/lib/shadow.c	/^struct spwd *getspnam (const char *name)$/;"	f
+gettext_noop	shadow-4.1.5.1/lib/defines.h	45;"	d
+getttyuser	shadow-4.1.5.1/lib/port.c	/^static struct port *getttyuser (const char *tty, const char *user)$/;"	f	file:
+getulong	shadow-4.1.5.1/lib/getulong.c	/^int getulong (const char *numstr, \/*@out@*\/unsigned long int *result)$/;"	f
+getutent	shadow-4.1.5.1/lib/utent.c	/^struct utmp *getutent (void)$/;"	f
+gflg	shadow-4.1.5.1/src/groupadd.c	/^static bool gflg = false;	\/* ID value for the new group *\/$/;"	v	file:
+gflg	shadow-4.1.5.1/src/groupmod.c	/^    gflg = false,		\/* new ID value for the group *\/$/;"	v	file:
+gflg	shadow-4.1.5.1/src/useradd.c	/^    gflg = false,		\/* primary group ID for new account *\/$/;"	v	file:
+gflg	shadow-4.1.5.1/src/usermod.c	/^    gflg = false,		\/* new primary group ID *\/$/;"	v	file:
+gid_to_name	gidtoname.c	/^char *gid_to_name(gid_t gid)$/;"	f
+gr_close	shadow-4.1.5.1/lib/groupio.c	/^int gr_close (void)$/;"	f
+gr_cmp	shadow-4.1.5.1/lib/groupio.c	/^static int gr_cmp (const void *p1, const void *p2)$/;"	f	file:
+gr_dbname	shadow-4.1.5.1/lib/groupio.c	/^\/*@observer@*\/const char *gr_dbname (void)$/;"	f
+gr_free	shadow-4.1.5.1/lib/groupmem.c	/^void gr_free (\/*@out@*\/ \/*@only@*\/struct group *grent)$/;"	f
+gr_locate	shadow-4.1.5.1/lib/groupio.c	/^\/*@observer@*\/ \/*@null@*\/const struct group *gr_locate (const char *name)$/;"	f
+gr_locate_gid	shadow-4.1.5.1/lib/groupio.c	/^\/*@observer@*\/ \/*@null@*\/const struct group *gr_locate_gid (gid_t gid)$/;"	f
+gr_lock	shadow-4.1.5.1/lib/groupio.c	/^int gr_lock (void)$/;"	f
+gr_locked	shadow-4.1.5.1/src/chgpasswd.c	/^static bool gr_locked = false;$/;"	v	file:
+gr_locked	shadow-4.1.5.1/src/groupmems.c	/^static bool gr_locked = false;$/;"	v	file:
+gr_locked	shadow-4.1.5.1/src/grpck.c	/^static bool gr_locked = false;$/;"	v	file:
+gr_locked	shadow-4.1.5.1/src/grpconv.c	/^static bool gr_locked  = false;$/;"	v	file:
+gr_locked	shadow-4.1.5.1/src/grpunconv.c	/^static bool gr_locked  = false;$/;"	v	file:
+gr_locked	shadow-4.1.5.1/src/newusers.c	/^static bool gr_locked = false;$/;"	v	file:
+gr_locked	shadow-4.1.5.1/src/useradd.c	/^static bool gr_locked = false;$/;"	v	file:
+gr_locked	shadow-4.1.5.1/src/userdel.c	/^static bool gr_locked   = false;$/;"	v	file:
+gr_locked	shadow-4.1.5.1/src/usermod.c	/^static bool gr_locked  = false;$/;"	v	file:
+gr_next	shadow-4.1.5.1/lib/groupio.c	/^\/*@observer@*\/ \/*@null@*\/const struct group *gr_next (void)$/;"	f
+gr_open	shadow-4.1.5.1/lib/groupio.c	/^int gr_open (int mode)$/;"	f
+gr_remove	shadow-4.1.5.1/lib/groupio.c	/^int gr_remove (const char *name)$/;"	f
+gr_rewind	shadow-4.1.5.1/lib/groupio.c	/^int gr_rewind (void)$/;"	f
+gr_setdbname	shadow-4.1.5.1/lib/groupio.c	/^int gr_setdbname (const char *filename)$/;"	f
+gr_sort	shadow-4.1.5.1/lib/groupio.c	/^int gr_sort ()$/;"	f
+gr_unlock	shadow-4.1.5.1/lib/groupio.c	/^int gr_unlock (void)$/;"	f
+gr_update	shadow-4.1.5.1/lib/groupio.c	/^int gr_update (const struct group *gr)$/;"	f
+group	shadow-4.1.5.1/src/gpasswd.c	/^static char *group = NULL;$/;"	v	file:
+group_busy	shadow-4.1.5.1/src/groupdel.c	/^static void group_busy (gid_t gid)$/;"	f	file:
+group_close_hook	shadow-4.1.5.1/lib/groupio.c	/^static int group_close_hook (void)$/;"	f	file:
+group_db	shadow-4.1.5.1/lib/groupio.c	/^static \/*@owned@*\/struct commonio_db group_db = {$/;"	v	typeref:struct:commonio_db	file:
+group_dup	shadow-4.1.5.1/lib/groupio.c	/^static \/*@null@*\/ \/*@only@*\/void *group_dup (const void *ent)$/;"	f	file:
+group_free	shadow-4.1.5.1/lib/groupio.c	/^static void group_free (\/*@out@*\/ \/*@only@*\/void *ent)$/;"	f	file:
+group_getname	shadow-4.1.5.1/lib/groupio.c	/^static const char *group_getname (const void *ent)$/;"	f	file:
+group_id	shadow-4.1.5.1/src/groupadd.c	/^static gid_t group_id;$/;"	v	file:
+group_id	shadow-4.1.5.1/src/groupdel.c	/^static gid_t group_id = -1;$/;"	v	file:
+group_id	shadow-4.1.5.1/src/groupmod.c	/^static gid_t group_id;$/;"	v	file:
+group_name	shadow-4.1.5.1/src/groupadd.c	/^static \/*@null@*\/char *group_name;$/;"	v	file:
+group_name	shadow-4.1.5.1/src/groupdel.c	/^static char *group_name;$/;"	v	file:
+group_name	shadow-4.1.5.1/src/groupmod.c	/^static char *group_name;$/;"	v	file:
+group_newid	shadow-4.1.5.1/src/groupmod.c	/^static gid_t group_newid;$/;"	v	file:
+group_newname	shadow-4.1.5.1/src/groupmod.c	/^static char *group_newname;$/;"	v	file:
+group_open_hook	shadow-4.1.5.1/lib/groupio.c	/^static int group_open_hook (void)$/;"	f	file:
+group_ops	shadow-4.1.5.1/lib/groupio.c	/^static struct commonio_ops group_ops = {$/;"	v	typeref:struct:commonio_ops	file:
+group_parse	shadow-4.1.5.1/lib/groupio.c	/^static void *group_parse (const char *line)$/;"	f	file:
+group_passwd	shadow-4.1.5.1/src/groupadd.c	/^static \/*@null@*\/char *group_passwd;$/;"	v	file:
+group_passwd	shadow-4.1.5.1/src/groupmod.c	/^static char *group_passwd;$/;"	v	file:
+group_put	shadow-4.1.5.1/lib/groupio.c	/^static int group_put (const void *ent, FILE * file)$/;"	f	file:
+grouplist	shadow-4.1.5.1/src/newgrp.c	/^static \/*@null@*\/ \/*@only@*\/GETGROUPS_T *grouplist;$/;"	v	file:
+grp_add	shadow-4.1.5.1/src/useradd.c	/^static void grp_add (void)$/;"	f	file:
+grp_file	shadow-4.1.5.1/src/grpck.c	/^static const char *grp_file = GROUP_FILE;$/;"	v	file:
+grp_update	shadow-4.1.5.1/src/groupadd.c	/^static void grp_update (void)$/;"	f	file:
+grp_update	shadow-4.1.5.1/src/groupdel.c	/^static void grp_update (void)$/;"	f	file:
+grp_update	shadow-4.1.5.1/src/groupmod.c	/^static void grp_update (void)$/;"	f	file:
+grp_update	shadow-4.1.5.1/src/useradd.c	/^static void grp_update (void)$/;"	f	file:
+grp_update	shadow-4.1.5.1/src/usermod.c	/^static void grp_update (void)$/;"	f	file:
+gshadow_db	shadow-4.1.5.1/lib/sgroupio.c	/^static struct commonio_db gshadow_db = {$/;"	v	typeref:struct:commonio_db	file:
+gshadow_dup	shadow-4.1.5.1/lib/sgroupio.c	/^static \/*@null@*\/ \/*@only@*\/void *gshadow_dup (const void *ent)$/;"	f	file:
+gshadow_free	shadow-4.1.5.1/lib/sgroupio.c	/^static void gshadow_free (\/*@out@*\/ \/*@only@*\/void *ent)$/;"	f	file:
+gshadow_getname	shadow-4.1.5.1/lib/sgroupio.c	/^static const char *gshadow_getname (const void *ent)$/;"	f	file:
+gshadow_ops	shadow-4.1.5.1/lib/sgroupio.c	/^static struct commonio_ops gshadow_ops = {$/;"	v	typeref:struct:commonio_ops	file:
+gshadow_parse	shadow-4.1.5.1/lib/sgroupio.c	/^static void *gshadow_parse (const char *line)$/;"	f	file:
+gshadow_put	shadow-4.1.5.1/lib/sgroupio.c	/^static int gshadow_put (const void *ent, FILE * file)$/;"	f	file:
+has_umax	shadow-4.1.5.1/src/faillog.c	/^static bool has_umax = false;$/;"	v	file:
+has_umax	shadow-4.1.5.1/src/lastlog.c	/^static bool has_umax = false;$/;"	v	file:
+has_umin	shadow-4.1.5.1/src/faillog.c	/^static bool has_umin = false;$/;"	v	file:
+has_umin	shadow-4.1.5.1/src/lastlog.c	/^static bool has_umin = false;$/;"	v	file:
+head	shadow-4.1.5.1/lib/commonio.h	/^	\/*@owned@*\/ \/*@null@*\/struct commonio_entry *head;$/;"	m	struct:commonio_db	typeref:struct:commonio_db::commonio_entry
+hflg	shadow-4.1.5.1/src/chfn.c	/^static bool hflg = false;		\/* -h - set home phone number        *\/$/;"	v	file:
+hflg	shadow-4.1.5.1/src/login.c	/^static bool hflg = false;$/;"	v	file:
+home_added	shadow-4.1.5.1/src/useradd.c	/^static bool home_added = false;$/;"	v	file:
+homeph	shadow-4.1.5.1/src/chfn.c	/^static char homeph[BUFSIZ];$/;"	v	file:
+hostname	shadow-4.1.5.1/src/login.c	/^static const char *hostname = "";$/;"	v	file:
+hushed	shadow-4.1.5.1/libmisc/hushed.c	/^bool hushed (const char *username)$/;"	f
+iflg	shadow-4.1.5.1/src/passwd.c	/^    iflg = false,			\/* -i - set inactive days *\/$/;"	v	file:
+inact	shadow-4.1.5.1/src/passwd.c	/^static long inact = 0;		\/* Days without change before locked *\/$/;"	v	file:
+inactdays	shadow-4.1.5.1/src/chage.c	/^static long inactdays;$/;"	v	file:
+info_group	shadow-4.1.5.1/src/groupmod.c	/^static struct cleanup_info_mod info_group;$/;"	v	typeref:struct:cleanup_info_mod	file:
+info_gshadow	shadow-4.1.5.1/src/groupmod.c	/^static struct cleanup_info_mod info_gshadow;$/;"	v	typeref:struct:cleanup_info_mod	file:
+info_passwd	shadow-4.1.5.1/src/groupmod.c	/^static struct cleanup_info_mod info_passwd;$/;"	v	typeref:struct:cleanup_info_mod	file:
+init_env	shadow-4.1.5.1/src/login.c	/^static void init_env (void)$/;"	f	file:
+initenv	shadow-4.1.5.1/libmisc/env.c	/^void initenv (void)$/;"	f
+inverse_seconds	shadow-4.1.5.1/src/lastlog.c	/^static time_t inverse_seconds;	\/* that number of days in seconds *\/$/;"	v	file:
+is_listed	shadow-4.1.5.1/libmisc/console.c	/^static bool is_listed (const char *cfgin, const char *tty, bool def)$/;"	f	file:
+is_my_tty	shadow-4.1.5.1/libmisc/utmp.c	/^static bool is_my_tty (const char *tty)$/;"	f	file:
+is_newgrp	shadow-4.1.5.1/src/newgrp.c	/^static bool is_newgrp;$/;"	v	file:
+is_on_list	shadow-4.1.5.1/libmisc/list.c	/^bool is_on_list (char *const *list, const char *member)$/;"	f
+is_owner	shadow-4.1.5.1/src/userdel.c	/^static int is_owner (uid_t uid, const char *path)$/;"	f	file:
+is_restricted_shell	shadow-4.1.5.1/src/chsh.c	/^static bool is_restricted_shell (const char *sh)$/;"	f	file:
+is_shadow	shadow-4.1.5.1/src/grpck.c	/^static bool is_shadow = false;$/;"	v	file:
+is_shadow	shadow-4.1.5.1/src/newusers.c	/^static bool is_shadow;$/;"	v	file:
+is_shadow	shadow-4.1.5.1/src/pwck.c	/^static bool is_shadow = false;$/;"	v	file:
+is_shadow_grp	shadow-4.1.5.1/src/chgpasswd.c	/^static bool is_shadow_grp;$/;"	v	file:
+is_shadow_grp	shadow-4.1.5.1/src/groupadd.c	/^static bool is_shadow_grp;$/;"	v	file:
+is_shadow_grp	shadow-4.1.5.1/src/groupdel.c	/^static bool is_shadow_grp;$/;"	v	file:
+is_shadow_grp	shadow-4.1.5.1/src/groupmod.c	/^static bool is_shadow_grp;$/;"	v	file:
+is_shadow_grp	shadow-4.1.5.1/src/newusers.c	/^static bool is_shadow_grp;$/;"	v	file:
+is_shadow_grp	shadow-4.1.5.1/src/useradd.c	/^static bool is_shadow_grp;$/;"	v	file:
+is_shadow_grp	shadow-4.1.5.1/src/userdel.c	/^static bool is_shadow_grp;$/;"	v	file:
+is_shadow_grp	shadow-4.1.5.1/src/usermod.c	/^static bool is_shadow_grp;$/;"	v	file:
+is_shadow_pwd	shadow-4.1.5.1/src/chpasswd.c	/^static bool is_shadow_pwd;$/;"	v	file:
+is_shadow_pwd	shadow-4.1.5.1/src/useradd.c	/^static bool is_shadow_pwd;$/;"	v	file:
+is_shadow_pwd	shadow-4.1.5.1/src/userdel.c	/^static bool is_shadow_pwd;$/;"	v	file:
+is_shadow_pwd	shadow-4.1.5.1/src/usermod.c	/^static bool is_shadow_pwd;$/;"	v	file:
+is_shadowgrp	shadow-4.1.5.1/src/gpasswd.c	/^static bool is_shadowgrp;$/;"	v	file:
+is_shadowgrp	shadow-4.1.5.1/src/groupmems.c	/^static bool is_shadowgrp;$/;"	v	file:
+is_valid_group_name	shadow-4.1.5.1/libmisc/chkname.c	/^bool is_valid_group_name (const char *name)$/;"	f
+is_valid_name	shadow-4.1.5.1/libmisc/chkname.c	/^static bool is_valid_name (const char *name)$/;"	f	file:
+is_valid_user_list	shadow-4.1.5.1/src/gpasswd.c	/^static bool is_valid_user_list (const char *users)$/;"	f	file:
+is_valid_user_name	shadow-4.1.5.1/libmisc/chkname.c	/^bool is_valid_user_name (const char *name)$/;"	f
+isexpired	shadow-4.1.5.1/libmisc/isexpired.c	/^int isexpired (const struct passwd *pw, \/*@null@*\/const struct spwd *sp)$/;"	f
+isgrp	shadow-4.1.5.1/src/suauth.c	/^static int isgrp (const char *name, const char *group)$/;"	f	file:
+isopen	shadow-4.1.5.1/lib/commonio.h	/^	bool isopen:1;$/;"	m	struct:commonio_db
+isroot	shadow-4.1.5.1/src/groupmems.c	95;"	d	file:
+isttytime	shadow-4.1.5.1/lib/port.c	/^bool isttytime (const char *id, const char *port, time_t when)$/;"	f
+iswheel	shadow-4.1.5.1/src/su.c	/^static bool iswheel (const char *username)$/;"	f	file:
+item	shadow-4.1.5.1/libmisc/getdate.y	/^item	: time {$/;"	l
+itemdef	shadow-4.1.5.1/lib/getdef.c	/^struct itemdef {$/;"	s	file:
+juldays	shadow-4.1.5.1/libmisc/strtoday.c	/^static short juldays[13] = { 0,$/;"	v	file:
+kflg	shadow-4.1.5.1/src/passwd.c	/^    kflg = false,			\/* -k - change only if expired *\/$/;"	v	file:
+kflg	shadow-4.1.5.1/src/useradd.c	/^    kflg = false,		\/* specify a directory to fill new user directory *\/$/;"	v	file:
+kill_child	shadow-4.1.5.1/src/su.c	/^static RETSIGTYPE kill_child (int unused(s))$/;"	f	file:
+l64a	shadow-4.1.5.1/libmisc/salt.c	/^static \/*@observer@*\/char *l64a(long value)$/;"	f	file:
+lastlog_reset	shadow-4.1.5.1/src/useradd.c	/^static void lastlog_reset (uid_t uid)$/;"	f	file:
+lastlogfile	shadow-4.1.5.1/src/lastlog.c	/^static FILE *lastlogfile;	\/* lastlog file stream *\/$/;"	v	file:
+lckpwdf	shadow-4.1.5.1/lib/lockpw.c	/^int lckpwdf (void)$/;"	f
+lflg	shadow-4.1.5.1/src/chage.c	/^    lflg = false,		\/* show account aging information *\/$/;"	v	file:
+lflg	shadow-4.1.5.1/src/faillog.c	/^static bool lflg = false;	\/* set the locktime *\/$/;"	v	file:
+lflg	shadow-4.1.5.1/src/passwd.c	/^    lflg = false,			\/* -l - lock the user's password *\/$/;"	v	file:
+lflg	shadow-4.1.5.1/src/useradd.c	/^    lflg = false,		\/* do not add user to lastlog\/faillog databases *\/$/;"	v	file:
+lflg	shadow-4.1.5.1/src/usermod.c	/^    lflg = false,		\/* new user name *\/$/;"	v	file:
+line	shadow-4.1.5.1/lib/commonio.h	/^	\/*@null@*\/char *line;$/;"	m	struct:commonio_entry
+lines	shadow-4.1.5.1/src/suauth.c	/^static int lines = 0;$/;"	v	file:
+link_name	shadow-4.1.5.1/libmisc/copydir.c	/^struct link_name {$/;"	s	file:
+links	shadow-4.1.5.1/libmisc/copydir.c	/^static \/*@exposed@*\/struct link_name *links;$/;"	v	typeref:struct:link_name	file:
+list	shadow-4.1.5.1/lib/sgetgrent.c	/^static char **list (char *s)$/;"	f	file:
+list	shadow-4.1.5.1/src/groupmems.c	/^static bool list = false;$/;"	v	file:
+list_fields	shadow-4.1.5.1/src/chage.c	/^static void list_fields (void)$/;"	f	file:
+list_match	shadow-4.1.5.1/src/login_nopam.c	/^static bool list_match (char *list, const char *item, bool (*match_fn) (const char *, const char*))$/;"	f	file:
+ll	shadow-4.1.5.1/src/login.c	/^static struct lastlog ll;$/;"	v	typeref:struct:lastlog	file:
+ln_count	shadow-4.1.5.1/libmisc/copydir.c	/^	nlink_t ln_count;$/;"	m	struct:link_name	file:
+ln_dev	shadow-4.1.5.1/libmisc/copydir.c	/^	dev_t ln_dev;$/;"	m	struct:link_name	file:
+ln_ino	shadow-4.1.5.1/libmisc/copydir.c	/^	ino_t ln_ino;$/;"	m	struct:link_name	file:
+ln_name	shadow-4.1.5.1/libmisc/copydir.c	/^	char *ln_name;$/;"	m	struct:link_name	file:
+ln_next	shadow-4.1.5.1/libmisc/copydir.c	/^	\/*@dependent@*\/struct link_name *ln_next;$/;"	m	struct:link_name	typeref:struct:link_name::link_name	file:
+lock_count	shadow-4.1.5.1/lib/commonio.c	/^static int lock_count = 0;$/;"	v	file:
+lock_files	shadow-4.1.5.1/src/groupmod.c	/^static void lock_files (void)$/;"	f	file:
+locked	shadow-4.1.5.1/lib/commonio.h	/^	bool locked:1;$/;"	m	struct:commonio_db
+log_gpasswd_failure	shadow-4.1.5.1/src/gpasswd.c	/^static void log_gpasswd_failure (const char *suffix)$/;"	f	file:
+log_gpasswd_failure_group	shadow-4.1.5.1/src/gpasswd.c	/^static void log_gpasswd_failure_group (unused void *arg)$/;"	f	file:
+log_gpasswd_failure_gshadow	shadow-4.1.5.1/src/gpasswd.c	/^static void log_gpasswd_failure_gshadow (unused void *arg)$/;"	f	file:
+log_gpasswd_failure_system	shadow-4.1.5.1/src/gpasswd.c	/^static void log_gpasswd_failure_system (unused void *arg)$/;"	f	file:
+log_gpasswd_success	shadow-4.1.5.1/src/gpasswd.c	/^static void log_gpasswd_success (const char *suffix)$/;"	f	file:
+log_gpasswd_success_group	shadow-4.1.5.1/src/gpasswd.c	/^static void log_gpasswd_success_group (unused void *arg)$/;"	f	file:
+log_gpasswd_success_system	shadow-4.1.5.1/src/gpasswd.c	/^static void log_gpasswd_success_system (unused void *arg)$/;"	f	file:
+login_access	shadow-4.1.5.1/src/login_nopam.c	/^int login_access (const char *user, const char *from)$/;"	f
+login_exit	shadow-4.1.5.1/libmisc/loginprompt.c	/^static void login_exit (unused int sig)$/;"	f	file:
+login_prompt	shadow-4.1.5.1/libmisc/loginprompt.c	/^void login_prompt (const char *prompt, char *name, int namesize)$/;"	f
+loginsh	shadow-4.1.5.1/src/chsh.c	/^static char loginsh[BUFSIZ];	\/* Name of new login shell *\/$/;"	v	file:
+lrename	shadow-4.1.5.1/lib/commonio.c	/^int lrename (const char *old, const char *new)$/;"	f
+lstchgdate	shadow-4.1.5.1/src/chage.c	/^static long lstchgdate;$/;"	v	file:
+mailcheck	shadow-4.1.5.1/libmisc/mail.c	/^void mailcheck (void)$/;"	f
+main	fileinfo.c	/^main(int ac, char * av[]){$/;"	f
+main	filesize.c	/^main(void)$/;"	f
+main	ls1.c	/^main(int ac, char *av[]){$/;"	f
+main	ls2.c	/^main(int ac, char *av[]){$/;"	f
+main	ls3.c	/^main(int ac, char *av[]){$/;"	f
+main	myfile.c	/^main ( int argc, char *argv[] )$/;"	f
+main	shadow-4.1.5.1/config.guess	/^		main()$/;"	f
+main	shadow-4.1.5.1/config.guess	/^	main ()$/;"	f
+main	shadow-4.1.5.1/config.guess	/^main ()$/;"	f
+main	shadow-4.1.5.1/contrib/adduser-old.c	/^void main()$/;"	f
+main	shadow-4.1.5.1/contrib/adduser.c	/^main (void)$/;"	f
+main	shadow-4.1.5.1/contrib/adduser2.sh	/^main() {$/;"	f
+main	shadow-4.1.5.1/contrib/pwdauth.c	/^main(argc, argv)$/;"	f
+main	shadow-4.1.5.1/lib/getdef.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/libmisc/getdate.c	/^main (ac, av)$/;"	f
+main	shadow-4.1.5.1/src/chage.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/chfn.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/chgpasswd.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/chpasswd.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/chsh.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/expiry.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/faillog.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/gpasswd.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/groupadd.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/groupdel.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/groupmems.c	/^int main (int argc, char **argv) $/;"	f
+main	shadow-4.1.5.1/src/groupmod.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/groups.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/grpck.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/grpconv.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/grpconv.c	/^int main (int unused(argc), char **argv)$/;"	f
+main	shadow-4.1.5.1/src/grpunconv.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/grpunconv.c	/^int main (int unused(argc), char **argv)$/;"	f
+main	shadow-4.1.5.1/src/id.c	/^ \/*ARGSUSED*\/ int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/lastlog.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/login.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/logoutd.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/newgrp.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/newusers.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/nologin.c	/^int main (void)$/;"	f
+main	shadow-4.1.5.1/src/passwd.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/pwck.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/pwconv.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/pwunconv.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/su.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/sulogin.c	/^ \/*ARGSUSED*\/ int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/useradd.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/userdel.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/usermod.c	/^int main (int argc, char **argv)$/;"	f
+main	shadow-4.1.5.1/src/vipw.c	/^int main (int argc, char **argv)$/;"	f
+maxdays	shadow-4.1.5.1/src/chage.c	/^static long maxdays;$/;"	v	file:
+may_change_field	shadow-4.1.5.1/src/chfn.c	/^static bool may_change_field (int field)$/;"	f	file:
+md5flg	shadow-4.1.5.1/src/chgpasswd.c	/^static bool md5flg = false;$/;"	v	file:
+md5flg	shadow-4.1.5.1/src/chpasswd.c	/^static bool md5flg = false;$/;"	v	file:
+members	shadow-4.1.5.1/lib/gshadow.c	/^static \/*@null@*\/\/*@only@*\/char **members = NULL;$/;"	v	file:
+members	shadow-4.1.5.1/src/gpasswd.c	/^static char *members = NULL;$/;"	v	file:
+memcpy	shadow-4.1.5.1/lib/defines.h	73;"	d
+memzero	shadow-4.1.5.1/lib/defines.h	109;"	d
+memzero	shadow-4.1.5.1/lib/defines.h	111;"	d
+merge_group_entries	shadow-4.1.5.1/lib/groupio.c	/^static \/*@null@*\/struct commonio_entry *merge_group_entries ($/;"	f	file:
+mflg	shadow-4.1.5.1/src/chage.c	/^    mflg = false,		\/* set minimum number of days before password change *\/$/;"	v	file:
+mflg	shadow-4.1.5.1/src/faillog.c	/^static bool mflg = false;	\/* set maximum failed login counters *\/$/;"	v	file:
+mflg	shadow-4.1.5.1/src/useradd.c	/^    mflg = false,		\/* create user's home directory if it doesn't exist *\/$/;"	v	file:
+mflg	shadow-4.1.5.1/src/usermod.c	/^    mflg = false,		\/* create user's home directory if it doesn't exist *\/$/;"	v	file:
+middle	shadow-4.1.5.1/lib/gshadow.c	/^static enum { native, start, middle, native2 } nis_state;$/;"	e	enum:__anon5	file:
+middle	shadow-4.1.5.1/lib/shadow.c	/^static enum { native, start, middle, native2 } nis_state;$/;"	e	enum:__anon3	file:
+mindays	shadow-4.1.5.1/src/chage.c	/^static long mindays;$/;"	v	file:
+mkdir_leading	shadow-4.1.5.1/lib/tcbfuncs.c	/^static shadowtcb_status mkdir_leading (const char *name, uid_t uid)$/;"	f	file:
+motd	shadow-4.1.5.1/libmisc/motd.c	/^void motd (void)$/;"	f
+move_dir	shadow-4.1.5.1/lib/tcbfuncs.c	/^static shadowtcb_status move_dir (const char *user_newname, uid_t user_newid)$/;"	f	file:
+move_home	shadow-4.1.5.1/src/usermod.c	/^static void move_home (void)$/;"	f	file:
+move_mailbox	shadow-4.1.5.1/src/usermod.c	/^static void move_mailbox (void)$/;"	f	file:
+my_sgetspent	shadow-4.1.5.1/lib/shadow.c	/^static struct spwd *my_sgetspent (const char *string)$/;"	f	file:
+myhostname	shadow-4.1.5.1/src/login_nopam.c	/^static char *myhostname (void)$/;"	f	file:
+myname	shadow-4.1.5.1/src/gpasswd.c	/^static char *myname = NULL;$/;"	v	file:
+myname	shadow-4.1.5.1/src/passwd.c	/^static char *myname;		\/* The current user's name *\/$/;"	v	file:
+nadmins	shadow-4.1.5.1/lib/gshadow.c	/^static size_t nadmins = 0;$/;"	v	file:
+name	shadow-4.1.5.1/lib/getdef.c	/^	\/*@null@*\/const char *name;	\/* name of the item                     *\/$/;"	m	struct:itemdef	file:
+name	shadow-4.1.5.1/lib/prototypes.h	/^	\/*@observer@*\/const char *name;$/;"	m	struct:cleanup_info_mod
+name	shadow-4.1.5.1/libmisc/getdate.c	/^    const char	*name;$/;"	m	struct:_TABLE	file:
+name	shadow-4.1.5.1/src/passwd.c	/^static char *name;		\/* The name of user whose password is being changed *\/$/;"	v	file:
+name	shadow-4.1.5.1/src/su.c	/^static char name[BUFSIZ];$/;"	v	file:
+name	shadow-4.1.5.1/src/sulogin.c	/^static char name[BUFSIZ];$/;"	v	file:
+name_is_nis	shadow-4.1.5.1/lib/commonio.c	/^static bool name_is_nis (const char *name)$/;"	f	file:
+native	shadow-4.1.5.1/lib/gshadow.c	/^static enum { native, start, middle, native2 } nis_state;$/;"	e	enum:__anon5	file:
+native	shadow-4.1.5.1/lib/shadow.c	/^static enum { native, start, middle, native2 } nis_state;$/;"	e	enum:__anon3	file:
+native2	shadow-4.1.5.1/lib/gshadow.c	/^static enum { native, start, middle, native2 } nis_state;$/;"	e	enum:__anon5	file:
+native2	shadow-4.1.5.1/lib/shadow.c	/^static enum { native, start, middle, native2 } nis_state;$/;"	e	enum:__anon3	file:
+netgroup_match	shadow-4.1.5.1/src/login_nopam.c	/^netgroup_match (const char *group, const char *machine, const char *user)$/;"	f	file:
+new_fields	shadow-4.1.5.1/src/chage.c	/^static int new_fields (void)$/;"	f	file:
+new_fields	shadow-4.1.5.1/src/chfn.c	/^static void new_fields (void)$/;"	f	file:
+new_fields	shadow-4.1.5.1/src/chsh.c	/^static void new_fields (void)$/;"	f	file:
+new_grent	shadow-4.1.5.1/src/groupadd.c	/^static void new_grent (struct group *grent)$/;"	f	file:
+new_grent	shadow-4.1.5.1/src/groupmod.c	/^static void new_grent (struct group *grent)$/;"	f	file:
+new_grent	shadow-4.1.5.1/src/useradd.c	/^static void new_grent (struct group *grent)$/;"	f	file:
+new_password	shadow-4.1.5.1/src/passwd.c	/^static int new_password (const struct passwd *pw)$/;"	f	file:
+new_pw_passwd	shadow-4.1.5.1/src/usermod.c	/^static char *new_pw_passwd (char *pw_pass)$/;"	f	file:
+new_pwent	shadow-4.1.5.1/src/useradd.c	/^static void new_pwent (struct passwd *pwent)$/;"	f	file:
+new_pwent	shadow-4.1.5.1/src/usermod.c	/^static void new_pwent (struct passwd *pwent)$/;"	f	file:
+new_sgent	shadow-4.1.5.1/src/groupadd.c	/^static void new_sgent (struct sgrp *sgent)$/;"	f	file:
+new_sgent	shadow-4.1.5.1/src/groupmod.c	/^static void new_sgent (struct sgrp *sgent)$/;"	f	file:
+new_sgent	shadow-4.1.5.1/src/useradd.c	/^static void new_sgent (struct sgrp *sgent)$/;"	f	file:
+new_spent	shadow-4.1.5.1/src/useradd.c	/^static void new_spent (struct spwd *spent)$/;"	f	file:
+new_spent	shadow-4.1.5.1/src/usermod.c	/^static void new_spent (struct spwd *spent)$/;"	f	file:
+newenvc	shadow-4.1.5.1/libmisc/env.c	/^size_t newenvc = 0;$/;"	v
+newenvp	shadow-4.1.5.1/libmisc/env.c	/^\/*@null@*\/char **newenvp = NULL;$/;"	v
+next	shadow-4.1.5.1/lib/commonio.h	/^	\/*@owned@*\/ \/*@null@*\/struct commonio_entry *next;$/;"	m	struct:commonio_entry	typeref:struct:commonio_entry::commonio_entry
+next_entry_by_name	shadow-4.1.5.1/lib/commonio.c	/^static \/*@dependent@*\/ \/*@null@*\/struct commonio_entry *next_entry_by_name ($/;"	f	file:
+nflg	shadow-4.1.5.1/src/groupmod.c	/^    nflg = false,		\/* a new name has been specified for the group *\/$/;"	v	file:
+nflg	shadow-4.1.5.1/src/passwd.c	/^    nflg = false,			\/* -n - set minimum days *\/$/;"	v	file:
+ngettext	shadow-4.1.5.1/lib/defines.h	32;"	d
+ngettext	shadow-4.1.5.1/lib/defines.h	57;"	d
+ngroups	shadow-4.1.5.1/src/newgrp.c	/^static int ngroups;$/;"	v	file:
+ni_conv	shadow-4.1.5.1/libmisc/pam_pass_non_interractive.c	/^static int ni_conv (int num_msg,$/;"	f	file:
+nis_bound	shadow-4.1.5.1/lib/gshadow.c	/^static bool nis_bound;$/;"	v	file:
+nis_bound	shadow-4.1.5.1/lib/shadow.c	/^static bool nis_bound;$/;"	v	file:
+nis_domain	shadow-4.1.5.1/lib/gshadow.c	/^static char *nis_domain;$/;"	v	file:
+nis_domain	shadow-4.1.5.1/lib/shadow.c	/^static char *nis_domain;$/;"	v	file:
+nis_ignore	shadow-4.1.5.1/lib/gshadow.c	/^static bool nis_ignore;$/;"	v	file:
+nis_ignore	shadow-4.1.5.1/lib/shadow.c	/^static bool nis_ignore;$/;"	v	file:
+nis_key	shadow-4.1.5.1/lib/gshadow.c	/^static char *nis_key;$/;"	v	file:
+nis_key	shadow-4.1.5.1/lib/shadow.c	/^static char *nis_key;$/;"	v	file:
+nis_keylen	shadow-4.1.5.1/lib/gshadow.c	/^static int nis_keylen;$/;"	v	file:
+nis_keylen	shadow-4.1.5.1/lib/shadow.c	/^static int nis_keylen;$/;"	v	file:
+nis_state	shadow-4.1.5.1/lib/gshadow.c	/^static enum { native, start, middle, native2 } nis_state;$/;"	v	typeref:enum:__anon5	file:
+nis_state	shadow-4.1.5.1/lib/shadow.c	/^static enum { native, start, middle, native2 } nis_state;$/;"	v	typeref:enum:__anon3	file:
+nis_used	shadow-4.1.5.1/lib/gshadow.c	/^static bool nis_used;$/;"	v	file:
+nis_used	shadow-4.1.5.1/lib/shadow.c	/^static bool nis_used;$/;"	v	file:
+nis_val	shadow-4.1.5.1/lib/gshadow.c	/^static char *nis_val;$/;"	v	file:
+nis_val	shadow-4.1.5.1/lib/shadow.c	/^static char *nis_val;$/;"	v	file:
+nis_vallen	shadow-4.1.5.1/lib/gshadow.c	/^static int nis_vallen;$/;"	v	file:
+nis_vallen	shadow-4.1.5.1/lib/shadow.c	/^static int nis_vallen;$/;"	v	file:
+nmembers	shadow-4.1.5.1/lib/gshadow.c	/^static size_t nmembers = 0;$/;"	v	file:
+non_interactive_pam_conv	shadow-4.1.5.1/libmisc/pam_pass_non_interractive.c	/^static struct pam_conv non_interactive_pam_conv = {$/;"	v	typeref:struct:pam_conv	file:
+non_interactive_password	shadow-4.1.5.1/libmisc/pam_pass_non_interractive.c	/^\/*@null@*\/ \/*@only@*\/static const char *non_interactive_password = NULL;$/;"	v	file:
+noslash	shadow-4.1.5.1/libmisc/env.c	/^static const char *noslash[] = {$/;"	v	file:
+nscd_flush_cache	shadow-4.1.5.1/lib/nscd.c	/^int nscd_flush_cache (const char *service)$/;"	f
+nscd_flush_cache	shadow-4.1.5.1/lib/nscd.h	10;"	d
+nscd_need_reload	shadow-4.1.5.1/lib/commonio.c	/^static bool nscd_need_reload = false;$/;"	v	file:
+number	shadow-4.1.5.1/libmisc/getdate.y	/^number	: tUNUMBER$/;"	l
+o_merid	shadow-4.1.5.1/libmisc/getdate.y	/^o_merid	: \/* NULL *\/$/;"	l
+obscure	shadow-4.1.5.1/libmisc/obscure.c	/^bool obscure (const char *old, const char *new, const struct passwd *pwdp)$/;"	f
+obscure_msg	shadow-4.1.5.1/libmisc/obscure.c	/^static \/*@observer@*\/\/*@null@*\/const char *obscure_msg ($/;"	f	file:
+oflg	shadow-4.1.5.1/src/chfn.c	/^static bool oflg = false;		\/* -o - set other information        *\/$/;"	v	file:
+oflg	shadow-4.1.5.1/src/groupadd.c	/^static bool oflg = false;	\/* permit non-unique group ID to be specified with -g *\/$/;"	v	file:
+oflg	shadow-4.1.5.1/src/groupmod.c	/^    oflg = false,		\/* permit non-unique group ID to be specified with -g *\/$/;"	v	file:
+oflg	shadow-4.1.5.1/src/useradd.c	/^    oflg = false,		\/* permit non-unique user ID to be specified with -u *\/$/;"	v	file:
+oflg	shadow-4.1.5.1/src/usermod.c	/^    oflg = false,		\/* permit non-unique user ID to be specified with -u *\/$/;"	v	file:
+oom	shadow-4.1.5.1/src/passwd.c	/^static \/*@noreturn@*\/void oom (void)$/;"	f	file:
+open_files	shadow-4.1.5.1/src/chage.c	/^static void open_files (bool readonly)$/;"	f	file:
+open_files	shadow-4.1.5.1/src/chgpasswd.c	/^static void open_files (void)$/;"	f	file:
+open_files	shadow-4.1.5.1/src/chpasswd.c	/^static void open_files (void)$/;"	f	file:
+open_files	shadow-4.1.5.1/src/gpasswd.c	/^static void open_files (void)$/;"	f	file:
+open_files	shadow-4.1.5.1/src/groupadd.c	/^static void open_files (void)$/;"	f	file:
+open_files	shadow-4.1.5.1/src/groupdel.c	/^static void open_files (void)$/;"	f	file:
+open_files	shadow-4.1.5.1/src/groupmems.c	/^static void open_files (void)$/;"	f	file:
+open_files	shadow-4.1.5.1/src/groupmod.c	/^static void open_files (void)$/;"	f	file:
+open_files	shadow-4.1.5.1/src/grpck.c	/^static void open_files (void)$/;"	f	file:
+open_files	shadow-4.1.5.1/src/newusers.c	/^static void open_files (void)$/;"	f	file:
+open_files	shadow-4.1.5.1/src/pwck.c	/^static void open_files (void)$/;"	f	file:
+open_files	shadow-4.1.5.1/src/useradd.c	/^static void open_files (void)$/;"	f	file:
+open_files	shadow-4.1.5.1/src/userdel.c	/^static void open_files (void)$/;"	f	file:
+open_files	shadow-4.1.5.1/src/usermod.c	/^static void open_files (void)$/;"	f	file:
+open_hook	shadow-4.1.5.1/lib/commonio.h	/^	\/*@null@*\/int (*open_hook) (void);$/;"	m	struct:commonio_ops
+open_shadow	shadow-4.1.5.1/src/useradd.c	/^static void open_shadow (void)$/;"	f	file:
+openlog	shadow-4.1.5.1/lib/defines.h	201;"	d
+ops	shadow-4.1.5.1/lib/commonio.h	/^	\/*@observer@*\/const struct commonio_ops *ops;$/;"	m	struct:commonio_db	typeref:struct:commonio_db::commonio_ops
+palindrome	shadow-4.1.5.1/libmisc/obscure.c	/^static bool palindrome (unused const char *old, const char *new)$/;"	f	file:
+pamh	shadow-4.1.5.1/src/login.c	/^static pam_handle_t *pamh = NULL;$/;"	v	file:
+pamh	shadow-4.1.5.1/src/su.c	/^static pam_handle_t *pamh = NULL;$/;"	v	file:
+parg_t	shadow-4.1.5.1/libmisc/cleanup.c	/^typedef \/*@null@*\/void * parg_t;$/;"	t	file:
+parse	shadow-4.1.5.1/lib/commonio.h	/^	void *(*parse) (const char *);$/;"	m	struct:commonio_ops
+pass	shadow-4.1.5.1/src/sulogin.c	/^static char pass[BUFSIZ];$/;"	v	file:
+passwd_check	shadow-4.1.5.1/libmisc/pwdcheck.c	/^void passwd_check (const char *user, const char *passwd, unused const char *progname)$/;"	f
+passwd_db	shadow-4.1.5.1/lib/pwio.c	/^static struct commonio_db passwd_db = {$/;"	v	typeref:struct:commonio_db	file:
+passwd_dup	shadow-4.1.5.1/lib/pwio.c	/^static \/*@null@*\/ \/*@only@*\/void *passwd_dup (const void *ent)$/;"	f	file:
+passwd_free	shadow-4.1.5.1/lib/pwio.c	/^static void passwd_free (\/*@out@*\/ \/*@only@*\/void *ent)$/;"	f	file:
+passwd_getname	shadow-4.1.5.1/lib/pwio.c	/^static const char *passwd_getname (const void *ent)$/;"	f	file:
+passwd_ops	shadow-4.1.5.1/lib/pwio.c	/^static struct commonio_ops passwd_ops = {$/;"	v	typeref:struct:commonio_ops	file:
+passwd_parse	shadow-4.1.5.1/lib/pwio.c	/^static void *passwd_parse (const char *line)$/;"	f	file:
+passwd_put	shadow-4.1.5.1/lib/pwio.c	/^static int passwd_put (const void *ent, FILE * file)$/;"	f	file:
+password_auth_ok	shadow-4.1.5.1/contrib/pwdauth.c	/^password_auth_ok(pw, pass)$/;"	f	file:
+password_check	shadow-4.1.5.1/libmisc/obscure.c	/^static \/*@observer@*\/\/*@null@*\/const char *password_check ($/;"	f	file:
+path_prefix	shadow-4.1.5.1/src/userdel.c	/^static bool path_prefix (const char *s1, const char *s2)$/;"	f	file:
+pflg	shadow-4.1.5.1/src/groupadd.c	/^static bool pflg = false;	\/* new encrypted password *\/$/;"	v	file:
+pflg	shadow-4.1.5.1/src/groupmod.c	/^    pflg = false;		\/* new encrypted password *\/$/;"	v	file:
+pflg	shadow-4.1.5.1/src/login.c	/^static bool pflg = false;$/;"	v	file:
+pflg	shadow-4.1.5.1/src/usermod.c	/^    pflg = false,		\/* new encrypted password *\/$/;"	v	file:
+pid_child	shadow-4.1.5.1/src/su.c	/^static pid_t pid_child = 0;$/;"	v	file:
+port	shadow-4.1.5.1/lib/port.h	/^struct port {$/;"	s
+portcmp	shadow-4.1.5.1/lib/port.c	/^static int portcmp (const char *pattern, const char *port)$/;"	f	file:
+ports	shadow-4.1.5.1/lib/port.c	/^static FILE *ports;$/;"	v	file:
+preauth_flag	shadow-4.1.5.1/src/login.c	/^static bool preauth_flag = false;$/;"	v	file:
+prepare_failure_reports	shadow-4.1.5.1/src/groupmod.c	/^static void prepare_failure_reports (void)$/;"	f	file:
+prepare_pam_close_session	shadow-4.1.5.1/src/su.c	/^static void prepare_pam_close_session (void)$/;"	f	file:
+prepare_utmp	shadow-4.1.5.1/libmisc/utmp.c	/^\/*@only@*\/struct utmp *prepare_utmp (const char *name,$/;"	f
+prepare_utmpx	shadow-4.1.5.1/libmisc/utmp.c	/^\/*@only@*\/struct utmpx *prepare_utmpx (const char *name,$/;"	f
+prev	shadow-4.1.5.1/lib/commonio.h	/^	\/*@dependent@*\/ \/*@null@*\/struct commonio_entry *prev;$/;"	m	struct:commonio_entry	typeref:struct:commonio_entry::commonio_entry
+print	shadow-4.1.5.1/src/faillog.c	/^static void print (void)$/;"	f	file:
+print	shadow-4.1.5.1/src/lastlog.c	/^static void print (void)$/;"	f	file:
+print_date	shadow-4.1.5.1/src/chage.c	/^static void print_date (time_t date)$/;"	f	file:
+print_groups	shadow-4.1.5.1/src/groups.c	/^static void print_groups (const char *member)$/;"	f	file:
+print_one	shadow-4.1.5.1/src/faillog.c	/^static void print_one (\/*@null@*\/const struct passwd *pw, bool force)$/;"	f	file:
+print_one	shadow-4.1.5.1/src/lastlog.c	/^static void print_one (\/*@null@*\/const struct passwd *pw)$/;"	f	file:
+print_status	shadow-4.1.5.1/src/passwd.c	/^static void print_status (const struct passwd *pw)$/;"	f	file:
+print_values	shadow-4.1.5.1/contrib/adduser2.sh	/^print_values() {$/;"	f
+process_flags	shadow-4.1.5.1/src/chage.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/chfn.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/chgpasswd.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/chpasswd.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/chsh.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/expiry.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/gpasswd.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/groupadd.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/groupdel.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/groupmems.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/groupmod.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/grpck.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/grpconv.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/grpunconv.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/login.c	/^static void process_flags (int argc, char *const *argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/newusers.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/pwck.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/pwconv.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/pwunconv.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/su.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/useradd.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_flags	shadow-4.1.5.1/src/usermod.c	/^static void process_flags (int argc, char **argv)$/;"	f	file:
+process_root_flag	shadow-4.1.5.1/libmisc/root_flag.c	/^extern void process_root_flag (const char* short_opt, int argc, char **argv)$/;"	f
+prototypes	shadow-4.1.5.1/configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+pt_names	shadow-4.1.5.1/lib/port.h	/^	char **pt_names;$/;"	m	struct:port
+pt_time	shadow-4.1.5.1/lib/port.h	/^struct pt_time {$/;"	s
+pt_times	shadow-4.1.5.1/lib/port.h	/^	struct pt_time *pt_times;$/;"	m	struct:port	typeref:struct:port::pt_time
+pt_users	shadow-4.1.5.1/lib/port.h	/^	char **pt_users;$/;"	m	struct:port
+purge	shadow-4.1.5.1/src/groupmems.c	/^static bool purge = false;$/;"	v	file:
+purge_members	shadow-4.1.5.1/src/groupmems.c	/^static void purge_members (const struct group *grp)$/;"	f	file:
+put	shadow-4.1.5.1/lib/commonio.h	/^	int (*put) (const void *, FILE *);$/;"	m	struct:commonio_ops
+putdef_str	shadow-4.1.5.1/lib/getdef.c	/^int putdef_str (const char *name, const char *value)$/;"	f
+putsgent	shadow-4.1.5.1/lib/gshadow.c	/^int putsgent (const struct sgrp *sgrp, FILE * fp)$/;"	f
+pw_auth	shadow-4.1.5.1/lib/pwauth.c	/^int pw_auth (const char *cipher,$/;"	f
+pw_close	shadow-4.1.5.1/lib/pwio.c	/^int pw_close (void)$/;"	f
+pw_cmp	shadow-4.1.5.1/lib/pwio.c	/^static int pw_cmp (const void *p1, const void *p2)$/;"	f	file:
+pw_dbname	shadow-4.1.5.1/lib/pwio.c	/^\/*@observer@*\/const char *pw_dbname (void)$/;"	f
+pw_encrypt	shadow-4.1.5.1/lib/encrypt.c	/^\/*@exposed@*\/char *pw_encrypt (const char *clear, const char *salt)$/;"	f
+pw_entry	shadow-4.1.5.1/libmisc/entry.c	/^void pw_entry (const char *name, struct passwd *pwent)$/;"	f
+pw_free	shadow-4.1.5.1/lib/pwmem.c	/^void pw_free (\/*@out@*\/ \/*@only@*\/struct passwd *pwent)$/;"	f
+pw_locate	shadow-4.1.5.1/lib/pwio.c	/^\/*@observer@*\/ \/*@null@*\/const struct passwd *pw_locate (const char *name)$/;"	f
+pw_locate_uid	shadow-4.1.5.1/lib/pwio.c	/^\/*@observer@*\/ \/*@null@*\/const struct passwd *pw_locate_uid (uid_t uid)$/;"	f
+pw_lock	shadow-4.1.5.1/lib/pwio.c	/^int pw_lock (void)$/;"	f
+pw_locked	shadow-4.1.5.1/src/chage.c	/^static bool pw_locked  = false;	\/* Indicate if the password file is locked *\/$/;"	v	file:
+pw_locked	shadow-4.1.5.1/src/chfn.c	/^static bool pw_locked = false;$/;"	v	file:
+pw_locked	shadow-4.1.5.1/src/chpasswd.c	/^static bool pw_locked = false;$/;"	v	file:
+pw_locked	shadow-4.1.5.1/src/chsh.c	/^static bool pw_locked = false;$/;"	v	file:
+pw_locked	shadow-4.1.5.1/src/newusers.c	/^static bool pw_locked = false;$/;"	v	file:
+pw_locked	shadow-4.1.5.1/src/passwd.c	/^static bool pw_locked = false;$/;"	v	file:
+pw_locked	shadow-4.1.5.1/src/pwck.c	/^static bool pw_locked  = false;$/;"	v	file:
+pw_locked	shadow-4.1.5.1/src/pwconv.c	/^static bool pw_locked = false;$/;"	v	file:
+pw_locked	shadow-4.1.5.1/src/pwunconv.c	/^static bool pw_locked = false;$/;"	v	file:
+pw_locked	shadow-4.1.5.1/src/useradd.c	/^static bool pw_locked = false;$/;"	v	file:
+pw_locked	shadow-4.1.5.1/src/userdel.c	/^static bool pw_locked  = false;$/;"	v	file:
+pw_locked	shadow-4.1.5.1/src/usermod.c	/^static bool pw_locked  = false;$/;"	v	file:
+pw_next	shadow-4.1.5.1/lib/pwio.c	/^\/*@observer@*\/ \/*@null@*\/const struct passwd *pw_next (void)$/;"	f
+pw_open	shadow-4.1.5.1/lib/pwio.c	/^int pw_open (int mode)$/;"	f
+pw_remove	shadow-4.1.5.1/lib/pwio.c	/^int pw_remove (const char *name)$/;"	f
+pw_rewind	shadow-4.1.5.1/lib/pwio.c	/^int pw_rewind (void)$/;"	f
+pw_setdbname	shadow-4.1.5.1/lib/pwio.c	/^int pw_setdbname (const char *filename)$/;"	f
+pw_sort	shadow-4.1.5.1/lib/pwio.c	/^int pw_sort ()$/;"	f
+pw_status	shadow-4.1.5.1/src/passwd.c	/^static \/*@observer@*\/const char *pw_status (const char *pass)$/;"	f	file:
+pw_unlock	shadow-4.1.5.1/lib/pwio.c	/^int pw_unlock (void)$/;"	f
+pw_update	shadow-4.1.5.1/lib/pwio.c	/^int pw_update (const struct passwd *pw)$/;"	f
+pwd_init	shadow-4.1.5.1/libmisc/pwd_init.c	/^void pwd_init (void)$/;"	f
+pwd_to_spwd	shadow-4.1.5.1/libmisc/pwd2spwd.c	/^struct spwd *pwd_to_spwd (const struct passwd *pw)$/;"	f
+pwent	shadow-4.1.5.1/src/sulogin.c	/^static struct passwd pwent;$/;"	v	typeref:struct:passwd	file:
+qflg	shadow-4.1.5.1/src/passwd.c	/^    qflg = false,			\/* -q - quiet mode *\/$/;"	v	file:
+quiet	shadow-4.1.5.1/src/pwck.c	/^static bool quiet = false;		\/* don't report warnings, only errors *\/$/;"	v	file:
+quiet	shadow-4.1.5.1/src/vipw.c	/^static bool quiet = false;$/;"	v	file:
+rcsid	shadow-4.1.5.1/contrib/pwdauth.c	/^static char rcsid[] = "$Id: pwdauth.c 1342 2007-11-10 23:46:11Z nekral-guest $";$/;"	v	file:
+rcsid	shadow-4.1.5.1/lib/utent.c	/^static char rcsid[] = "$Id: utent.c 3181 2010-03-23 08:56:52Z nekral-guest $";$/;"	v	file:
+read_env_file	shadow-4.1.5.1/libmisc/setupenv.c	/^static void read_env_file (const char *filename)$/;"	f	file:
+read_expire_date	shadow-4.1.5.1/contrib/adduser2.sh	/^read_expire_date() {$/;"	f
+read_group	shadow-4.1.5.1/contrib/adduser2.sh	/^read_group () {$/;"	f
+read_home	shadow-4.1.5.1/contrib/adduser2.sh	/^read_home() {$/;"	f
+read_inactive_days	shadow-4.1.5.1/contrib/adduser2.sh	/^read_inactive_days() {$/;"	f
+read_login	shadow-4.1.5.1/contrib/adduser2.sh	/^read_login() {$/;"	f
+read_max_valid_days	shadow-4.1.5.1/contrib/adduser2.sh	/^read_max_valid_days() {$/;"	f
+read_min_valid_days	shadow-4.1.5.1/contrib/adduser2.sh	/^read_min_valid_days() {$/;"	f
+read_name	shadow-4.1.5.1/contrib/adduser2.sh	/^read_name () {$/;"	f
+read_only	shadow-4.1.5.1/src/grpck.c	/^static bool read_only = false;$/;"	v	file:
+read_only	shadow-4.1.5.1/src/pwck.c	/^static bool read_only = false;$/;"	v	file:
+read_other_groups	shadow-4.1.5.1/contrib/adduser2.sh	/^read_other_groups () {$/;"	f
+read_passwd_yn	shadow-4.1.5.1/contrib/adduser2.sh	/^read_passwd_yn() {$/;"	f
+read_shell	shadow-4.1.5.1/contrib/adduser2.sh	/^read_shell () {$/;"	f
+read_uid	shadow-4.1.5.1/contrib/adduser2.sh	/^read_uid () {$/;"	f
+read_values	shadow-4.1.5.1/contrib/adduser2.sh	/^read_values() {$/;"	f
+read_warning_days	shadow-4.1.5.1/contrib/adduser2.sh	/^read_warning_days() {$/;"	f
+read_yn	shadow-4.1.5.1/contrib/adduser2.sh	/^read_yn() {$/;"	f
+readlink_malloc	shadow-4.1.5.1/libmisc/copydir.c	/^static \/*@null@*\/char *readlink_malloc (const char *filename)$/;"	f	file:
+readonly	shadow-4.1.5.1/lib/commonio.h	/^	bool readonly:1;$/;"	m	struct:commonio_db
+reason	shadow-4.1.5.1/src/login.c	/^static int reason = PW_LOGIN;$/;"	v	file:
+rel	shadow-4.1.5.1/libmisc/getdate.y	/^rel	: relunit tAGO {$/;"	l
+relunit	shadow-4.1.5.1/libmisc/getdate.y	/^relunit	: tUNUMBER tYEAR_UNIT {$/;"	l
+remove_link	shadow-4.1.5.1/libmisc/copydir.c	/^static void remove_link (\/*@only@*\/struct link_name *ln)$/;"	f	file:
+remove_mailbox	shadow-4.1.5.1/src/userdel.c	/^static int remove_mailbox (void)$/;"	f	file:
+remove_tcbdir	shadow-4.1.5.1/src/userdel.c	/^static int remove_tcbdir (const char *user_name, uid_t user_id)$/;"	f	file:
+remove_tree	shadow-4.1.5.1/libmisc/remove_tree.c	/^int remove_tree (const char *root, bool remove_root)$/;"	f
+remove_user	shadow-4.1.5.1/src/groupmems.c	/^static void remove_user (const char *user, $/;"	f	file:
+remove_usergroup	shadow-4.1.5.1/src/userdel.c	/^static void remove_usergroup (void)$/;"	f	file:
+reset	shadow-4.1.5.1/src/faillog.c	/^static void reset (void)$/;"	f	file:
+reset_one	shadow-4.1.5.1/src/faillog.c	/^static bool reset_one (uid_t uid)$/;"	f	file:
+reset_selinux_file_context	shadow-4.1.5.1/lib/selinux.c	/^int reset_selinux_file_context (void)$/;"	f
+resolve_hostname	shadow-4.1.5.1/src/login_nopam.c	/^static const char *resolve_hostname (const char *string)$/;"	f	file:
+restricted_shell	shadow-4.1.5.1/src/su.c	/^static bool restricted_shell (const char *shellname)$/;"	f	file:
+reuse	shadow-4.1.5.1/src/passwd.c	/^static bool reuse (const char *pass, const struct passwd *pw)$/;"	f	file:
+rflg	shadow-4.1.5.1/src/chfn.c	/^static bool rflg = false;		\/* -r - set room number              *\/$/;"	v	file:
+rflg	shadow-4.1.5.1/src/faillog.c	/^static bool rflg = false;	\/* reset the counters of login failures *\/$/;"	v	file:
+rflg	shadow-4.1.5.1/src/gpasswd.c	/^static bool rflg = false;$/;"	v	file:
+rflg	shadow-4.1.5.1/src/groupadd.c	/^static bool rflg = false;	\/* create a system account *\/$/;"	v	file:
+rflg	shadow-4.1.5.1/src/login.c	/^static bool rflg = false;$/;"	v	file:
+rflg	shadow-4.1.5.1/src/login.c	100;"	d	file:
+rflg	shadow-4.1.5.1/src/newusers.c	/^static bool rflg = false;	\/* create a system account *\/$/;"	v	file:
+rflg	shadow-4.1.5.1/src/useradd.c	/^    rflg = false,		\/* create a system account *\/$/;"	v	file:
+rflg	shadow-4.1.5.1/src/userdel.c	/^static bool rflg = false;$/;"	v	file:
+rmdir_leading	shadow-4.1.5.1/lib/tcbfuncs.c	/^static shadowtcb_status rmdir_leading (char *path)$/;"	f	file:
+roomno	shadow-4.1.5.1/src/chfn.c	/^static char roomno[BUFSIZ];$/;"	v	file:
+run_command	shadow-4.1.5.1/lib/spawn.c	/^int run_command (const char *cmd, const char *argv[],$/;"	f
+safeget	shadow-4.1.5.1/contrib/adduser.c	/^safeget (char *buf, int maxlen)$/;"	f
+sanitize_env	shadow-4.1.5.1/libmisc/env.c	/^void sanitize_env (void)$/;"	f
+save_caller_context	shadow-4.1.5.1/src/su.c	/^static void save_caller_context (char **argv)$/;"	f	file:
+scale_age	shadow-4.1.5.1/src/useradd.c	/^static long scale_age (long x)$/;"	f	file:
+scontext	shadow-4.1.5.1/lib/commonio.h	/^	\/*@null@*\/security_context_t scontext;$/;"	m	struct:commonio_db
+seconds	shadow-4.1.5.1/src/faillog.c	/^static time_t seconds;		\/* that number of days in seconds *\/$/;"	v	file:
+seconds	shadow-4.1.5.1/src/lastlog.c	/^static time_t seconds;		\/* that number of days in seconds *\/$/;"	v	file:
+seedRNG	shadow-4.1.5.1/libmisc/salt.c	/^static void seedRNG (void)$/;"	f	file:
+selinux_checked	shadow-4.1.5.1/lib/selinux.c	/^static bool selinux_checked = false;$/;"	v	file:
+selinux_enabled	shadow-4.1.5.1/lib/selinux.c	/^static bool selinux_enabled;$/;"	v	file:
+semanage_error_callback	shadow-4.1.5.1/lib/semanage.c	/^static void semanage_error_callback (unused void *varg,$/;"	f	file:
+semanage_init	shadow-4.1.5.1/lib/semanage.c	/^static semanage_handle_t *semanage_init (void)$/;"	f	file:
+semanage_user_add	shadow-4.1.5.1/lib/semanage.c	/^static int semanage_user_add (semanage_handle_t *handle,$/;"	f	file:
+semanage_user_mod	shadow-4.1.5.1/lib/semanage.c	/^static int semanage_user_mod (semanage_handle_t *handle,$/;"	f	file:
+send_mesg_to_tty	shadow-4.1.5.1/src/logoutd.c	/^static void send_mesg_to_tty (int tty_fd)$/;"	f	file:
+sep	shadow-4.1.5.1/src/login_nopam.c	/^static char sep[] = ", \\t";	\/* list-element separator *\/$/;"	v	file:
+set_aging	shadow-4.1.5.1/contrib/adduser2.sh	/^set_aging() {$/;"	f
+set_defaults	shadow-4.1.5.1/src/useradd.c	/^static int set_defaults (void)$/;"	f	file:
+set_env	shadow-4.1.5.1/libmisc/env.c	/^void set_env (int argc, char *const *argv)$/;"	f
+set_environment	shadow-4.1.5.1/src/su.c	/^static void set_environment (struct passwd *pw)$/;"	f	file:
+set_filesize_limit	shadow-4.1.5.1/libmisc/ulimit.c	/^int set_filesize_limit (int blocks)$/;"	f
+set_locktime	shadow-4.1.5.1/src/faillog.c	/^static void set_locktime (long locktime)$/;"	f	file:
+set_locktime_one	shadow-4.1.5.1/src/faillog.c	/^static bool set_locktime_one (uid_t uid, long locktime)$/;"	f	file:
+set_password	shadow-4.1.5.1/contrib/adduser2.sh	/^set_password() {$/;"	f
+set_prio	shadow-4.1.5.1/libmisc/limits.c	/^static int set_prio (const char *value)$/;"	f	file:
+set_selinux_file_context	shadow-4.1.5.1/lib/selinux.c	/^int set_selinux_file_context (const char *dst_name)$/;"	f
+set_seuser	shadow-4.1.5.1/lib/semanage.c	/^int set_seuser (const char *login_name, const char *seuser_name)$/;"	f
+set_system	shadow-4.1.5.1/contrib/adduser2.sh	/^set_system() {$/;"	f
+set_umask	shadow-4.1.5.1/libmisc/limits.c	/^static int set_umask (const char *value)$/;"	f	file:
+set_user	shadow-4.1.5.1/contrib/adduser2.sh	/^set_user() {$/;"	f
+setlocale	shadow-4.1.5.1/lib/defines.h	38;"	d
+setlocale	shadow-4.1.5.1/lib/defines.h	39;"	d
+setmax	shadow-4.1.5.1/src/faillog.c	/^static void setmax (short max)$/;"	f	file:
+setmax_one	shadow-4.1.5.1/src/faillog.c	/^static bool setmax_one (uid_t uid, short max)$/;"	f	file:
+setportent	shadow-4.1.5.1/lib/port.c	/^static void setportent (void)$/;"	f	file:
+setrlimit_value	shadow-4.1.5.1/libmisc/limits.c	/^static int setrlimit_value (unsigned int resource,$/;"	f	file:
+setsgent	shadow-4.1.5.1/lib/gshadow.c	/^void setsgent (void)$/;"	f
+setspent	shadow-4.1.5.1/lib/shadow.c	/^void setspent (void)$/;"	f
+setup_env	shadow-4.1.5.1/libmisc/setupenv.c	/^void setup_env (struct passwd *info)$/;"	f
+setup_groups	shadow-4.1.5.1/libmisc/setugid.c	/^int setup_groups (const struct passwd *info)$/;"	f
+setup_limits	shadow-4.1.5.1/libmisc/limits.c	/^void setup_limits (const struct passwd *info)$/;"	f
+setup_tty	shadow-4.1.5.1/src/login.c	/^static void setup_tty (void)$/;"	f	file:
+setup_uid_gid	shadow-4.1.5.1/libmisc/setugid.c	/^int setup_uid_gid (const struct passwd *info, bool is_console)$/;"	f
+setup_user_limits	shadow-4.1.5.1/libmisc/limits.c	/^static int setup_user_limits (const char *uname)$/;"	f	file:
+setup_usergroups	shadow-4.1.5.1/libmisc/limits.c	/^static void setup_usergroups (const struct passwd *info)$/;"	f	file:
+setutent	shadow-4.1.5.1/lib/utent.c	/^void setutent (void)$/;"	f
+setutmp	shadow-4.1.5.1/libmisc/utmp.c	/^int setutmp (struct utmp *ut)$/;"	f
+setutmpx	shadow-4.1.5.1/libmisc/utmp.c	/^int setutmpx (struct utmpx *utx)$/;"	f
+sflg	shadow-4.1.5.1/src/chgpasswd.c	/^static bool sflg   = false;$/;"	v	file:
+sflg	shadow-4.1.5.1/src/chpasswd.c	/^static bool sflg   = false;$/;"	v	file:
+sflg	shadow-4.1.5.1/src/chsh.c	/^static bool sflg = false;	\/* -s - set shell from command line  *\/$/;"	v	file:
+sflg	shadow-4.1.5.1/src/newusers.c	/^static bool sflg = false;$/;"	v	file:
+sflg	shadow-4.1.5.1/src/useradd.c	/^    sflg = false,		\/* shell program for new account *\/$/;"	v	file:
+sflg	shadow-4.1.5.1/src/usermod.c	/^    sflg = false,		\/* new shell program *\/$/;"	v	file:
+sg_adm	shadow-4.1.5.1/lib/gshadow_.h	/^	char **sg_adm;		\/* group administrator list *\/$/;"	m	struct:sgrp
+sg_mem	shadow-4.1.5.1/lib/gshadow_.h	/^	char **sg_mem;		\/* group membership list *\/$/;"	m	struct:sgrp
+sg_name	shadow-4.1.5.1/lib/gshadow_.h	/^	char *sg_name;		\/* group name *\/$/;"	m	struct:sgrp
+sg_passwd	shadow-4.1.5.1/lib/gshadow_.h	/^	char *sg_passwd;	\/* group password *\/$/;"	m	struct:sgrp
+sgetgrent	shadow-4.1.5.1/lib/sgetgrent.c	/^struct group *sgetgrent (const char *buf)$/;"	f
+sgetpwent	shadow-4.1.5.1/lib/sgetpwent.c	/^struct passwd *sgetpwent (const char *buf)$/;"	f
+sgetsgent	shadow-4.1.5.1/lib/gshadow.c	/^\/*@observer@*\/\/*@null@*\/struct sgrp *sgetsgent (const char *string)$/;"	f
+sgetspent	shadow-4.1.5.1/lib/sgetspent.c	/^struct spwd *sgetspent (const char *string)$/;"	f
+sgr_close	shadow-4.1.5.1/lib/sgroupio.c	/^int sgr_close (void)$/;"	f
+sgr_dbname	shadow-4.1.5.1/lib/sgroupio.c	/^\/*@observer@*\/const char *sgr_dbname (void)$/;"	f
+sgr_file	shadow-4.1.5.1/src/grpck.c	/^static const char *sgr_file = SGROUP_FILE;$/;"	v	file:
+sgr_file_present	shadow-4.1.5.1/lib/sgroupio.c	/^bool sgr_file_present (void)$/;"	f
+sgr_free	shadow-4.1.5.1/lib/sgroupio.c	/^void sgr_free (\/*@out@*\/ \/*@only@*\/struct sgrp *sgent)$/;"	f
+sgr_locate	shadow-4.1.5.1/lib/sgroupio.c	/^\/*@observer@*\/ \/*@null@*\/const struct sgrp *sgr_locate (const char *name)$/;"	f
+sgr_lock	shadow-4.1.5.1/lib/sgroupio.c	/^int sgr_lock (void)$/;"	f
+sgr_locked	shadow-4.1.5.1/src/chgpasswd.c	/^static bool sgr_locked = false;$/;"	v	file:
+sgr_locked	shadow-4.1.5.1/src/groupmems.c	/^static bool sgr_locked = false;$/;"	v	file:
+sgr_locked	shadow-4.1.5.1/src/grpck.c	/^static bool sgr_locked = false;$/;"	v	file:
+sgr_locked	shadow-4.1.5.1/src/grpconv.c	/^static bool sgr_locked = false;$/;"	v	file:
+sgr_locked	shadow-4.1.5.1/src/grpunconv.c	/^static bool sgr_locked = false;$/;"	v	file:
+sgr_locked	shadow-4.1.5.1/src/newusers.c	/^static bool sgr_locked = false;$/;"	v	file:
+sgr_locked	shadow-4.1.5.1/src/useradd.c	/^static bool sgr_locked = false;$/;"	v	file:
+sgr_locked	shadow-4.1.5.1/src/userdel.c	/^static bool sgr_locked = false;$/;"	v	file:
+sgr_locked	shadow-4.1.5.1/src/usermod.c	/^static bool sgr_locked = false;$/;"	v	file:
+sgr_next	shadow-4.1.5.1/lib/sgroupio.c	/^\/*@null@*\/const struct sgrp *sgr_next (void)$/;"	f
+sgr_open	shadow-4.1.5.1/lib/sgroupio.c	/^int sgr_open (int mode)$/;"	f
+sgr_remove	shadow-4.1.5.1/lib/sgroupio.c	/^int sgr_remove (const char *name)$/;"	f
+sgr_rewind	shadow-4.1.5.1/lib/sgroupio.c	/^int sgr_rewind (void)$/;"	f
+sgr_setdbname	shadow-4.1.5.1/lib/sgroupio.c	/^int sgr_setdbname (const char *filename)$/;"	f
+sgr_sort	shadow-4.1.5.1/lib/sgroupio.c	/^int sgr_sort ()$/;"	f
+sgr_unlock	shadow-4.1.5.1/lib/sgroupio.c	/^int sgr_unlock (void)$/;"	f
+sgr_update	shadow-4.1.5.1/lib/sgroupio.c	/^int sgr_update (const struct sgrp *sg)$/;"	f
+sgroup	shadow-4.1.5.1/lib/gshadow.c	/^static struct sgrp sgroup;$/;"	v	typeref:struct:sgrp	file:
+sgrp	shadow-4.1.5.1/lib/gshadow_.h	/^struct sgrp {$/;"	s
+sha_rounds	shadow-4.1.5.1/src/chgpasswd.c	/^static long sha_rounds = 5000;$/;"	v	file:
+sha_rounds	shadow-4.1.5.1/src/chpasswd.c	/^static long sha_rounds = 5000;$/;"	v	file:
+sha_rounds	shadow-4.1.5.1/src/newusers.c	/^static long sha_rounds = 5000;$/;"	v	file:
+shadow	shadow-4.1.5.1/lib/gshadow.c	/^static \/*@null@*\/FILE *shadow;$/;"	v	file:
+shadow	shadow-4.1.5.1/lib/shadow.c	/^static FILE *shadow;$/;"	v	file:
+shadow_audit_result	shadow-4.1.5.1/lib/prototypes.h	/^	SHADOW_AUDIT_SUCCESS = 1} shadow_audit_result;$/;"	t	typeref:enum:__anon2
+shadow_db	shadow-4.1.5.1/lib/shadowio.c	/^static struct commonio_db shadow_db = {$/;"	v	typeref:struct:commonio_db	file:
+shadow_dup	shadow-4.1.5.1/lib/shadowio.c	/^static \/*@null@*\/ \/*@only@*\/void *shadow_dup (const void *ent)$/;"	f	file:
+shadow_free	shadow-4.1.5.1/lib/shadowio.c	/^static void shadow_free (\/*@out@*\/\/*@only@*\/void *ent)$/;"	f	file:
+shadow_getname	shadow-4.1.5.1/lib/shadowio.c	/^static const char *shadow_getname (const void *ent)$/;"	f	file:
+shadow_ops	shadow-4.1.5.1/lib/shadowio.c	/^static struct commonio_ops shadow_ops = {$/;"	v	typeref:struct:commonio_ops	file:
+shadow_parse	shadow-4.1.5.1/lib/shadowio.c	/^static void *shadow_parse (const char *line)$/;"	f	file:
+shadow_put	shadow-4.1.5.1/lib/shadowio.c	/^static int shadow_put (const void *ent, FILE * file)$/;"	f	file:
+shadowoff	shadow-4.1.5.1/debian/shadowconfig.sh	/^shadowoff () {$/;"	f
+shadowon	shadow-4.1.5.1/debian/shadowconfig.sh	/^shadowon () {$/;"	f
+shadowtcb_create	shadow-4.1.5.1/lib/tcbfuncs.c	/^shadowtcb_status shadowtcb_create (const char *name, uid_t uid)$/;"	f
+shadowtcb_drop_priv	shadow-4.1.5.1/lib/tcbfuncs.c	/^shadowtcb_status shadowtcb_drop_priv (void)$/;"	f
+shadowtcb_gain_priv	shadow-4.1.5.1/lib/tcbfuncs.c	/^shadowtcb_status shadowtcb_gain_priv (void)$/;"	f
+shadowtcb_move	shadow-4.1.5.1/lib/tcbfuncs.c	/^shadowtcb_status shadowtcb_move (\/*@NULL@*\/const char *user_newname, uid_t user_newid)$/;"	f
+shadowtcb_path	shadow-4.1.5.1/lib/tcbfuncs.c	/^static \/*@null@*\/ char *shadowtcb_path (const char *name, uid_t uid)$/;"	f	file:
+shadowtcb_path_existing	shadow-4.1.5.1/lib/tcbfuncs.c	/^static \/*@null@*\/ char *shadowtcb_path_existing (const char *name)$/;"	f	file:
+shadowtcb_path_rel	shadow-4.1.5.1/lib/tcbfuncs.c	/^static \/*@null@*\/ char *shadowtcb_path_rel (const char *name, uid_t uid)$/;"	f	file:
+shadowtcb_path_rel_existing	shadow-4.1.5.1/lib/tcbfuncs.c	/^static \/*@null@*\/ char *shadowtcb_path_rel_existing (const char *name)$/;"	f	file:
+shadowtcb_remove	shadow-4.1.5.1/lib/tcbfuncs.c	/^shadowtcb_status shadowtcb_remove (const char *name)$/;"	f
+shadowtcb_set_user	shadow-4.1.5.1/lib/tcbfuncs.c	/^shadowtcb_status shadowtcb_set_user (const char* name)$/;"	f
+shadowtcb_status	shadow-4.1.5.1/lib/tcbfuncs.h	/^} shadowtcb_status;$/;"	t	typeref:enum:__anon4
+shell	shadow-4.1.5.1/libmisc/shell.c	/^int shell (const char *file, \/*@null@*\/const char *arg, char *const envp[])$/;"	f
+shell_is_listed	shadow-4.1.5.1/src/chsh.c	/^static bool shell_is_listed (const char *sh)$/;"	f	file:
+shellstr	shadow-4.1.5.1/src/su.c	/^static \/*@observer@*\/const char *shellstr;$/;"	v	file:
+short	shadow-4.1.5.1/libmisc/getdate.c	323;"	d	file:
+show_defaults	shadow-4.1.5.1/src/useradd.c	/^static void show_defaults (void)$/;"	f	file:
+show_stat_info	fileinfo.c	/^void show_stat_info(char * fname, struct stat * buf){$/;"	f
+similar	shadow-4.1.5.1/libmisc/obscure.c	/^static bool similar (\/*@notnull@*\/const char *old, \/*@notnull@*\/const char *new)$/;"	f	file:
+simple	shadow-4.1.5.1/libmisc/obscure.c	/^static bool simple (unused const char *old, const char *new)$/;"	f	file:
+skeychallenge	shadow-4.1.5.1/lib/pwauth.c	138;"	d	file:
+slop	shadow-4.1.5.1/src/chfn.c	/^static char slop[BUFSIZ];$/;"	v	file:
+sort_mode	shadow-4.1.5.1/src/grpck.c	/^static bool sort_mode = false;$/;"	v	file:
+sort_mode	shadow-4.1.5.1/src/pwck.c	/^static bool sort_mode = false;$/;"	v	file:
+spd_baud	shadow-4.1.5.1/libmisc/rlogin.c	/^	int spd_baud;$/;"	m	struct:__anon1	file:
+spd_name	shadow-4.1.5.1/libmisc/rlogin.c	/^	int spd_name;$/;"	m	struct:__anon1	file:
+spec	shadow-4.1.5.1/libmisc/getdate.y	/^spec	: \/* NULL *\/$/;"	l
+speed_table	shadow-4.1.5.1/libmisc/rlogin.c	/^} speed_table[] =$/;"	v	typeref:struct:__anon1	file:
+split_groups	shadow-4.1.5.1/lib/groupio.c	/^static int split_groups (unsigned int max_members)$/;"	f	file:
+spw_close	shadow-4.1.5.1/lib/shadowio.c	/^int spw_close (void)$/;"	f
+spw_dbname	shadow-4.1.5.1/lib/shadowio.c	/^\/*@observer@*\/const char *spw_dbname (void)$/;"	f
+spw_file_present	shadow-4.1.5.1/lib/shadowio.c	/^bool spw_file_present (void)$/;"	f
+spw_free	shadow-4.1.5.1/lib/shadowmem.c	/^void spw_free (\/*@out@*\/ \/*@only@*\/struct spwd *spent)$/;"	f
+spw_locate	shadow-4.1.5.1/lib/shadowio.c	/^\/*@observer@*\/ \/*@null@*\/const struct spwd *spw_locate (const char *name)$/;"	f
+spw_lock	shadow-4.1.5.1/lib/shadowio.c	/^int spw_lock (void)$/;"	f
+spw_locked	shadow-4.1.5.1/src/chage.c	/^static bool spw_locked = false;	\/* Indicate if the shadow file is locked *\/$/;"	v	file:
+spw_locked	shadow-4.1.5.1/src/chpasswd.c	/^static bool spw_locked = false;$/;"	v	file:
+spw_locked	shadow-4.1.5.1/src/newusers.c	/^static bool spw_locked = false;$/;"	v	file:
+spw_locked	shadow-4.1.5.1/src/passwd.c	/^static bool spw_locked = false;$/;"	v	file:
+spw_locked	shadow-4.1.5.1/src/pwck.c	/^static bool spw_locked = false;$/;"	v	file:
+spw_locked	shadow-4.1.5.1/src/pwconv.c	/^static bool spw_locked = false;$/;"	v	file:
+spw_locked	shadow-4.1.5.1/src/pwunconv.c	/^static bool spw_locked = false;$/;"	v	file:
+spw_locked	shadow-4.1.5.1/src/useradd.c	/^static bool spw_locked = false;$/;"	v	file:
+spw_locked	shadow-4.1.5.1/src/userdel.c	/^static bool spw_locked  = false;$/;"	v	file:
+spw_locked	shadow-4.1.5.1/src/usermod.c	/^static bool spw_locked = false;$/;"	v	file:
+spw_next	shadow-4.1.5.1/lib/shadowio.c	/^\/*@observer@*\/ \/*@null@*\/const struct spwd *spw_next (void)$/;"	f
+spw_open	shadow-4.1.5.1/lib/shadowio.c	/^int spw_open (int mode)$/;"	f
+spw_opened	shadow-4.1.5.1/src/pwck.c	/^static bool spw_opened = false;$/;"	v	file:
+spw_remove	shadow-4.1.5.1/lib/shadowio.c	/^int spw_remove (const char *name)$/;"	f
+spw_rewind	shadow-4.1.5.1/lib/shadowio.c	/^int spw_rewind (void)$/;"	f
+spw_setdbname	shadow-4.1.5.1/lib/shadowio.c	/^int spw_setdbname (const char *filename)$/;"	f
+spw_sort	shadow-4.1.5.1/lib/shadowio.c	/^int spw_sort ()$/;"	f
+spw_unlock	shadow-4.1.5.1/lib/shadowio.c	/^int spw_unlock (void)$/;"	f
+spw_update	shadow-4.1.5.1/lib/shadowio.c	/^int spw_update (const struct spwd *sp)$/;"	f
+src_orig	shadow-4.1.5.1/libmisc/copydir.c	/^static \/*@null@*\/const char *src_orig;$/;"	v	file:
+start	shadow-4.1.5.1/lib/gshadow.c	/^static enum { native, start, middle, native2 } nis_state;$/;"	e	enum:__anon5	file:
+start	shadow-4.1.5.1/lib/shadow.c	/^static enum { native, start, middle, native2 } nis_state;$/;"	e	enum:__anon3	file:
+statbuf	shadow-4.1.5.1/src/faillog.c	/^static struct stat statbuf;	\/* fstat buffer for file size *\/$/;"	v	typeref:struct:stat	file:
+statbuf	shadow-4.1.5.1/src/lastlog.c	/^static struct stat statbuf;	\/* fstat buffer for file size *\/$/;"	v	typeref:struct:stat	file:
+static	shadow-4.1.5.1/libmisc/getdate.c	136;"	d	file:
+stored_tcb_user	shadow-4.1.5.1/lib/tcbfuncs.c	/^static \/*@null@*\/\/*@only@*\/char *stored_tcb_user = NULL;$/;"	v	file:
+str_lower	shadow-4.1.5.1/libmisc/obscure.c	/^static char *str_lower (\/*@returned@*\/char *string)$/;"	f	file:
+strchr	shadow-4.1.5.1/lib/defines.h	67;"	d
+strcmpgp	ls2.c	/^strcmpgp ( const void * p1, const void * p2)$/;"	f	file:
+strcmpgp	ls3.c	/^strcmpgp ( const void * p1, const void * p2)$/;"	f	file:
+string_match	shadow-4.1.5.1/src/login_nopam.c	/^static bool string_match (const char *tok, const char *string)$/;"	f	file:
+strrchr	shadow-4.1.5.1/lib/defines.h	68;"	d
+strtoday	shadow-4.1.5.1/libmisc/strtoday.c	/^long strtoday (const char *str)$/;"	f
+strzero	shadow-4.1.5.1/lib/defines.h	113;"	d
+su_failure	shadow-4.1.5.1/src/su.c	/^static \/*@noreturn@*\/void su_failure (const char *tty, bool su_to_root)$/;"	f	file:
+subsystem	shadow-4.1.5.1/libmisc/sub.c	/^void subsystem (const struct passwd *pw)$/;"	f
+sulog	shadow-4.1.5.1/libmisc/sulog.c	/^void sulog (const char *tty, bool success, const char *oldname, const char *name)$/;"	f
+sys_ngroups	shadow-4.1.5.1/src/useradd.c	/^static long sys_ngroups;$/;"	v	file:
+sys_ngroups	shadow-4.1.5.1/src/usermod.c	/^static long sys_ngroups;$/;"	v	file:
+syslog_sg	shadow-4.1.5.1/src/newgrp.c	/^static void syslog_sg (const char *name, const char *group)$/;"	f	file:
+tAGO	shadow-4.1.5.1/libmisc/getdate.c	/^     tAGO = 258,$/;"	e	enum:yytokentype	file:
+tAGO	shadow-4.1.5.1/libmisc/getdate.c	88;"	d	file:
+tDAY	shadow-4.1.5.1/libmisc/getdate.c	/^     tDAY = 259,$/;"	e	enum:yytokentype	file:
+tDAY	shadow-4.1.5.1/libmisc/getdate.c	89;"	d	file:
+tDAYZONE	shadow-4.1.5.1/libmisc/getdate.c	/^     tDAYZONE = 261,$/;"	e	enum:yytokentype	file:
+tDAYZONE	shadow-4.1.5.1/libmisc/getdate.c	91;"	d	file:
+tDAY_UNIT	shadow-4.1.5.1/libmisc/getdate.c	/^     tDAY_UNIT = 260,$/;"	e	enum:yytokentype	file:
+tDAY_UNIT	shadow-4.1.5.1/libmisc/getdate.c	90;"	d	file:
+tDST	shadow-4.1.5.1/libmisc/getdate.c	/^     tDST = 262,$/;"	e	enum:yytokentype	file:
+tDST	shadow-4.1.5.1/libmisc/getdate.c	92;"	d	file:
+tHOUR_UNIT	shadow-4.1.5.1/libmisc/getdate.c	/^     tHOUR_UNIT = 263,$/;"	e	enum:yytokentype	file:
+tHOUR_UNIT	shadow-4.1.5.1/libmisc/getdate.c	93;"	d	file:
+tID	shadow-4.1.5.1/libmisc/getdate.c	/^     tID = 264,$/;"	e	enum:yytokentype	file:
+tID	shadow-4.1.5.1/libmisc/getdate.c	94;"	d	file:
+tMERIDIAN	shadow-4.1.5.1/libmisc/getdate.c	/^     tMERIDIAN = 265,$/;"	e	enum:yytokentype	file:
+tMERIDIAN	shadow-4.1.5.1/libmisc/getdate.c	95;"	d	file:
+tMINUTE_UNIT	shadow-4.1.5.1/libmisc/getdate.c	/^     tMINUTE_UNIT = 266,$/;"	e	enum:yytokentype	file:
+tMINUTE_UNIT	shadow-4.1.5.1/libmisc/getdate.c	96;"	d	file:
+tMONTH	shadow-4.1.5.1/libmisc/getdate.c	/^     tMONTH = 267,$/;"	e	enum:yytokentype	file:
+tMONTH	shadow-4.1.5.1/libmisc/getdate.c	97;"	d	file:
+tMONTH_UNIT	shadow-4.1.5.1/libmisc/getdate.c	/^     tMONTH_UNIT = 268,$/;"	e	enum:yytokentype	file:
+tMONTH_UNIT	shadow-4.1.5.1/libmisc/getdate.c	98;"	d	file:
+tSEC_UNIT	shadow-4.1.5.1/libmisc/getdate.c	/^     tSEC_UNIT = 269,$/;"	e	enum:yytokentype	file:
+tSEC_UNIT	shadow-4.1.5.1/libmisc/getdate.c	99;"	d	file:
+tSNUMBER	shadow-4.1.5.1/libmisc/getdate.c	/^     tSNUMBER = 270,$/;"	e	enum:yytokentype	file:
+tSNUMBER	shadow-4.1.5.1/libmisc/getdate.c	100;"	d	file:
+tUNUMBER	shadow-4.1.5.1/libmisc/getdate.c	/^     tUNUMBER = 271,$/;"	e	enum:yytokentype	file:
+tUNUMBER	shadow-4.1.5.1/libmisc/getdate.c	101;"	d	file:
+tYEAR_UNIT	shadow-4.1.5.1/libmisc/getdate.c	/^     tYEAR_UNIT = 272,$/;"	e	enum:yytokentype	file:
+tYEAR_UNIT	shadow-4.1.5.1/libmisc/getdate.c	102;"	d	file:
+tZONE	shadow-4.1.5.1/libmisc/getdate.c	/^     tZONE = 273$/;"	e	enum:yytokentype	file:
+tZONE	shadow-4.1.5.1/libmisc/getdate.c	103;"	d	file:
+t_days	shadow-4.1.5.1/lib/port.h	/^	short t_days;$/;"	m	struct:pt_time
+t_end	shadow-4.1.5.1/lib/port.h	/^	short t_end;$/;"	m	struct:pt_time
+t_start	shadow-4.1.5.1/lib/port.h	/^	short t_start;$/;"	m	struct:pt_time
+tail	shadow-4.1.5.1/lib/commonio.h	/^	\/*@dependent@*\/ \/*@null@*\/struct commonio_entry *tail;$/;"	m	struct:commonio_db	typeref:struct:commonio_db::commonio_entry
+tcb_mode	shadow-4.1.5.1/src/vipw.c	/^static bool tcb_mode = false;$/;"	v	file:
+textdomain	shadow-4.1.5.1/lib/defines.h	54;"	d
+textdomain	shadow-4.1.5.1/lib/defines.h	55;"	d
+tflg	shadow-4.1.5.1/src/faillog.c	/^static bool tflg = false;	\/* print is restricted to most recent days *\/$/;"	v	file:
+tflg	shadow-4.1.5.1/src/lastlog.c	/^static bool tflg = false;	\/* print is restricted to most recent days *\/$/;"	v	file:
+thisgroup	shadow-4.1.5.1/src/groupmems.c	/^static char *thisgroup = NULL;$/;"	v	file:
+time	shadow-4.1.5.1/libmisc/getdate.y	/^time	: tUNUMBER tMERIDIAN {$/;"	l
+timeout	shadow-4.1.5.1/src/login.c	/^static unsigned int timeout;$/;"	v	file:
+too_many_failures	shadow-4.1.5.1/libmisc/failure.c	/^static bool too_many_failures (const struct faillog *fl)$/;"	f	file:
+true	shadow-4.1.5.1/lib/defines.h	19;"	d
+ttytype	shadow-4.1.5.1/libmisc/ttytype.c	/^void ttytype (const char *line)$/;"	f
+type	shadow-4.1.5.1/libmisc/getdate.c	/^    int		type;$/;"	m	struct:_TABLE	file:
+tz	shadow-4.1.5.1/libmisc/tz.c	/^\/*@observer@*\/const char *tz (const char *fname)$/;"	f
+uflg	shadow-4.1.5.1/src/faillog.c	/^static bool uflg = false;	\/* set if user is a valid user id *\/$/;"	v	file:
+uflg	shadow-4.1.5.1/src/lastlog.c	/^static bool uflg = false;	\/* print only an user of range of users *\/$/;"	v	file:
+uflg	shadow-4.1.5.1/src/passwd.c	/^    uflg = false,			\/* -u - unlock the user's password *\/$/;"	v	file:
+uflg	shadow-4.1.5.1/src/useradd.c	/^    uflg = false,		\/* specify user ID for new account *\/$/;"	v	file:
+uflg	shadow-4.1.5.1/src/usermod.c	/^    uflg = false,		\/* specify new user ID *\/$/;"	v	file:
+uid_to_name	uidtoname.c	/^char * uid_to_name(uid_t uid)$/;"	f
+ulckpwdf	shadow-4.1.5.1/lib/lockpw.c	/^int ulckpwdf (void)$/;"	f
+umax	shadow-4.1.5.1/src/faillog.c	/^static unsigned long umax;	\/* if uflg and has_umax, only display users with uid <= umax *\/$/;"	v	file:
+umax	shadow-4.1.5.1/src/lastlog.c	/^static unsigned long umax;	\/* if uflg and has_umax, only display users with uid <= umax *\/$/;"	v	file:
+umin	shadow-4.1.5.1/src/faillog.c	/^static unsigned long umin;	\/* if uflg and has_umin, only display users with uid >= umin *\/$/;"	v	file:
+umin	shadow-4.1.5.1/src/lastlog.c	/^static unsigned long umin;	\/* if uflg and has_umin, only display users with uid >= umin *\/$/;"	v	file:
+unlink_suffs	shadow-4.1.5.1/lib/tcbfuncs.c	/^static shadowtcb_status unlink_suffs (const char *user)$/;"	f	file:
+unlock	shadow-4.1.5.1/src/vipw.c	/^static int (*unlock) (void);$/;"	v	file:
+unused	shadow-4.1.5.1/lib/defines.h	355;"	d
+unused	shadow-4.1.5.1/lib/defines.h	357;"	d
+update_age	shadow-4.1.5.1/src/chage.c	/^static void update_age (\/*@null@*\/const struct spwd *sp,$/;"	f	file:
+update_crypt_pw	shadow-4.1.5.1/src/passwd.c	/^static char *update_crypt_pw (char *cp)$/;"	f	file:
+update_faillog	shadow-4.1.5.1/src/usermod.c	/^static void update_faillog (void)$/;"	f	file:
+update_gecos	shadow-4.1.5.1/src/chfn.c	/^static void update_gecos (const char *user, char *gecos)$/;"	f	file:
+update_group	shadow-4.1.5.1/src/gpasswd.c	/^static void update_group (struct group *gr, struct sgrp *sg)$/;"	f	file:
+update_group	shadow-4.1.5.1/src/usermod.c	/^static void update_group (void)$/;"	f	file:
+update_groups	shadow-4.1.5.1/src/userdel.c	/^static void update_groups (void)$/;"	f	file:
+update_gshadow	shadow-4.1.5.1/src/usermod.c	/^static void update_gshadow (void)$/;"	f	file:
+update_lastlog	shadow-4.1.5.1/src/usermod.c	/^static void update_lastlog (void)$/;"	f	file:
+update_noshadow	shadow-4.1.5.1/src/passwd.c	/^static void update_noshadow (void)$/;"	f	file:
+update_passwd	shadow-4.1.5.1/src/newusers.c	/^static void update_passwd (struct passwd *pwd, const char *password)$/;"	f	file:
+update_primary_groups	shadow-4.1.5.1/src/groupmod.c	/^void update_primary_groups (gid_t ogid, gid_t ngid)$/;"	f
+update_shadow	shadow-4.1.5.1/src/passwd.c	/^static void update_shadow (void)$/;"	f	file:
+update_shell	shadow-4.1.5.1/src/chsh.c	/^static void update_shell (const char *user, char *newshell)$/;"	f	file:
+update_user	shadow-4.1.5.1/src/userdel.c	/^static void update_user (void)$/;"	f	file:
+update_utmp	shadow-4.1.5.1/src/login.c	/^static void update_utmp (const char *user,$/;"	f	file:
+updwtmp	shadow-4.1.5.1/libmisc/utmp.c	/^static void updwtmp (const char *filename, const struct utmp *ut)$/;"	f	file:
+updwtmpx	shadow-4.1.5.1/libmisc/utmp.c	/^static void updwtmpx (const char *filename, const struct utmpx *utx)$/;"	f	file:
+usage	shadow-4.1.5.1/contrib/atudel	/^sub usage$/;"	s
+usage	shadow-4.1.5.1/src/chage.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/chfn.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/chgpasswd.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/chpasswd.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/chsh.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/expiry.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/faillog.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/gpasswd.c	/^static void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/groupadd.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/groupdel.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/groupmems.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/groupmod.c	/^static void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/grpck.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/grpconv.c	/^static void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/grpunconv.c	/^static void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/id.c	/^static void usage (void)$/;"	f	file:
+usage	shadow-4.1.5.1/src/lastlog.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/login.c	/^static void usage (void)$/;"	f	file:
+usage	shadow-4.1.5.1/src/newgrp.c	/^static void usage (void)$/;"	f	file:
+usage	shadow-4.1.5.1/src/newusers.c	/^static void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/passwd.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/pwck.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/pwconv.c	/^static void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/pwunconv.c	/^static void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/su.c	/^static void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/useradd.c	/^static void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/userdel.c	/^static void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/usermod.c	/^static \/*@noreturn@*\/void usage (int status)$/;"	f	file:
+usage	shadow-4.1.5.1/src/vipw.c	/^static void usage (int status)$/;"	f	file:
+use_system_grp_file	shadow-4.1.5.1/src/grpck.c	/^static bool use_system_grp_file = true;$/;"	v	file:
+use_system_pw_file	shadow-4.1.5.1/src/pwck.c	/^static bool use_system_pw_file = true;$/;"	v	file:
+use_system_sgr_file	shadow-4.1.5.1/src/grpck.c	/^static bool use_system_sgr_file = true;$/;"	v	file:
+use_system_spw_file	shadow-4.1.5.1/src/pwck.c	/^static bool use_system_spw_file = true;$/;"	v	file:
+user	shadow-4.1.5.1/src/gpasswd.c	/^static char *user = NULL;$/;"	v	file:
+user	shadow-4.1.5.1/src/vipw.c	/^static const char *user = NULL;$/;"	v	file:
+user_busy	shadow-4.1.5.1/libmisc/user_busy.c	/^int user_busy (const char *name, uid_t uid)$/;"	f
+user_busy_processes	shadow-4.1.5.1/libmisc/user_busy.c	/^static int user_busy_processes (const char *name, uid_t uid)$/;"	f	file:
+user_busy_utmp	shadow-4.1.5.1/libmisc/user_busy.c	/^static int user_busy_utmp (const char *name)$/;"	f	file:
+user_cancel	shadow-4.1.5.1/src/userdel.c	/^static void user_cancel (const char *user)$/;"	f	file:
+user_comment	shadow-4.1.5.1/src/useradd.c	/^static const char *user_comment = "";$/;"	v	file:
+user_comment	shadow-4.1.5.1/src/usermod.c	/^static char *user_comment;$/;"	v	file:
+user_expire	shadow-4.1.5.1/src/useradd.c	/^static long user_expire = -1;$/;"	v	file:
+user_expire	shadow-4.1.5.1/src/usermod.c	/^static long user_expire;$/;"	v	file:
+user_gid	shadow-4.1.5.1/src/useradd.c	/^static gid_t user_gid;$/;"	v	file:
+user_gid	shadow-4.1.5.1/src/userdel.c	/^static gid_t user_gid;$/;"	v	file:
+user_gid	shadow-4.1.5.1/src/usermod.c	/^static gid_t user_gid;$/;"	v	file:
+user_groups	shadow-4.1.5.1/src/useradd.c	/^static char **user_groups;	\/* NULL-terminated list *\/$/;"	v	file:
+user_groups	shadow-4.1.5.1/src/usermod.c	/^static char **user_groups;	\/* NULL-terminated list *\/$/;"	v	file:
+user_home	shadow-4.1.5.1/src/useradd.c	/^static const char *user_home = "";$/;"	v	file:
+user_home	shadow-4.1.5.1/src/userdel.c	/^static char *user_home;$/;"	v	file:
+user_home	shadow-4.1.5.1/src/usermod.c	/^static char *user_home;$/;"	v	file:
+user_id	shadow-4.1.5.1/src/useradd.c	/^static uid_t user_id;$/;"	v	file:
+user_id	shadow-4.1.5.1/src/userdel.c	/^static uid_t user_id;$/;"	v	file:
+user_id	shadow-4.1.5.1/src/usermod.c	/^static uid_t user_id;$/;"	v	file:
+user_in_group	shadow-4.1.5.1/libmisc/limits.c	/^static bool user_in_group (const char *uname, const char *gname)$/;"	f	file:
+user_inactive	shadow-4.1.5.1/src/usermod.c	/^static long user_inactive;$/;"	v	file:
+user_match	shadow-4.1.5.1/src/login_nopam.c	/^static bool user_match (const char *tok, const char *string)$/;"	f	file:
+user_name	shadow-4.1.5.1/src/chage.c	/^static char user_name[BUFSIZ] = "";$/;"	v	file:
+user_name	shadow-4.1.5.1/src/useradd.c	/^static const char *user_name = "";$/;"	v	file:
+user_name	shadow-4.1.5.1/src/userdel.c	/^static char *user_name;$/;"	v	file:
+user_name	shadow-4.1.5.1/src/usermod.c	/^static char *user_name;$/;"	v	file:
+user_newcomment	shadow-4.1.5.1/src/usermod.c	/^static char *user_newcomment;$/;"	v	file:
+user_newexpire	shadow-4.1.5.1/src/usermod.c	/^static long user_newexpire;$/;"	v	file:
+user_newgid	shadow-4.1.5.1/src/usermod.c	/^static gid_t user_newgid;$/;"	v	file:
+user_newhome	shadow-4.1.5.1/src/usermod.c	/^static char *user_newhome;$/;"	v	file:
+user_newid	shadow-4.1.5.1/src/usermod.c	/^static uid_t user_newid;$/;"	v	file:
+user_newinactive	shadow-4.1.5.1/src/usermod.c	/^static long user_newinactive;$/;"	v	file:
+user_newname	shadow-4.1.5.1/src/usermod.c	/^static char *user_newname;$/;"	v	file:
+user_newshell	shadow-4.1.5.1/src/usermod.c	/^static char *user_newshell;$/;"	v	file:
+user_pass	shadow-4.1.5.1/src/useradd.c	/^static const char *user_pass = "!";$/;"	v	file:
+user_pass	shadow-4.1.5.1/src/usermod.c	/^static char *user_pass;$/;"	v	file:
+user_selinux	shadow-4.1.5.1/src/useradd.c	/^static \/*@notnull@*\/const char *user_selinux = "";$/;"	v	file:
+user_selinux	shadow-4.1.5.1/src/usermod.c	/^static const char *user_selinux = "";$/;"	v	file:
+user_shell	shadow-4.1.5.1/src/useradd.c	/^static const char *user_shell = "";$/;"	v	file:
+user_shell	shadow-4.1.5.1/src/usermod.c	/^static char *user_shell;$/;"	v	file:
+user_uid	shadow-4.1.5.1/src/chage.c	/^static uid_t user_uid = -1;$/;"	v	file:
+username	shadow-4.1.5.1/src/login.c	/^static \/*@null@*\/ \/*@only@*\/char *username = NULL;$/;"	v	file:
+usr_update	shadow-4.1.5.1/src/useradd.c	/^static void usr_update (void)$/;"	f	file:
+usr_update	shadow-4.1.5.1/src/usermod.c	/^static void usr_update (void)$/;"	f	file:
+utmp_buf	shadow-4.1.5.1/lib/utent.c	/^static struct utmp utmp_buf;$/;"	v	typeref:struct:utmp	file:
+utmp_fd	shadow-4.1.5.1/lib/utent.c	/^static int utmp_fd = -1;$/;"	v	file:
+valid	shadow-4.1.5.1/libmisc/valid.c	/^bool valid (const char *password, const struct passwd *ent)$/;"	f
+valid_field	shadow-4.1.5.1/lib/fields.c	/^int valid_field (const char *field, const char *illegal)$/;"	f
+value	shadow-4.1.5.1/lib/getdef.c	/^	\/*@null@*\/char *value;		\/* value given, or NULL if no value     *\/$/;"	m	struct:itemdef	file:
+value	shadow-4.1.5.1/libmisc/getdate.c	/^    int		value;$/;"	m	struct:_TABLE	file:
+vipwedit	shadow-4.1.5.1/src/vipw.c	/^vipwedit (const char *file, int (*file_lock) (void), int (*file_unlock) (void))$/;"	f	file:
+vipwexit	shadow-4.1.5.1/src/vipw.c	/^static void vipwexit (const char *msg, int syserr, int ret)$/;"	f	file:
+warn	shadow-4.1.5.1/src/passwd.c	/^static long warn = 0;		\/* Warning days before change   *\/$/;"	v	file:
+warndays	shadow-4.1.5.1/src/chage.c	/^static long warndays;$/;"	v	file:
+wflg	shadow-4.1.5.1/src/chfn.c	/^static bool wflg = false;		\/* -w - set work phone number        *\/$/;"	v	file:
+wflg	shadow-4.1.5.1/src/passwd.c	/^    wflg = false,			\/* -w - set warning days *\/$/;"	v	file:
+whoami	shadow-4.1.5.1/src/groupmems.c	/^static char *whoami (void)$/;"	f	file:
+wipe_clear_pass	shadow-4.1.5.1/lib/pwauth.c	/^bool wipe_clear_pass = true;$/;"	v
+workph	shadow-4.1.5.1/src/chfn.c	/^static char workph[BUFSIZ];$/;"	v	file:
+write_all	shadow-4.1.5.1/lib/commonio.c	/^static int write_all (const struct commonio_db *db)$/;"	f	file:
+xflg	shadow-4.1.5.1/src/passwd.c	/^    xflg = false;			\/* -x - set maximum days *\/$/;"	v	file:
+xmalloc	shadow-4.1.5.1/libmisc/xmalloc.c	/^\/*@maynotreturn@*\/ \/*@only@*\/\/*@out@*\/\/*@notnull@*\/char *xmalloc (size_t size)$/;"	f
+xstrdup	shadow-4.1.5.1/libmisc/xmalloc.c	/^\/*@maynotreturn@*\/ \/*@only@*\/\/*@notnull@*\/char *xstrdup (const char *str)$/;"	f
+yes_or_no	shadow-4.1.5.1/libmisc/yesno.c	/^bool yes_or_no (bool read_only)$/;"	f
+yyDay	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyDay;$/;"	v	file:
+yyDayNumber	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyDayNumber;$/;"	v	file:
+yyDayOrdinal	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyDayOrdinal;$/;"	v	file:
+yyHaveDate	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyHaveDate;$/;"	v	file:
+yyHaveDay	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyHaveDay;$/;"	v	file:
+yyHaveRel	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyHaveRel;$/;"	v	file:
+yyHaveTime	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyHaveTime;$/;"	v	file:
+yyHaveZone	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyHaveZone;$/;"	v	file:
+yyHour	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyHour;$/;"	v	file:
+yyInput	shadow-4.1.5.1/libmisc/getdate.c	/^static const char	*yyInput;$/;"	v	file:
+yyMeridian	shadow-4.1.5.1/libmisc/getdate.c	/^static MERIDIAN	yyMeridian;$/;"	v	file:
+yyMinutes	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyMinutes;$/;"	v	file:
+yyMonth	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyMonth;$/;"	v	file:
+yyRelDay	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyRelDay;$/;"	v	file:
+yyRelHour	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyRelHour;$/;"	v	file:
+yyRelMinutes	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyRelMinutes;$/;"	v	file:
+yyRelMonth	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyRelMonth;$/;"	v	file:
+yyRelSeconds	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyRelSeconds;$/;"	v	file:
+yyRelYear	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyRelYear;$/;"	v	file:
+yySeconds	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yySeconds;$/;"	v	file:
+yyTimezone	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyTimezone;$/;"	v	file:
+yyYear	shadow-4.1.5.1/libmisc/getdate.c	/^static int	yyYear;$/;"	v	file:
+yy_reduce_print	shadow-4.1.5.1/libmisc/getdate.c	/^yy_reduce_print (YYSTYPE *yyvsp, int yyrule)$/;"	f	file:
+yy_stack_print	shadow-4.1.5.1/libmisc/getdate.c	/^yy_stack_print (yytype_int16 *bottom, yytype_int16 *top)$/;"	f	file:
+yy_symbol_print	shadow-4.1.5.1/libmisc/getdate.c	/^yy_symbol_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_symbol_value_print	shadow-4.1.5.1/libmisc/getdate.c	/^yy_symbol_value_print (FILE *yyoutput, int yytype, YYSTYPE const * const yyvaluep)$/;"	f	file:
+yy_yys	shadow-4.1.5.1/libmisc/getdate.c	205;"	d	file:
+yy_yyv	shadow-4.1.5.1/libmisc/getdate.c	209;"	d	file:
+yyact	shadow-4.1.5.1/libmisc/getdate.c	198;"	d	file:
+yyalloc	shadow-4.1.5.1/libmisc/getdate.c	/^union yyalloc$/;"	u	file:
+yychar	shadow-4.1.5.1/libmisc/getdate.c	/^int yychar;$/;"	v
+yychar	shadow-4.1.5.1/libmisc/getdate.c	190;"	d	file:
+yycheck	shadow-4.1.5.1/libmisc/getdate.c	/^static const yytype_uint8 yycheck[] =$/;"	v	file:
+yycheck	shadow-4.1.5.1/libmisc/getdate.c	222;"	d	file:
+yychk	shadow-4.1.5.1/libmisc/getdate.c	196;"	d	file:
+yyclearin	shadow-4.1.5.1/libmisc/getdate.c	759;"	d	file:
+yydebug	shadow-4.1.5.1/libmisc/getdate.c	/^int yydebug;$/;"	v
+yydebug	shadow-4.1.5.1/libmisc/getdate.c	191;"	d	file:
+yydef	shadow-4.1.5.1/libmisc/getdate.c	195;"	d	file:
+yydefact	shadow-4.1.5.1/libmisc/getdate.c	/^static const yytype_uint8 yydefact[] =$/;"	v	file:
+yydefgoto	shadow-4.1.5.1/libmisc/getdate.c	/^static const yytype_int8 yydefgoto[] =$/;"	v	file:
+yydefred	shadow-4.1.5.1/libmisc/getdate.c	216;"	d	file:
+yydestruct	shadow-4.1.5.1/libmisc/getdate.c	/^yydestruct (const char *yymsg, int yytype, YYSTYPE *yyvaluep)$/;"	f	file:
+yydgoto	shadow-4.1.5.1/libmisc/getdate.c	217;"	d	file:
+yyerrflag	shadow-4.1.5.1/libmisc/getdate.c	200;"	d	file:
+yyerrok	shadow-4.1.5.1/libmisc/getdate.c	758;"	d	file:
+yyerror	shadow-4.1.5.1/libmisc/getdate.c	/^static int yyerror (unused const char *s)$/;"	f	file:
+yyerror	shadow-4.1.5.1/libmisc/getdate.c	188;"	d	file:
+yyexca	shadow-4.1.5.1/libmisc/getdate.c	199;"	d	file:
+yygindex	shadow-4.1.5.1/libmisc/getdate.c	220;"	d	file:
+yylen	shadow-4.1.5.1/libmisc/getdate.c	215;"	d	file:
+yylex	shadow-4.1.5.1/libmisc/getdate.c	/^yylex (void)$/;"	f	file:
+yylex	shadow-4.1.5.1/libmisc/getdate.c	187;"	d	file:
+yylhs	shadow-4.1.5.1/libmisc/getdate.c	214;"	d	file:
+yylloc	shadow-4.1.5.1/libmisc/getdate.c	211;"	d	file:
+yylval	shadow-4.1.5.1/libmisc/getdate.c	/^YYSTYPE yylval;$/;"	v
+yylval	shadow-4.1.5.1/libmisc/getdate.c	189;"	d	file:
+yymaxdepth	shadow-4.1.5.1/libmisc/getdate.c	185;"	d	file:
+yynerrs	shadow-4.1.5.1/libmisc/getdate.c	/^int yynerrs;$/;"	v
+yynerrs	shadow-4.1.5.1/libmisc/getdate.c	201;"	d	file:
+yypact	shadow-4.1.5.1/libmisc/getdate.c	/^static const yytype_int8 yypact[] =$/;"	v	file:
+yypact	shadow-4.1.5.1/libmisc/getdate.c	192;"	d	file:
+yyparse	shadow-4.1.5.1/libmisc/getdate.c	/^yyparse (void *YYPARSE_PARAM)$/;"	f
+yyparse	shadow-4.1.5.1/libmisc/getdate.c	186;"	d	file:
+yypgo	shadow-4.1.5.1/libmisc/getdate.c	197;"	d	file:
+yypgoto	shadow-4.1.5.1/libmisc/getdate.c	/^static const yytype_int8 yypgoto[] =$/;"	v	file:
+yyprhs	shadow-4.1.5.1/libmisc/getdate.c	/^static const yytype_uint8 yyprhs[] =$/;"	v	file:
+yyps	shadow-4.1.5.1/libmisc/getdate.c	202;"	d	file:
+yypv	shadow-4.1.5.1/libmisc/getdate.c	203;"	d	file:
+yyr1	shadow-4.1.5.1/libmisc/getdate.c	/^static const yytype_uint8 yyr1[] =$/;"	v	file:
+yyr1	shadow-4.1.5.1/libmisc/getdate.c	193;"	d	file:
+yyr2	shadow-4.1.5.1/libmisc/getdate.c	/^static const yytype_uint8 yyr2[] =$/;"	v	file:
+yyr2	shadow-4.1.5.1/libmisc/getdate.c	194;"	d	file:
+yyreds	shadow-4.1.5.1/libmisc/getdate.c	212;"	d	file:
+yyrhs	shadow-4.1.5.1/libmisc/getdate.c	/^static const yytype_int8 yyrhs[] =$/;"	v	file:
+yyrindex	shadow-4.1.5.1/libmisc/getdate.c	219;"	d	file:
+yyrline	shadow-4.1.5.1/libmisc/getdate.c	/^static const yytype_uint16 yyrline[] =$/;"	v	file:
+yys	shadow-4.1.5.1/libmisc/getdate.c	204;"	d	file:
+yysindex	shadow-4.1.5.1/libmisc/getdate.c	218;"	d	file:
+yyss	shadow-4.1.5.1/libmisc/getdate.c	/^  yytype_int16 yyss;$/;"	m	union:yyalloc	file:
+yystate	shadow-4.1.5.1/libmisc/getdate.c	206;"	d	file:
+yystos	shadow-4.1.5.1/libmisc/getdate.c	/^static const yytype_uint8 yystos[] =$/;"	v	file:
+yystpcpy	shadow-4.1.5.1/libmisc/getdate.c	/^yystpcpy (char *yydest, const char *yysrc)$/;"	f	file:
+yystpcpy	shadow-4.1.5.1/libmisc/getdate.c	1054;"	d	file:
+yystrlen	shadow-4.1.5.1/libmisc/getdate.c	/^yystrlen (const char *yystr)$/;"	f	file:
+yystrlen	shadow-4.1.5.1/libmisc/getdate.c	1031;"	d	file:
+yystype	shadow-4.1.5.1/libmisc/getdate.c	309;"	d	file:
+yysyntax_error	shadow-4.1.5.1/libmisc/getdate.c	/^yysyntax_error (char *yyresult, int yystate, int yychar)$/;"	f	file:
+yytable	shadow-4.1.5.1/libmisc/getdate.c	/^static const yytype_uint8 yytable[] =$/;"	v	file:
+yytable	shadow-4.1.5.1/libmisc/getdate.c	221;"	d	file:
+yytmp	shadow-4.1.5.1/libmisc/getdate.c	207;"	d	file:
+yytname	shadow-4.1.5.1/libmisc/getdate.c	/^static const char *const yytname[] =$/;"	v	file:
+yytnamerr	shadow-4.1.5.1/libmisc/getdate.c	/^yytnamerr (char *yyres, const char *yystr)$/;"	f	file:
+yytokentype	shadow-4.1.5.1/libmisc/getdate.c	/^   enum yytokentype {$/;"	g	file:
+yytoknum	shadow-4.1.5.1/libmisc/getdate.c	/^static const yytype_uint16 yytoknum[] =$/;"	v	file:
+yytoks	shadow-4.1.5.1/libmisc/getdate.c	213;"	d	file:
+yytranslate	shadow-4.1.5.1/libmisc/getdate.c	/^static const yytype_uint8 yytranslate[] =$/;"	v	file:
+yytype_int16	shadow-4.1.5.1/libmisc/getdate.c	/^typedef YYTYPE_INT16 yytype_int16;$/;"	t	file:
+yytype_int16	shadow-4.1.5.1/libmisc/getdate.c	/^typedef short int yytype_int16;$/;"	t	file:
+yytype_int8	shadow-4.1.5.1/libmisc/getdate.c	/^typedef YYTYPE_INT8 yytype_int8;$/;"	t	file:
+yytype_int8	shadow-4.1.5.1/libmisc/getdate.c	/^typedef short int yytype_int8;$/;"	t	file:
+yytype_int8	shadow-4.1.5.1/libmisc/getdate.c	/^typedef signed char yytype_int8;$/;"	t	file:
+yytype_uint16	shadow-4.1.5.1/libmisc/getdate.c	/^typedef YYTYPE_UINT16 yytype_uint16;$/;"	t	file:
+yytype_uint16	shadow-4.1.5.1/libmisc/getdate.c	/^typedef unsigned short int yytype_uint16;$/;"	t	file:
+yytype_uint8	shadow-4.1.5.1/libmisc/getdate.c	/^typedef YYTYPE_UINT8 yytype_uint8;$/;"	t	file:
+yytype_uint8	shadow-4.1.5.1/libmisc/getdate.c	/^typedef unsigned char yytype_uint8;$/;"	t	file:
+yyv	shadow-4.1.5.1/libmisc/getdate.c	208;"	d	file:
+yyval	shadow-4.1.5.1/libmisc/getdate.c	210;"	d	file:
+yyvs	shadow-4.1.5.1/libmisc/getdate.c	/^  YYSTYPE yyvs;$/;"	m	union:yyalloc	file:
+zone	shadow-4.1.5.1/libmisc/getdate.y	/^zone	: tZONE {$/;"	l

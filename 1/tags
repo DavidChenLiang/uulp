@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFFERSIZE	cp1.c	6;"	d	file:
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-g3$/;"	m
+CLEANLINE	more04.c	9;"	d	file:
+CLEAN_LINE	more05.c	11;"	d	file:
+CLEAN_LINE	more06.c	11;"	d	file:
+COL	more05.c	/^int COL;$/;"	v
+COL	more06.c	/^int COL;$/;"	v
+CONCEAL_CURSOR	more06.c	12;"	d	file:
+COPYMODE	cp1.c	7;"	d	file:
+Clear_All_Display	display.c	/^void Clear_All_Display( void )  $/;"	f
+Clear_Screen	display.c	/^void Clear_Screen( void )  $/;"	f
+Display_Cursor	display.c	/^void Display_Cursor( void )  $/;"	f
+Display_Message	display.c	/^void Display_Message(int x,int y,char *str)  $/;"	f
+Draw_Box	display.c	/^void Draw_Box(int row,int col,int len,int wid)  $/;"	f
+Hide_Cursor	display.c	/^void Hide_Cursor( void )  $/;"	f
+LINELEN	more.h	20;"	d
+MAX_DISPLAY_ITEM	display.h	20;"	d
+MAX_DISPLAY_WIDTH	display.h	21;"	d
+MOVELEFT	more04.c	7;"	d	file:
+MOVETOBEGINNING	more04.c	8;"	d	file:
+MOVE_TO_DOWN_LEFT_CORNER	more05.c	10;"	d	file:
+MOVE_TO_DOWN_LEFT_CORNER	more06.c	10;"	d	file:
+Move_Cursor	display.c	/^void Move_Cursor(int x,int y)  $/;"	f
+OBJ	Makefile	/^OBJ=more01.o more02.o more03.o more04.o more05.o more06.o cp1.o$/;"	m
+PAGELEN	more.h	19;"	d
+ROW	more05.c	/^int ROW;$/;"	v
+ROW	more06.c	/^int ROW;$/;"	v
+_DISPLAY_H_	display.h	10;"	d
+do_more	more01.c	/^do_more(FILE *fp){$/;"	f
+do_more	more02.c	/^do_more(FILE *fp){$/;"	f
+do_more	more03.c	/^do_more(FILE *fp){$/;"	f
+do_more	more04.c	/^do_more(FILE *fp){$/;"	f
+do_more	more05.c	/^do_more(FILE *fp){$/;"	f
+do_more	more06.c	/^do_more(FILE *fp){$/;"	f
+main	cp1.c	/^main(int ac, char * av[]){$/;"	f
+main	displaydriver.c	/^main(void)$/;"	f
+main	more01.c	/^main(int argc, char **argv)$/;"	f
+main	more02.c	/^main(int argc, char **argv)$/;"	f
+main	more03.c	/^main(int argc, char **argv)$/;"	f
+main	more04.c	/^main(int argc, char **argv)$/;"	f
+main	more05.c	/^main(int argc, char **argv)$/;"	f
+main	more06.c	/^main(int argc, char **argv)$/;"	f
+main	term_line_column.c	/^int main(void){$/;"	f
+oops	cp1.c	/^void oops(char *s1, char *s2){$/;"	f
+rowCol	more05.c	/^rowCol(){$/;"	f
+rowCol	more06.c	/^rowCol(){$/;"	f
+see_more	more01.c	/^see_more(){$/;"	f
+see_more	more02.c	/^see_more(FILE * cmd){$/;"	f
+see_more	more03.c	/^see_more(FILE * cmd){$/;"	f
+see_more	more04.c	/^see_more(FILE * cmd){$/;"	f
+see_more	more05.c	/^see_more(FILE * cmd){$/;"	f
+see_more	more06.c	/^see_more(FILE * cmd){$/;"	f
+set_cr_noecho_mode	more03.c	/^set_cr_noecho_mode()$/;"	f
+set_cr_noecho_mode	more04.c	/^set_cr_noecho_mode()$/;"	f
+set_cr_noecho_mode	more05.c	/^set_cr_noecho_mode()$/;"	f
+set_cr_noecho_mode	more06.c	/^set_cr_noecho_mode()$/;"	f
+tty_mode	more03.c	/^tty_mode(int how)$/;"	f
+tty_mode	more04.c	/^tty_mode(int how)$/;"	f
+tty_mode	more05.c	/^tty_mode(int how)$/;"	f
+tty_mode	more06.c	/^tty_mode(int how)$/;"	f

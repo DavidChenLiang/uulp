@@ -1,0 +1,64 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLANK	bounce.h	18;"	d
+BLANK	bounce1d.c	24;"	d	file:
+BOT_ROW	bounce.h	21;"	d
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-g3 -Wall$/;"	m
+DFL_SYMBOL	bounce.h	19;"	d
+INPUTLEN	sigactdemo.c	22;"	d	file:
+INPUTNUM	sigdemo3.c	24;"	d	file:
+LEFTEDGE	hello5.c	4;"	d	file:
+LEFT_EDGE	bounce.h	22;"	d
+MESSAGE	bounce1d.c	23;"	d	file:
+OBJ	Makefile	/^OBJ=$/;"	m
+RIGHTEDGE	hello5.c	5;"	d	file:
+RIGHT_EDGE	bounce.h	23;"	d
+ROW	hello5.c	6;"	d	file:
+TICKS_PER_SEC	bounce.h	26;"	d
+TOP_ROW	bounce.h	20;"	d
+X_INIT	bounce.h	24;"	d
+X_TTM	bounce.h	27;"	d
+Y_INIT	bounce.h	25;"	d
+Y_TTM	bounce.h	28;"	d
+ball_move	bounce2d.c	/^void ball_move(int signum)$/;"	f
+bounce_or_lose	bounce2d.c	/^int bounce_or_lose(struct ppball * bp)$/;"	f
+col	bounce1d.c	/^int col;$/;"	v
+countdown	ticker_demo.c	/^void countdown(int signum)$/;"	f
+dir	bounce1d.c	/^int dir;$/;"	v
+inthandler	sigactdemo.c	/^void inthandler(int s)$/;"	f
+inthandler	sigdemo3.c	/^void inthandler(int s)$/;"	f
+main	bounce1d.c	/^main(void)$/;"	f
+main	bounce2d.c	/^main(void)$/;"	f
+main	hello1.c	/^main(int argc, char * argv[]){$/;"	f
+main	hello2.c	/^main(void){$/;"	f
+main	hello3.c	/^main(int argc, char * argv[])$/;"	f
+main	hello4.c	/^main(void)$/;"	f
+main	hello5.c	/^main(void)$/;"	f
+main	sigactdemo.c	/^main(void)$/;"	f
+main	sigdemo3.c	/^main(int argc, char * argv[])$/;"	f
+main	sleep1.c	/^main(void)$/;"	f
+main	ticker_demo.c	/^main(void)$/;"	f
+move_msg	bounce1d.c	/^void move_msg(int signum)$/;"	f
+ppball	bounce.h	/^struct ppball$/;"	s
+quithandler	sigdemo3.c	/^void quithandler(int s)$/;"	f
+row	bounce1d.c	/^int row;$/;"	v
+set_ticker	set_ticker.c	/^int set_ticker(int n_msecs)$/;"	f
+set_ticker	ticker_demo.c	/^int set_ticker(int n_msecs)$/;"	f
+set_up	bounce2d.c	/^void set_up()$/;"	f
+symbol	bounce.h	/^        char symbol;$/;"	m	struct:ppball
+the_ball	bounce2d.c	/^struct ppball the_ball;$/;"	v	typeref:struct:ppball
+wakeup	sleep1.c	/^wakeup(int signum)$/;"	f
+wrap_up	bounce2d.c	/^void wrap_up()$/;"	f
+x_dir	bounce.h	/^	y_dir,x_dir;$/;"	m	struct:ppball
+x_pos	bounce.h	/^    int y_pos,x_pos,$/;"	m	struct:ppball
+x_ttg	bounce.h	/^	y_ttg,x_ttg,$/;"	m	struct:ppball
+x_ttm	bounce.h	/^	y_ttm,x_ttm,$/;"	m	struct:ppball
+y_dir	bounce.h	/^	y_dir,x_dir;$/;"	m	struct:ppball
+y_pos	bounce.h	/^    int y_pos,x_pos,$/;"	m	struct:ppball
+y_ttg	bounce.h	/^	y_ttg,x_ttg,$/;"	m	struct:ppball
+y_ttm	bounce.h	/^	y_ttm,x_ttm,$/;"	m	struct:ppball
